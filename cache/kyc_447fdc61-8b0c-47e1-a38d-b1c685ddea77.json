@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-25T13:16:04.248610",
+  "unique_id": "447fdc61-8b0c-47e1-a38d-b1c685ddea77",
+  "front_image": "front6.jpeg",
+  "back_image": "back6.jpeg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 1,
+        "confidence": 0.9035132527351379,
+        "text": "शिव तुलाधर"
+      },
+      {
+        "box_id": 1,
+        "class_id": 0,
+        "confidence": 0.8439523577690125,
+        "text": "जिल्ला प्रशासन कार्यालय, ललितपुर"
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.836801290512085,
+        "text": "कान्छा तुलाधर"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.5590111017227173,
+        "text": "सुतली तुलाधर"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 11,
+        "confidence": 0.9586522579193115,
+        "text": "Karyabinayak"
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.9455083608627319,
+        "text": "17"
+      },
+      {
+        "box_id": 2,
+        "class_id": 8,
+        "confidence": 0.9426804780960083,
+        "text": "MAR"
+      },
+      {
+        "box_id": 3,
+        "class_id": 12,
+        "confidence": 0.9411095380783081,
+        "text": "5"
+      },
+      {
+        "box_id": 4,
+        "class_id": 7,
+        "confidence": 0.9155394434928894,
+        "text": "1997"
+      },
+      {
+        "box_id": 5,
+        "class_id": 5,
+        "confidence": 0.9076471924781799,
+        "text": "SHIVA TULADHAR"
+      },
+      {
+        "box_id": 6,
+        "class_id": 13,
+        "confidence": 0.9021169543266296,
+        "text": "२०७२-०६-११"
+      },
+      {
+        "box_id": 7,
+        "class_id": 6,
+        "confidence": 0.8650033473968506,
+        "text": "Male"
+      },
+      {
+        "box_id": 8,
+        "class_id": 4,
+        "confidence": 0.8516324162483215,
+        "text": "28-01-72-03269"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.8316929340362549,
+        "text": "LALITPUR"
+      }
+    ]
+  },
+  "form_data": null
+}

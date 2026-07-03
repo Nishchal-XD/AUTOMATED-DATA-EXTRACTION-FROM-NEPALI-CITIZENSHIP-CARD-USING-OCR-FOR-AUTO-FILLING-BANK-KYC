@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-04-01T10:14:18.372175",
+  "unique_id": "ac9baf93-0fb4-4b41-9d75-bcbce0bcf69d",
+  "front_image": "जायचर विषुमापा तामाङ",
+  "back_image": "",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9237593412399292,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.850216805934906,
+        "text": "जायचर विषुमापा तामाङ"
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.818130612373352,
+        "text": "बाढुको रुम बर माग बहादुर तामाठछ"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9545734524726868,
+        "text": "1999"
+      },
+      {
+        "box_id": 1,
+        "class_id": 6,
+        "confidence": 0.9399728178977966,
+        "text": "Female"
+      },
+      {
+        "box_id": 2,
+        "class_id": 9,
+        "confidence": 0.9114576578140259,
+        "text": "09"
+      },
+      {
+        "box_id": 3,
+        "class_id": 13,
+        "confidence": 0.8951335549354553,
+        "text": "२०७८-०७-११"
+      },
+      {
+        "box_id": 4,
+        "class_id": 5,
+        "confidence": 0.874123215675354,
+        "text": ""
+      },
+      {
+        "box_id": 5,
+        "class_id": 11,
+        "confidence": 0.8396737575531006,
+        "text": ""
+      },
+      {
+        "box_id": 6,
+        "class_id": 10,
+        "confidence": 0.8293420076370239,
+        "text": "Permanent AddressLAUITPUR"
+      },
+      {
+        "box_id": 7,
+        "class_id": 12,
+        "confidence": 0.8118693232536316,
+        "text": "2"
+      },
+      {
+        "box_id": 8,
+        "class_id": 4,
+        "confidence": 0.8097130656242371,
+        "text": "28-0-78-0846"
+      },
+      {
+        "box_id": 9,
+        "class_id": 8,
+        "confidence": 0.7382789850234985,
+        "text": "06"
+      }
+    ]
+  },
+  "form_data": null
+}

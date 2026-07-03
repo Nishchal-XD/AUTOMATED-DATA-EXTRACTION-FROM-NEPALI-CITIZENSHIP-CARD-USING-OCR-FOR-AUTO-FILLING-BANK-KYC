@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-26T13:48:04.046492",
+  "unique_id": "7db5ef6a-62e9-431b-a65c-a5f50934c363",
+  "front_image": "231front.jpg",
+  "back_image": "231back.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9114383459091187,
+        "text": "सप्तर"
+      },
+      {
+        "box_id": 1,
+        "class_id": 3,
+        "confidence": 0.8717140555381775,
+        "text": "गिता खत्व"
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.8669537305831909,
+        "text": "जत्रुखंग"
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.8378407955169678,
+        "text": "संगीत खंग"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 9,
+        "confidence": 0.9695901274681091,
+        "text": "05"
+      },
+      {
+        "box_id": 1,
+        "class_id": 13,
+        "confidence": 0.9472333788871765,
+        "text": "२०८१-०३-०४"
+      },
+      {
+        "box_id": 2,
+        "class_id": 7,
+        "confidence": 0.9382779002189636,
+        "text": "2007"
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.9139241576194763,
+        "text": "05"
+      },
+      {
+        "box_id": 4,
+        "class_id": 6,
+        "confidence": 0.901601254940033,
+        "text": "Male"
+      },
+      {
+        "box_id": 5,
+        "class_id": 12,
+        "confidence": 0.8637850880622864,
+        "text": "4"
+      },
+      {
+        "box_id": 6,
+        "class_id": 11,
+        "confidence": 0.8480182886123657,
+        "text": "Koshi"
+      },
+      {
+        "box_id": 7,
+        "class_id": 10,
+        "confidence": 0.7672063112258911,
+        "text": "Saptari"
+      },
+      {
+        "box_id": 8,
+        "class_id": 4,
+        "confidence": 0.7197865843772888,
+        "text": "16-02-81-00504"
+      },
+      {
+        "box_id": 9,
+        "class_id": 5,
+        "confidence": 0.713104248046875,
+        "text": "SANGIT KHANG"
+      }
+    ]
+  },
+  "form_data": null
+}

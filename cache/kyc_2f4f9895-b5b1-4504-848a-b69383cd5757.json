@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T19:24:45.953312",
+  "unique_id": "2f4f9895-b5b1-4504-848a-b69383cd5757",
+  "front_image": "नकुल राई",
+  "back_image": "NAKUL RAI",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 3,
+        "confidence": 0.9100388288497925,
+        "text": "तिलक कुमारी राई"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.8917604684829712,
+        "text": "राजकुमार राई"
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.8736000061035156,
+        "text": "नकुल राई"
+      },
+      {
+        "box_id": 3,
+        "class_id": 0,
+        "confidence": 0.8043280839920044,
+        "text": ""
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9350037574768066,
+        "text": "2007"
+      },
+      {
+        "box_id": 1,
+        "class_id": 12,
+        "confidence": 0.9246432781219482,
+        "text": "7"
+      },
+      {
+        "box_id": 2,
+        "class_id": 13,
+        "confidence": 0.9150958061218262,
+        "text": "२०८०-१०-२६"
+      },
+      {
+        "box_id": 3,
+        "class_id": 4,
+        "confidence": 0.9109324216842651,
+        "text": "11-01-80-14836"
+      },
+      {
+        "box_id": 4,
+        "class_id": 11,
+        "confidence": 0.9107478857040405,
+        "text": "Thulung Dudhkoshi"
+      },
+      {
+        "box_id": 5,
+        "class_id": 9,
+        "confidence": 0.8995071053504944,
+        "text": "17"
+      },
+      {
+        "box_id": 6,
+        "class_id": 8,
+        "confidence": 0.8696581721305847,
+        "text": "02"
+      },
+      {
+        "box_id": 7,
+        "class_id": 6,
+        "confidence": 0.8293367028236389,
+        "text": "Male"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.697509229183197,
+        "text": "Solukhumbu"
+      },
+      {
+        "box_id": 9,
+        "class_id": 5,
+        "confidence": 0.6572514176368713,
+        "text": "NAKUL RAI"
+      }
+    ]
+  },
+  "form_data": null
+}

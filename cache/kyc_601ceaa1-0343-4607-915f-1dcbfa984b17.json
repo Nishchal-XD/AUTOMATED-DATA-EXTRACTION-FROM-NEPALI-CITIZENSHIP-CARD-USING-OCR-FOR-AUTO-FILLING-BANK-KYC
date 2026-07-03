@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T16:49:26.444287",
+  "unique_id": "601ceaa1-0343-4607-915f-1dcbfa984b17",
+  "front_image": "साम ललित बुढा मगर",
+  "back_image": "LALIT BUDHA MAGAR",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9044634103775024,
+        "text": "ललितपुर"
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.795852541923523,
+        "text": "साम ललित बुढा मगर"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.7756392359733582,
+        "text": "तुलसा बुढा मगर"
+      },
+      {
+        "box_id": 3,
+        "class_id": 2,
+        "confidence": 0.7458081245422363,
+        "text": "दिलचन बुढा मगर"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 9,
+        "confidence": 0.936262845993042,
+        "text": "01"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.9332918524742126,
+        "text": "2008"
+      },
+      {
+        "box_id": 2,
+        "class_id": 8,
+        "confidence": 0.9082849025726318,
+        "text": "04"
+      },
+      {
+        "box_id": 3,
+        "class_id": 4,
+        "confidence": 0.89825838804245,
+        "text": "28-9-89-90809"
+      },
+      {
+        "box_id": 4,
+        "class_id": 13,
+        "confidence": 0.8911584615707397,
+        "text": "२०८२-०२-१९"
+      },
+      {
+        "box_id": 5,
+        "class_id": 6,
+        "confidence": 0.873615562915802,
+        "text": "Male"
+      },
+      {
+        "box_id": 6,
+        "class_id": 11,
+        "confidence": 0.8673496842384338,
+        "text": "Lalitpur"
+      },
+      {
+        "box_id": 7,
+        "class_id": 5,
+        "confidence": 0.7887760996818542,
+        "text": "LALIT BUDHA MAGAR"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.7653905749320984,
+        "text": "Lalitpur"
+      },
+      {
+        "box_id": 9,
+        "class_id": 12,
+        "confidence": 0.5647932291030884,
+        "text": "25"
+      }
+    ]
+  },
+  "form_data": null
+}

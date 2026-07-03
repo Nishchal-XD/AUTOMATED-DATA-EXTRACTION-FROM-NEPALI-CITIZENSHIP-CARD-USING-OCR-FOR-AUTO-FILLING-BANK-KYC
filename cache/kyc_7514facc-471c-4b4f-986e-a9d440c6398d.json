@@ -1,0 +1,109 @@
+{
+  "timestamp": "2026-04-01T16:48:05.451150",
+  "unique_id": "7514facc-471c-4b4f-986e-a9d440c6398d",
+  "front_image": "साम ललित बुढा मगर",
+  "back_image": "LALIT BUDHA MAGAR",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9044634103775024,
+        "text": "ललितपुर"
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.795852541923523,
+        "text": "साम ललित बुढा मगर"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.7756392359733582,
+        "text": "तुलसा बुढा मगर"
+      },
+      {
+        "box_id": 3,
+        "class_id": 2,
+        "confidence": 0.7458081245422363,
+        "text": "दिलचन बुढा मगर"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.9900633692741394,
+        "text": "२०८२-०२-१९"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.9351262450218201,
+        "text": "2008"
+      },
+      {
+        "box_id": 2,
+        "class_id": 6,
+        "confidence": 0.8984658122062683,
+        "text": "Male"
+      },
+      {
+        "box_id": 3,
+        "class_id": 4,
+        "confidence": 0.8630618453025818,
+        "text": "5-965"
+      },
+      {
+        "box_id": 4,
+        "class_id": 5,
+        "confidence": 0.8249721527099609,
+        "text": "LALIT BUDHA MAGAR"
+      },
+      {
+        "box_id": 5,
+        "class_id": 9,
+        "confidence": 0.7930630445480347,
+        "text": "01"
+      },
+      {
+        "box_id": 6,
+        "class_id": 11,
+        "confidence": 0.7802720665931702,
+        "text": "Lalitpur"
+      },
+      {
+        "box_id": 7,
+        "class_id": 8,
+        "confidence": 0.736686646938324,
+        "text": "04"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.7063736319541931,
+        "text": "Lalitpur"
+      },
+      {
+        "box_id": 9,
+        "class_id": 12,
+        "confidence": 0.6956066489219666,
+        "text": "25"
+      },
+      {
+        "box_id": 10,
+        "class_id": 4,
+        "confidence": 0.6552560925483704,
+        "text": "28-01-82-00893"
+      },
+      {
+        "box_id": 11,
+        "class_id": 5,
+        "confidence": 0.611733078956604,
+        "text": "ALIT RUDHA"
+      }
+    ]
+  },
+  "form_data": null
+}

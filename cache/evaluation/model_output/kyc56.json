@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-09T02:28:14.643097",
+  "unique_id": "f9f1b2e8-13b0-4f1c-9404-efec5391f5b2",
+  "front_image": "front56.jpeg",
+  "back_image": "back56.jpeg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 1,
+        "confidence": 0.9162439107894897,
+        "text": "मनिस खड्क"
+      },
+      {
+        "box_id": 1,
+        "class_id": 0,
+        "confidence": 0.9114833474159241,
+        "text": "दोलख"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.8762330412864685,
+        "text": "डम्वर कुमारी खड्क"
+      },
+      {
+        "box_id": 3,
+        "class_id": 2,
+        "confidence": 0.8417478203773499,
+        "text": "दिपेन्र खड्क"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 12,
+        "confidence": 0.9246287941932678,
+        "text": "7"
+      },
+      {
+        "box_id": 1,
+        "class_id": 8,
+        "confidence": 0.9066972732543945,
+        "text": "11"
+      },
+      {
+        "box_id": 2,
+        "class_id": 6,
+        "confidence": 0.8992655277252197,
+        "text": "Male"
+      },
+      {
+        "box_id": 3,
+        "class_id": 11,
+        "confidence": 0.8762505054473877,
+        "text": "Melung"
+      },
+      {
+        "box_id": 4,
+        "class_id": 4,
+        "confidence": 0.8713911175727844,
+        "text": "22-01-76-00366"
+      },
+      {
+        "box_id": 5,
+        "class_id": 7,
+        "confidence": 0.8497951030731201,
+        "text": "2002"
+      },
+      {
+        "box_id": 6,
+        "class_id": 10,
+        "confidence": 0.8461412787437439,
+        "text": "Dolakha"
+      },
+      {
+        "box_id": 7,
+        "class_id": 9,
+        "confidence": 0.8403538465499878,
+        "text": "10"
+      },
+      {
+        "box_id": 8,
+        "class_id": 13,
+        "confidence": 0.8327646255493164,
+        "text": "२०७६-०२-०७"
+      },
+      {
+        "box_id": 9,
+        "class_id": 5,
+        "confidence": 0.5593959093093872,
+        "text": "MANISH KHADKA"
+      }
+    ]
+  },
+  "form_data": null
+}

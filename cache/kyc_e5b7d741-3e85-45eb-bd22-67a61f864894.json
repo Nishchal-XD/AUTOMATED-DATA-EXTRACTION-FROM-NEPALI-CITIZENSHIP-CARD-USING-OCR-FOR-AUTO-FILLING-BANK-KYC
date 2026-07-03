@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-03-26T13:09:53.387479",
+  "unique_id": "e5b7d741-3e85-45eb-bd22-67a61f864894",
+  "front_image": "202front.jpg",
+  "back_image": "202back.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 1,
+        "confidence": 0.6388220191001892,
+        "text": "कोपिला थापा मगर"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.604708731174469,
+        "text": "रिप बहादुर आले मगर"
+      },
+      {
+        "class_id": 0,
+        "text": "जिल्ला प्रशासन कार्यालय, ललितपुर"
+      },
+      {
+        "class_id": 3,
+        "text": "XXX"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 11,
+        "confidence": 0.7275237441062927,
+        "text": "Ttakukot"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.6214591860771179,
+        "text": "1982"
+      },
+      {
+        "box_id": 2,
+        "class_id": 13,
+        "confidence": 0.5677849650382996,
+        "text": "२०६२/०४/१६"
+      },
+      {
+        "class_id": 4,
+        "text": "131076/गन्डाकी"
+      },
+      {
+        "class_id": 5,
+        "text": "KOPILA THAPA MAGAR"
+      },
+      {
+        "class_id": 6,
+        "text": "Female"
+      },
+      {
+        "class_id": 8,
+        "text": "10"
+      },
+      {
+        "class_id": 9,
+        "text": "23"
+      },
+      {
+        "class_id": 10,
+        "text": "Gorkha"
+      },
+      {
+        "class_id": 12,
+        "text": "03"
+      }
+    ]
+  },
+  "form_data": null
+}

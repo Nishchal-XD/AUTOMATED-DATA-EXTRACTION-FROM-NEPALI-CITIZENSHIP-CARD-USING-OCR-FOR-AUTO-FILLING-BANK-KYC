@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-09T02:33:23.461554",
+  "unique_id": "6655712d-e62e-420f-acec-e7de7e774e08",
+  "front_image": "front59.jpeg",
+  "back_image": "back59.jpeg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.8771891593933105,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.8631358742713928,
+        "text": "रोशन कुमारझ"
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.769394040107727,
+        "text": "प्रसत्र झ"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.6312479376792908,
+        "text": ""
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 12,
+        "confidence": 0.9441313743591309,
+        "text": "2"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.9424425959587097,
+        "text": "2005"
+      },
+      {
+        "box_id": 2,
+        "class_id": 9,
+        "confidence": 0.9108920693397522,
+        "text": "09"
+      },
+      {
+        "box_id": 3,
+        "class_id": 4,
+        "confidence": 0.9064056277275085,
+        "text": "18-01-80-08313"
+      },
+      {
+        "box_id": 4,
+        "class_id": 6,
+        "confidence": 0.8849635720252991,
+        "text": "Male"
+      },
+      {
+        "box_id": 5,
+        "class_id": 11,
+        "confidence": 0.8700933456420898,
+        "text": "matihani"
+      },
+      {
+        "box_id": 6,
+        "class_id": 10,
+        "confidence": 0.8099790811538696,
+        "text": "Mahottari"
+      },
+      {
+        "box_id": 7,
+        "class_id": 13,
+        "confidence": 0.8073567152023315,
+        "text": "२०८०-०८-०५"
+      },
+      {
+        "box_id": 8,
+        "class_id": 8,
+        "confidence": 0.79435795545578,
+        "text": "11"
+      },
+      {
+        "box_id": 9,
+        "class_id": 5,
+        "confidence": 0.6310063600540161,
+        "text": "PRASNNA JHA"
+      }
+    ]
+  },
+  "form_data": null
+}

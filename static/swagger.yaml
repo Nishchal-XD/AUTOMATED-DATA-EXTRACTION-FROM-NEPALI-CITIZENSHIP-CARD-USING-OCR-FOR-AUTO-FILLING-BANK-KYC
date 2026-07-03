@@ -1,0 +1,81 @@
+openapi: 3.0.0
+info:
+  title: Nagarikta Project API
+  description: API documentation for Nagarikta Project
+  version: 1.0.0
+
+servers:
+  - url: http://localhost:5000
+    description: Localhost
+  - url: http://127.0.0.1:5000
+    description: Loopback
+
+paths:
+  /api/health:
+    get:
+      summary: Check the health of the API
+      responses:
+        '200':
+          description: API is healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: API is healthy
+
+
+  /api/upload:
+    post:
+      summary: Upload front and back images of the document
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required:
+                - front
+                - back
+              properties:
+                front:
+                  type: string
+                  format: binary
+                  description: The front side image of the document (Nagarikta)
+                back:
+                  type: string
+                  format: binary
+                  description: The back side image of the document (Nagarikta)
+      responses:
+        '200':
+          description: Images uploaded successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Document images uploaded successfully"
+        '400':
+          description: Bad Request (missing files or invalid format)
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Missing file parts. 'front' and 'back' are required"
+
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+        username:
+          type: string

@@ -1,0 +1,2005 @@
+2026-03-04 15:30:48,557 - INFO - YOLO prediction completed
+2026-03-04 15:30:48,557 - INFO - Final OCR Output: {'front': [], 'back': []}
+2026-03-04 15:30:48,583 - INFO - 127.0.0.1 - - [04/Mar/2026 15:30:48] "POST /api/upload HTTP/1.1" 200 -
+2026-03-04 15:30:50,132 - INFO - Missing DOB components
+---
+2026-03-04 15:32:11,043 - INFO - YOLO prediction completed
+2026-03-04 15:32:11,045 - INFO - Final OCR Output: {'front': [], 'back': []}
+2026-03-04 15:32:11,049 - INFO - 127.0.0.1 - - [04/Mar/2026 15:32:11] "POST /api/upload HTTP/1.1" 200 -
+2026-03-04 15:32:12,582 - INFO - Missing DOB components
+---
+2026-03-05 21:57:58,433 - INFO - YOLO prediction completed
+2026-03-05 21:57:58,434 - INFO - Final OCR Output: {'front': [], 'back': []}
+2026-03-05 21:57:58,436 - INFO - KYC data saved to cache: cache\kyc_1298aaae-1e65-4db6-b228-f2631492b74c.json
+2026-03-05 21:57:58,437 - INFO - KYC data saved to cache successfully
+---
+2026-03-05 22:01:48,874 - INFO - YOLO prediction completed
+2026-03-05 22:01:48,874 - INFO - Final OCR Output: {'front': [], 'back': []}
+2026-03-05 22:01:48,877 - INFO - KYC data saved to cache: cache\kyc_b34bcff5-0111-425d-8b59-5296ebcf69d3.json
+2026-03-05 22:01:48,877 - INFO - KYC data saved to cache successfully
+---
+2026-03-05 22:23:22,437 - WARNING - Citizenship number check failed: invalid group reference 10 at position 1
+2026-03-05 22:23:22,439 - INFO - Final OCR Output: {'front': [], 'back': [{'box_id': 'fallback_back_day', 'class_id': 9, 'confidence': 0.7, 'text': '25'}, {'box_id': 'fallback_back_address', 'class_id': 11, 'confidence': 0.7, 'text': 'pier'}, {'box_i
+2026-03-05 22:23:22,442 - INFO - KYC data saved to cache: cache\kyc_a98a2875-9ddd-4da3-9b00-9756ba7dc7d2.json
+2026-03-05 22:23:22,443 - INFO - KYC data saved to cache successfully
+---
+2026-03-05 22:32:29,476 - WARNING - Citizenship number check failed: invalid group reference 10 at position 1
+2026-03-05 22:32:29,476 - INFO - Final OCR Output: {'front': [], 'back': [{'box_id': 'fallback_back_day', 'class_id': 9, 'confidence': 0.7, 'text': '25'}, {'box_id': 'fallback_back_ward', 'class_id': 12, 'confidence': 0.7, 'text': '7'}]}
+2026-03-05 22:32:29,478 - INFO - KYC data saved to cache: cache\kyc_e2fd2923-1258-42d1-9997-3983c7b73465.json
+2026-03-05 22:32:29,478 - INFO - KYC data saved to cache successfully
+---
+2026-03-05 22:52:12,445 - INFO - YOLO prediction completed
+2026-03-05 22:52:12,446 - INFO - Final OCR Output: {'front': [], 'back': []}
+2026-03-05 22:52:12,450 - INFO - KYC data saved to cache: cache\kyc_ab0ea18b-b37d-4dc0-a9a0-5fe8a42198ad.json
+2026-03-05 22:52:12,451 - INFO - KYC data saved to cache successfully
+---
+2026-03-05 22:52:58,074 - INFO - YOLO prediction completed
+2026-03-05 22:52:58,075 - INFO - Final OCR Output: {'front': [], 'back': []}
+2026-03-05 22:52:58,079 - INFO - KYC data saved to cache: cache\kyc_f3acec48-6691-44e6-a49a-96be40bf7c67.json
+2026-03-05 22:52:58,081 - INFO - KYC data saved to cache successfully
+---
+2026-03-09 02:27:13,945 - INFO - YOLO prediction completed
+2026-03-09 02:27:13,945 - INFO - Final OCR Output: {'front': [], 'back': []}
+2026-03-09 02:27:13,949 - INFO - KYC data saved to cache: cache\kyc_7d11de2d-cd9a-4efb-adc8-1073ee3fb4f3.json
+2026-03-09 02:27:13,949 - INFO - KYC data saved to cache successfully
+---
+2026-03-09 02:37:55,126 - INFO - YOLO prediction completed
+2026-03-09 02:37:55,126 - INFO - Final OCR Output: {'front': [], 'back': []}
+2026-03-09 02:37:55,135 - INFO - KYC data saved to cache: cache\kyc_b0cb8a67-f25a-43c4-97f1-825acffef972.json
+2026-03-09 02:37:55,141 - INFO - KYC data saved to cache successfully
+---
+2026-03-11 08:15:42,206 - INFO - Validation step. Back image front/back labels: 0/9
+2026-03-11 08:15:45,985 - INFO - Final OCR Output: 
+2026-03-11 08:15:45,985 - INFO - KYC data saved to cache: cache\kyc_3086bf87-b1c0-4544-a77f-251067f7b1c0.json
+2026-03-11 08:15:45,985 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 11:02:23,900 - INFO - Name match similarity: 0.80 (lokeddhluhar vs lokendraluhar)
+2026-03-25 11:02:23,906 - ERROR - Gemini LLM Refinement failed: No module named 'google'
+2026-03-25 11:02:23,983 - INFO - KYC data saved to cache: cache\kyc_76941b07-84f2-4a79-914f-5e80ef634b0b.json
+2026-03-25 11:02:23,985 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 11:06:23,002 - INFO - Name match similarity: 0.80 (lokeddhluhar vs lokendraluhar)
+2026-03-25 11:06:23,008 - ERROR - Gemini LLM Refinement failed: No module named 'google'
+2026-03-25 11:06:23,085 - INFO - KYC data saved to cache: cache\kyc_75acd2b4-6eb3-4ca8-a78f-3307833ec5aa.json
+2026-03-25 11:06:23,087 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 11:10:02,916 - INFO - Name match similarity: 0.80 (lokeddhluhar vs lokendraluhar)
+2026-03-25 11:10:02,924 - ERROR - Gemini LLM Refinement failed: No module named 'google'
+2026-03-25 11:10:03,174 - INFO - KYC data saved to cache: cache\kyc_b6958faf-bdf7-4141-8dcf-aea1e5d0d847.json
+2026-03-25 11:10:03,189 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 11:12:23,449 - INFO - Name match similarity: 0.80 (lokeddhluhar vs lokendraluhar)
+2026-03-25 11:12:23,451 - ERROR - Gemini LLM Refinement failed: No module named 'google'
+2026-03-25 11:12:23,464 - INFO - KYC data saved to cache: cache\kyc_977c7571-6b2d-4a6e-a49f-62193b92bfc6.json
+2026-03-25 11:12:23,465 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 11:46:58,577 - INFO - Name match similarity: 0.80 (lokeddhluhar vs lokendraluhar)
+2026-03-25 11:47:05,055 - ERROR - Gemini LLM Refinement failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-25 11:47:05,185 - INFO - KYC data saved to cache: cache\kyc_123e4250-2008-49ea-a18c-f4271aef0bb3.json
+2026-03-25 11:47:05,194 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 11:48:12,758 - INFO -  * Debugger PIN: 620-201-070
+2026-03-25 11:55:19,486 - INFO -  * Detected change in 'C:\\nagarikta\\test_gemini.py', reloading
+2026-03-25 11:55:21,147 - INFO -  * Restarting with stat
+2026-03-25 11:55:30,109 - INFO - Loading YOLO model...
+---
+2026-03-25 11:55:30,195 - INFO -  * Debugger PIN: 620-201-070
+2026-03-25 11:56:12,117 - INFO -  * Detected change in 'C:\\nagarikta\\test_gemini.py', reloading
+2026-03-25 11:56:13,159 - INFO -  * Restarting with stat
+2026-03-25 11:56:19,987 - INFO - Loading YOLO model...
+---
+2026-03-25 11:56:20,075 - INFO -  * Debugger PIN: 620-201-070
+2026-03-25 11:56:46,563 - INFO -  * Detected change in 'C:\\nagarikta\\test_gemini.py', reloading
+2026-03-25 11:56:47,604 - INFO -  * Restarting with stat
+2026-03-25 11:56:54,668 - INFO - Loading YOLO model...
+---
+2026-03-25 11:59:46,954 - INFO - Name match similarity: 0.80 (lokeddhluhar vs lokendraluhar)
+2026-03-25 12:00:05,081 - INFO - Gemini LLM Refinement successful.
+2026-03-25 12:00:05,116 - INFO - KYC data saved to cache: cache\kyc_d05c5dde-6af4-4b99-bad9-b3f04d941f1c.json
+2026-03-25 12:00:05,116 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 12:01:07,002 - INFO - Name match similarity: 1.00 (susmagurung vs susmagurung)
+2026-03-25 12:01:20,525 - INFO - Gemini LLM Refinement successful.
+2026-03-25 12:01:20,539 - INFO - KYC data saved to cache: cache\kyc_1470fbe9-69a2-46ef-99d3-0c341ac955b3.json
+2026-03-25 12:01:20,543 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 12:02:23,035 - INFO - Validation step. Back image front/back labels: 0/10
+2026-03-25 12:02:47,788 - INFO - Gemini LLM Refinement successful.
+2026-03-25 12:02:47,803 - INFO - KYC data saved to cache: cache\kyc_6c425aa2-9e4b-42f6-92f0-be8a7b512e45.json
+2026-03-25 12:02:47,804 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 12:03:52,610 - INFO - Name match similarity: 0.86 (vijytamang vs bijaytamang)
+2026-03-25 12:04:15,279 - INFO - Gemini LLM Refinement successful.
+2026-03-25 12:04:15,302 - INFO - KYC data saved to cache: cache\kyc_3af51957-2e5e-4847-9958-30498e7961b7.json
+2026-03-25 12:04:15,318 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 12:04:52,477 - INFO - Name match similarity: 0.95 (sirptamang vs siraptamang)
+2026-03-25 12:05:07,952 - INFO - Gemini LLM Refinement successful.
+2026-03-25 12:05:07,967 - INFO - KYC data saved to cache: cache\kyc_ff2bd445-475c-4b0e-a9d2-a2cdff19b517.json
+2026-03-25 12:05:07,968 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 12:06:59,118 - INFO - Name match similarity: 0.37 (danbhadurbudh vs pogcosetratrenstyabaradurblass)
+2026-03-25 12:07:19,592 - INFO - Gemini LLM Refinement successful.
+2026-03-25 12:07:19,606 - INFO - KYC data saved to cache: cache\kyc_908c38cf-aae0-4feb-bfed-06e10c824a37.json
+2026-03-25 12:07:19,608 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 12:08:13,745 - INFO - Validation step. Back image front/back labels: 0/10
+2026-03-25 12:08:38,846 - INFO - Gemini LLM Refinement successful.
+2026-03-25 12:08:38,864 - INFO - KYC data saved to cache: cache\kyc_406f7340-1ffa-454c-98c5-34593f21f97f.json
+2026-03-25 12:08:38,865 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 12:31:20,242 - INFO - Validation step. Back image front/back labels: 0/10
+2026-03-25 12:31:50,276 - INFO - Gemini LLM Refinement successful.
+2026-03-25 12:31:50,310 - INFO - KYC data saved to cache: cache\kyc_de9bc98e-df84-49a1-ba2e-a05c4b46e867.json
+2026-03-25 12:31:50,314 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 12:34:22,975 - INFO - Validation step. Back image front/back labels: 0/10
+2026-03-25 12:34:41,690 - INFO - Gemini LLM Refinement successful.
+2026-03-25 12:34:41,707 - INFO - KYC data saved to cache: cache\kyc_22243123-90fb-466e-b1ba-432a3ea9285b.json
+2026-03-25 12:34:41,707 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 12:39:24,010 - INFO - Validation step. Back image front/back labels: 0/10
+2026-03-25 12:39:43,465 - INFO - Gemini LLM Refinement successful.
+2026-03-25 12:39:43,476 - INFO - KYC data saved to cache: cache\kyc_65bf6c0d-f7c6-428e-a16a-a0718a05b845.json
+2026-03-25 12:39:43,476 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 12:42:13,839 - INFO - Validation step. Back image front/back labels: 0/10
+2026-03-25 12:42:36,192 - INFO - Gemini LLM Refinement successful.
+2026-03-25 12:42:36,240 - INFO - KYC data saved to cache: cache\kyc_6e1ac051-f8c1-47a9-8e44-96ef0e32fd7a.json
+2026-03-25 12:42:36,241 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 12:43:07,779 - INFO - Validation step. Back image front/back labels: 0/10
+2026-03-25 12:43:34,992 - INFO - Gemini LLM Refinement successful.
+2026-03-25 12:43:35,016 - INFO - KYC data saved to cache: cache\kyc_b47bf78b-c8d4-421b-9951-fe00c9b5fa96.json
+2026-03-25 12:43:35,017 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 12:44:41,855 - INFO - Name match similarity: 0.79 (shubhanshreshth vs suvanshrestha)
+2026-03-25 12:45:01,354 - INFO - Gemini LLM Refinement successful.
+2026-03-25 12:45:01,376 - INFO - KYC data saved to cache: cache\kyc_364b159b-409b-44d5-9649-b0a078c32f5d.json
+2026-03-25 12:45:01,376 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 13:06:28,967 - INFO - Name match similarity: 0.69 (mnhreesilval vs manaharisilwal)
+2026-03-25 13:06:49,080 - INFO - Gemini LLM Refinement successful.
+2026-03-25 13:06:49,141 - INFO - KYC data saved to cache: cache\kyc_de5982a5-a4e9-4fe2-9954-f1cbf6337c4e.json
+2026-03-25 13:06:49,141 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 13:09:04,785 - INFO - Name match similarity: 0.74 (jgtshah vs eejagatshahi)
+2026-03-25 13:09:22,263 - INFO - Gemini LLM Refinement successful.
+2026-03-25 13:09:22,280 - INFO - KYC data saved to cache: cache\kyc_4b91f209-31ad-46aa-8a60-786d7da7720d.json
+2026-03-25 13:09:22,282 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 13:10:34,560 - INFO - Name match similarity: 0.94 (nishchlrajtuladhr vs nishchalrajtuladhar)
+2026-03-25 13:10:54,948 - INFO - Gemini LLM Refinement successful.
+2026-03-25 13:10:54,973 - INFO - KYC data saved to cache: cache\kyc_53760560-06c8-4188-a7ee-bb1608acdb48.json
+2026-03-25 13:10:54,975 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 13:12:10,868 - INFO - Name match similarity: 0.94 (nishchlrajtuladhr vs nishchalrajtuladhar)
+2026-03-25 13:12:34,889 - INFO - Gemini LLM Refinement successful.
+2026-03-25 13:12:34,908 - INFO - KYC data saved to cache: cache\kyc_4879560a-df20-48f4-ace9-112f302c925c.json
+2026-03-25 13:12:34,908 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 13:13:07,635 - INFO - Name match similarity: 0.70 (sismpnth vs ingshisampantha)
+2026-03-25 13:13:19,385 - INFO - Gemini LLM Refinement successful.
+2026-03-25 13:13:19,421 - INFO - KYC data saved to cache: cache\kyc_010e8e05-3664-4e02-adcb-522c177f5e73.json
+2026-03-25 13:13:19,423 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 13:15:38,232 - INFO - Name match similarity: 0.83 (shibtuladhr vs shivatuladhar)
+2026-03-25 13:16:04,216 - INFO - Gemini LLM Refinement successful.
+2026-03-25 13:16:04,256 - INFO - KYC data saved to cache: cache\kyc_447fdc61-8b0c-47e1-a38d-b1c685ddea77.json
+2026-03-25 13:16:04,258 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 13:17:50,927 - INFO - Name match similarity: 0.90 (mohitbudhathokee vs mohitbudhathoki)
+2026-03-25 13:18:12,223 - INFO - Gemini LLM Refinement successful.
+2026-03-25 13:18:12,287 - INFO - KYC data saved to cache: cache\kyc_538668de-76cc-47bc-af0f-eda20dbde180.json
+2026-03-25 13:18:12,289 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 13:18:48,003 - INFO - Name match similarity: 0.81 (anushaphsikv vs anushaphasikawa)
+2026-03-25 13:19:07,309 - INFO - Gemini LLM Refinement successful.
+2026-03-25 13:19:07,338 - INFO - KYC data saved to cache: cache\kyc_b4d77bc3-f074-4db3-b2c4-2f8b47ddfd40.json
+2026-03-25 13:19:07,341 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 13:27:28,836 - INFO - Name match similarity: 0.94 (nishchlrajtuladhr vs nishchalrajtuladhar)
+2026-03-25 13:27:58,042 - INFO - Gemini LLM Refinement successful.
+2026-03-25 13:27:58,103 - INFO - KYC data saved to cache: cache\kyc_88839ec6-03f0-44fe-ac5c-8957704a9c32.json
+2026-03-25 13:27:58,104 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 13:28:42,662 - INFO - Validation step. Back image front/back labels: 0/9
+2026-03-25 13:29:14,041 - INFO - Gemini LLM Refinement successful.
+2026-03-25 13:29:14,066 - INFO - KYC data saved to cache: cache\kyc_bea0c7b9-4d44-47eb-aca7-f2abe01f6d22.json
+2026-03-25 13:29:14,066 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 13:32:59,144 - INFO - Name match similarity: 0.84 (avajbulun vs aawajbulun)
+2026-03-25 13:33:24,748 - INFO - Gemini LLM Refinement successful.
+2026-03-25 13:33:24,816 - INFO - KYC data saved to cache: cache\kyc_b20e5e40-b343-4b85-83f6-229ff462e662.json
+2026-03-25 13:33:24,817 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 13:35:51,289 - INFO - Name match similarity: 0.79 (shubhanshreshth vs suvanshrestha)
+2026-03-25 13:36:09,690 - INFO - Gemini LLM Refinement successful.
+2026-03-25 13:36:09,732 - INFO - KYC data saved to cache: cache\kyc_334537cd-a464-4daf-8a17-36a72c45ca4b.json
+2026-03-25 13:36:09,735 - INFO - KYC data saved to cache successfully
+---
+2026-03-25 13:36:47,846 - INFO - Name match similarity: 0.75 (neetabhujel vs fusnitabhujel)
+2026-03-25 13:37:04,000 - INFO - Gemini LLM Refinement successful.
+2026-03-25 13:37:04,027 - INFO - KYC data saved to cache: cache\kyc_470ed8fe-1189-49b6-aca5-af8d73819072.json
+2026-03-25 13:37:04,030 - INFO - KYC data saved to cache successfully
+---
+2026-03-26 13:07:44,397 - INFO - Name match similarity: 1.00 (praptirai vs praptirai)
+2026-03-26 13:08:16,824 - INFO - Gemini LLM Refinement successful.
+2026-03-26 13:08:16,862 - INFO - KYC data saved to cache: cache\kyc_5a9c44fe-e564-4d98-8183-c2979c236a51.json
+2026-03-26 13:08:16,866 - INFO - KYC data saved to cache successfully
+---
+2026-03-26 13:09:09,290 - INFO - Validation step. Back image front/back labels: 0/3
+2026-03-26 13:09:53,360 - INFO - Gemini LLM Refinement successful.
+2026-03-26 13:09:53,390 - INFO - KYC data saved to cache: cache\kyc_e5b7d741-3e85-45eb-bd22-67a61f864894.json
+2026-03-26 13:09:53,394 - INFO - KYC data saved to cache successfully
+---
+2026-03-26 13:11:01,103 - INFO - Name match similarity: 0.84 (ashishchaudhree vs aashishchaudhary)
+2026-03-26 13:11:27,767 - INFO - Gemini LLM Refinement successful.
+2026-03-26 13:11:27,794 - INFO - KYC data saved to cache: cache\kyc_fff5d587-e89e-4fba-9fc7-4dcc4161070f.json
+2026-03-26 13:11:27,795 - INFO - KYC data saved to cache successfully
+---
+2026-03-26 13:12:24,445 - INFO - Name match similarity: 1.00 (mingmalama vs mingmalama)
+2026-03-26 13:12:49,378 - INFO - Gemini LLM Refinement successful.
+2026-03-26 13:12:49,401 - INFO - KYC data saved to cache: cache\kyc_8b58ea87-6ebd-43d4-a873-b7aede245b39.json
+2026-03-26 13:12:49,403 - INFO - KYC data saved to cache successfully
+---
+2026-03-26 13:14:12,399 - INFO - Name match similarity: 0.86 (rvintamang vs rabintamang)
+2026-03-26 13:14:28,111 - INFO - Gemini LLM Refinement successful.
+2026-03-26 13:14:28,137 - INFO - KYC data saved to cache: cache\kyc_8f06bb2a-02a3-42a1-9cfa-06940cb7dedb.json
+2026-03-26 13:14:28,139 - INFO - KYC data saved to cache successfully
+---
+2026-03-26 13:15:22,794 - INFO - Validation step. Back image front/back labels: 0/10
+2026-03-26 13:15:56,692 - INFO - Gemini LLM Refinement successful.
+2026-03-26 13:15:56,722 - INFO - KYC data saved to cache: cache\kyc_7b4c645c-a669-4d36-bb45-f1f9b506216f.json
+2026-03-26 13:15:56,723 - INFO - KYC data saved to cache successfully
+---
+2026-03-26 13:16:44,334 - INFO - Validation step. Back image front/back labels: 0/8
+2026-03-26 13:17:26,656 - INFO - Gemini LLM Refinement successful.
+2026-03-26 13:17:26,689 - INFO - KYC data saved to cache: cache\kyc_e92a3d75-d02c-4cec-a200-ebe1a9ddb846.json
+2026-03-26 13:17:26,691 - INFO - KYC data saved to cache successfully
+---
+2026-03-26 13:18:25,191 - INFO - Name match similarity: 0.86 (vijytamang vs bijaytamang)
+2026-03-26 13:18:42,724 - INFO - Gemini LLM Refinement successful.
+2026-03-26 13:18:42,751 - INFO - KYC data saved to cache: cache\kyc_5b177b4a-54c6-47bb-8331-f6d5c22b4789.json
+2026-03-26 13:18:42,755 - INFO - KYC data saved to cache successfully
+---
+2026-03-26 13:21:44,303 - INFO - Name match similarity: 0.96 (milngrangden vs milangrangden)
+2026-03-26 13:22:02,337 - INFO - Gemini LLM Refinement successful.
+2026-03-26 13:22:02,362 - INFO - KYC data saved to cache: cache\kyc_9f333f3d-811a-4684-a799-0565e95dd234.json
+2026-03-26 13:22:02,364 - INFO - KYC data saved to cache successfully
+---
+2026-03-26 13:23:02,425 - INFO - Name match similarity: 0.84 (krishtinabjrachary vs christinabajracharya)
+2026-03-26 13:23:17,325 - INFO - Gemini LLM Refinement successful.
+2026-03-26 13:23:17,347 - INFO - KYC data saved to cache: cache\kyc_b6644296-ef78-4c98-bbf7-5f87fc0420dd.json
+2026-03-26 13:23:17,348 - INFO - KYC data saved to cache successfully
+---
+2026-03-26 13:24:07,545 - INFO - Name match similarity: 0.92 (mnishachary vs manishacharya)
+2026-03-26 13:24:28,549 - INFO - Gemini LLM Refinement successful.
+2026-03-26 13:24:28,569 - INFO - KYC data saved to cache: cache\kyc_dad8d6de-02b0-4d13-9c83-09be4f9cfc76.json
+2026-03-26 13:24:28,571 - INFO - KYC data saved to cache successfully
+---
+2026-03-26 13:25:36,298 - INFO - Name match similarity: 0.95 (sirptamang vs siraptamang)
+2026-03-26 13:25:56,949 - INFO - Gemini LLM Refinement successful.
+2026-03-26 13:25:56,974 - INFO - KYC data saved to cache: cache\kyc_c70f1797-e948-4ca3-88b1-b6cf8f140f39.json
+2026-03-26 13:25:56,975 - INFO - KYC data saved to cache successfully
+---
+2026-03-26 13:26:18,021 - INFO - Name match similarity: 0.84 (jmritkumarsyangtan vs kumarsyangtan)
+2026-03-26 13:26:35,762 - INFO - Gemini LLM Refinement successful.
+2026-03-26 13:26:35,777 - INFO - KYC data saved to cache: cache\kyc_eb50a239-7c30-42dd-a895-22cffc18b103.json
+2026-03-26 13:26:35,778 - INFO - KYC data saved to cache successfully
+---
+2026-03-26 13:30:37,125 - INFO - Name match similarity: 1.00 (susmagurung vs susmagurung)
+2026-03-26 13:30:56,109 - INFO - Gemini LLM Refinement successful.
+2026-03-26 13:30:56,129 - INFO - KYC data saved to cache: cache\kyc_5e8a5ce7-6562-4878-99f0-eabf0e7c8f3b.json
+2026-03-26 13:30:56,130 - INFO - KYC data saved to cache successfully
+---
+2026-03-26 13:32:05,611 - INFO - Name match similarity: 0.80 (lokeddhluhar vs lokendraluhar)
+2026-03-26 13:32:27,264 - INFO - Gemini LLM Refinement successful.
+2026-03-26 13:32:27,281 - INFO - KYC data saved to cache: cache\kyc_2d5a0648-163d-432c-b669-0e7ce5e9cdf6.json
+2026-03-26 13:32:27,281 - INFO - KYC data saved to cache successfully
+---
+2026-03-26 13:33:06,703 - INFO - Name match similarity: 0.82 (ariphashaky vs arifashakya)
+2026-03-26 13:33:30,591 - INFO - Gemini LLM Refinement successful.
+2026-03-26 13:33:30,614 - INFO - KYC data saved to cache: cache\kyc_db01f587-a94e-44b4-8bcc-46e7a830ed89.json
+2026-03-26 13:33:30,618 - INFO - KYC data saved to cache successfully
+---
+2026-03-26 13:34:06,643 - INFO - Validation step. Back image front/back labels: 0/10
+2026-03-26 13:34:34,300 - INFO - Gemini LLM Refinement successful.
+2026-03-26 13:34:34,318 - INFO - KYC data saved to cache: cache\kyc_360780a9-ad66-429f-bf24-642b072964f9.json
+2026-03-26 13:34:34,321 - INFO - KYC data saved to cache successfully
+---
+2026-03-26 13:36:10,492 - INFO - Name match similarity: 0.37 (danbhadurbudh vs pogcosetratrenstyabaradurblass)
+2026-03-26 13:36:23,502 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 40.454417098s. [links {
+---
+2026-03-26 13:36:23,502 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 40.454417098s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 40.454417098s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 13:36:51,499 - INFO - Validation step. Back image front/back labels: 0/10
+2026-03-26 13:36:58,346 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 5.514903363s. [links {
+---
+2026-03-26 13:36:58,346 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 5.514903363s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 5.514903363s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 13:37:42,152 - INFO - Name match similarity: 0.57 (gammagthokr vs munathokar)
+2026-03-26 13:37:43,287 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 20.614009251s. [links {
+---
+2026-03-26 13:37:43,287 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 20.614009251s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 20.614009251s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 13:38:13,467 - INFO - Validation step. Back image front/back labels: 0/10
+2026-03-26 13:38:18,044 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 45.825343024s. [links {
+---
+2026-03-26 13:38:18,044 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 45.825343024s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 45.825343024s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 13:39:04,220 - INFO - Name match similarity: 0.92 (mnishathokr vs manishathokar)
+2026-03-26 13:39:05,669 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 58.19098856s. [links {
+---
+2026-03-26 13:39:05,669 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 58.19098856s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 58.19098856s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 13:39:56,513 - INFO - Validation step. Back image front/back labels: 0/10
+2026-03-26 13:40:00,582 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 3.282525537s. [links {
+---
+2026-03-26 13:40:00,582 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 3.282525537s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 3.282525537s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 13:40:22,145 - INFO - Name match similarity: 0.79 (shubhanshreshth vs suvanshrestha)
+2026-03-26 13:40:23,226 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 40.649507457s. [links {
+---
+2026-03-26 13:40:23,226 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 40.649507457s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 40.649507457s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 13:41:15,341 - INFO - Name match similarity: 0.69 (mnhreesilval vs manaharisilwal)
+2026-03-26 13:41:16,397 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 47.448172633s. [links {
+---
+2026-03-26 13:41:16,397 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 47.448172633s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 47.448172633s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 13:41:52,907 - INFO - Name match similarity: 0.55 (yrbikhalbaiv vs bisalwaiba)
+2026-03-26 13:41:53,898 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 9.983526708s. [links {
+---
+2026-03-26 13:41:53,898 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 9.983526708s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 9.983526708s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 13:42:08,204 - INFO - Name match similarity: 0.74 (jgtshah vs eejagatshahi)
+2026-03-26 13:42:09,530 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 54.378531117s. [links {
+---
+2026-03-26 13:42:09,530 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 54.378531117s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 54.378531117s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 13:42:56,309 - INFO - Name match similarity: 0.75 (neetabhujel vs fusnitabhujel)
+2026-03-26 13:42:57,523 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 6.345214056s. [links {
+---
+2026-03-26 13:42:57,523 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 6.345214056s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 6.345214056s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 13:42:59,166 - INFO - 127.0.0.1 - - [26/Mar/2026 13:42:59] "GET /static/style.css HTTP/1.1" 304 -
+2026-03-26 13:45:25,804 - INFO -  * Detected change in 'C:\\nagarikta\\debug_gemini.py', reloading
+2026-03-26 13:45:31,603 - INFO -  * Restarting with stat
+2026-03-26 13:45:50,235 - INFO - Loading YOLO model...
+---
+2026-03-26 13:47:14,288 - INFO - Name match similarity: 0.75 (neetabhujel vs fusnitabhujel)
+2026-03-26 13:47:28,791 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 35.103932491s. [links {
+---
+2026-03-26 13:47:28,791 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 35.103932491s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 35.103932491s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 13:48:02,755 - INFO - Name match similarity: 0.76 (sngeetkhng vs sangitkhang)
+2026-03-26 13:48:04,025 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 59.841841634s. [links {
+---
+2026-03-26 13:48:04,025 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 59.841841634s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 59.841841634s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 13:49:14,219 - INFO - Name match similarity: 0.84 (saurypiy vs shauryapiya)
+2026-03-26 13:49:15,261 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 48.586979931s. [links {
+---
+2026-03-26 13:49:15,261 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 48.586979931s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 48.586979931s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 13:50:03,361 - INFO - Name match similarity: 0.78 (anilkuvr vs anilkunwar)
+2026-03-26 13:50:04,362 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 59.569596677s. [links {
+---
+2026-03-26 13:50:04,362 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 59.569596677s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 59.569596677s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 13:51:06,409 - INFO - Name match similarity: 0.25 (akasvik vs k)
+2026-03-26 13:51:07,548 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 56.350736399s. [links {
+---
+2026-03-26 13:51:07,548 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 56.350736399s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 56.350736399s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 14:01:16,687 - INFO - Name match similarity: 0.25 (akasvik vs k)
+2026-03-26 14:01:21,774 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 42.092127088s. [links {
+---
+2026-03-26 14:01:21,774 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 42.092127088s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 42.092127088s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 14:40:50,171 - INFO - Name match similarity: 0.94 (dipasinh vs dipasingh)
+2026-03-26 14:40:52,263 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 12.124816744s. [links {
+---
+2026-03-26 14:40:52,263 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 12.124816744s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 12.124816744s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 14:41:28,709 - INFO - Name match similarity: 0.91 (bishalsinhthkur vs bishalsinghthakuri)
+2026-03-26 14:41:30,103 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 33.817149562s. [links {
+---
+2026-03-26 14:41:30,103 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 33.817149562s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 33.817149562s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 14:42:09,852 - INFO - Name match similarity: 0.40 (rshmeeghap vs thapa)
+2026-03-26 14:42:11,234 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 52.719617172s. [links {
+---
+2026-03-26 14:42:11,234 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 52.719617172s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 52.719617172s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 14:42:41,767 - INFO - Name match similarity: 0.85 (asheeshruchal vs aashishruchal)
+2026-03-26 14:42:43,699 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 20.49838298s. [links {
+---
+2026-03-26 14:42:43,699 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 20.49838298s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 20.49838298s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 14:43:19,540 - INFO - Validation step. Back image front/back labels: 0/8
+2026-03-26 14:43:25,626 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 38.381019755s. [links {
+---
+2026-03-26 14:43:25,626 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 38.381019755s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 38.381019755s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 14:44:07,070 - INFO - Name match similarity: 0.87 (deeneshsunar vs dineshsunar)
+2026-03-26 14:44:08,481 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 55.599943642s. [links {
+---
+2026-03-26 14:44:08,481 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 55.599943642s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 55.599943642s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+---
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+  }
+  quota_value: 20
+}
+, retry_delay {
+---
+2026-03-26 14:55:44,690 - INFO - Name match similarity: 0.87 (deeneshsunar vs dineshsunar)
+2026-03-26 14:55:53,718 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+---
+2026-03-26 14:55:53,718 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+---
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 9.923956523s. [links {
+---
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 9.923956523s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 9.923956523s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+---
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+---
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+---
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+2026-03-26 14:59:38,665 - INFO - Name match similarity: 1.00 (urmila vs urmila)
+2026-03-26 14:59:39,956 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+---
+2026-03-26 14:59:39,956 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+---
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 23.669578452s. [links {
+---
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 23.669578452s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 23.669578452s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+---
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+---
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+---
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+2026-03-26 15:07:09,170 - INFO - Validation step. Back image front/back labels: 0/10
+2026-03-26 15:07:09,170 - INFO - Triggering Native Gemini Extraction...
+2026-03-26 15:07:15,605 - ERROR - Native Gemini Extraction failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To mon
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+---
+2026-03-26 15:07:09,170 - INFO - Triggering Native Gemini Extraction...
+2026-03-26 15:07:15,605 - ERROR - Native Gemini Extraction failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To mon
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+---
+2026-03-26 15:07:15,605 - ERROR - Native Gemini Extraction failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To mon
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+---
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 48.042414842s. [links {
+---
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 48.042414842s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 48.042414842s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+---
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+---
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+---
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+2026-03-26 15:08:15,129 - INFO - Name match similarity: 1.00 (urmila vs urmila)
+2026-03-26 15:08:21,041 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+---
+2026-03-26 15:08:21,041 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+---
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 42.577610734s. [links {
+---
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 42.577610734s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 42.577610734s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+---
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+---
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+---
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+2026-03-28 11:49:59,005 - INFO - Name match similarity: 0.87 (deeneshsunar vs dineshsunar)
+2026-03-28 11:50:14,738 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+---
+2026-03-28 11:50:14,738 - ERROR - Gemini LLM Refinement failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monito
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+---
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 51.07223419s. [links {
+---
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 51.07223419s. [links {
+  description: "Learn more about Gemini API quotas"
+---
+Please retry in 51.07223419s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+---
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+---
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+---
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+---
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+---
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+---
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+---
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+---
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+---
+2026-03-28 11:59:56,739 - INFO - Name match similarity: 0.87 (deeneshsunar vs dineshsunar)
+2026-03-28 12:00:02,188 - ERROR - Gemini LLM Refinement failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-28 12:00:02,205 - INFO - KYC data saved to cache: cache\kyc_1980445c-ea1e-4714-9065-da3061665b5c.json
+2026-03-28 12:00:02,205 - INFO - KYC data saved to cache successfully
+---
+2026-03-28 12:04:16,673 - INFO - Name match similarity: 0.87 (deeneshsunar vs dineshsunar)
+2026-03-28 12:04:21,677 - ERROR - Gemini LLM Refinement failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-28 12:04:21,700 - INFO - KYC data saved to cache: cache\kyc_7d42cb25-1df6-41e7-b951-804ce5dd0d7e.json
+2026-03-28 12:04:21,702 - INFO - KYC data saved to cache successfully
+---

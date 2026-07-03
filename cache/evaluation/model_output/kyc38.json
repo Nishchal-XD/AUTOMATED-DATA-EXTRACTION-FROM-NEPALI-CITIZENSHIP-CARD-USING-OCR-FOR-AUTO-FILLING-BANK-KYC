@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-03-09T00:01:56.506433",
+  "unique_id": "7d87e1d9-69f4-4cfa-9cb1-903fc3ac3a75",
+  "front_image": "front38.jpg",
+  "back_image": "back38.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 2,
+        "confidence": 0.8316255807876587,
+        "text": "गोदिन्द बहस्दुर राता मगर"
+      },
+      {
+        "box_id": 1,
+        "class_id": 0,
+        "confidence": 0.7908328175544739,
+        "text": ""
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.7728972434997559,
+        "text": "गिमता राना मगर"
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.7039109468460083,
+        "text": "गरिमा राना मगर"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.925605058670044,
+        "text": "2002"
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.9215839505195618,
+        "text": "17"
+      },
+      {
+        "box_id": 2,
+        "class_id": 6,
+        "confidence": 0.9215050339698792,
+        "text": "Female"
+      },
+      {
+        "box_id": 3,
+        "class_id": 11,
+        "confidence": 0.9213783144950867,
+        "text": "Yerawati"
+      },
+      {
+        "box_id": 4,
+        "class_id": 12,
+        "confidence": 0.8829606175422668,
+        "text": "5"
+      },
+      {
+        "box_id": 5,
+        "class_id": 13,
+        "confidence": 0.8658487200737,
+        "text": "२०७६-०४-३९"
+      },
+      {
+        "box_id": 6,
+        "class_id": 5,
+        "confidence": 0.8380775451660156,
+        "text": "GARIMA RANA MAGAR"
+      },
+      {
+        "box_id": 7,
+        "class_id": 4,
+        "confidence": 0.830428957939148,
+        "text": "53-01-76-01745"
+      },
+      {
+        "box_id": 8,
+        "class_id": 8,
+        "confidence": 0.7517461180686951,
+        "text": "03"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.7240610122680664,
+        "text": "Pyuthan"
+      },
+      {
+        "box_id": 10,
+        "class_id": 4,
+        "confidence": 0.5696820616722107,
+        "text": "53-0-76-01748"
+      }
+    ]
+  },
+  "form_data": null
+}

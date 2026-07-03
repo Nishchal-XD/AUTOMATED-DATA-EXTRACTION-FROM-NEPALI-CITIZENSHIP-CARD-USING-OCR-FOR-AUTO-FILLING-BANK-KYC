@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-04-01T20:06:39.865175",
+  "unique_id": "4603f866-3889-4f7f-b6f2-dbb15fb9a918",
+  "front_image": "रिया कुमारी साह",
+  "back_image": "feeRIYA KUMARI SAH de",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 2,
+        "confidence": 0.9256381988525391,
+        "text": "इंदल साह"
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.9122876524925232,
+        "text": "रिया कुमारी साह"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.8847958445549011,
+        "text": ""
+      },
+      {
+        "box_id": 3,
+        "class_id": 0,
+        "confidence": 0.8303780555725098,
+        "text": "कार्यालय महोत्तर"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.9701952338218689,
+        "text": "२०७७-११-१२"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.8162583112716675,
+        "text": "1995"
+      },
+      {
+        "box_id": 2,
+        "class_id": 11,
+        "confidence": 0.8006839752197266,
+        "text": "Municipality Bhangaha"
+      },
+      {
+        "box_id": 3,
+        "class_id": 4,
+        "confidence": 0.7717666625976562,
+        "text": "18-01-77-0735"
+      },
+      {
+        "box_id": 4,
+        "class_id": 10,
+        "confidence": 0.7503524422645569,
+        "text": "Mahottari"
+      },
+      {
+        "box_id": 5,
+        "class_id": 8,
+        "confidence": 0.7297534346580505,
+        "text": "06"
+      },
+      {
+        "box_id": 6,
+        "class_id": 5,
+        "confidence": 0.7245392203330994,
+        "text": "RIYA KUMARI SAH DE"
+      },
+      {
+        "box_id": 7,
+        "class_id": 9,
+        "confidence": 0.6416828036308289,
+        "text": "05"
+      },
+      {
+        "box_id": 8,
+        "class_id": 12,
+        "confidence": 0.6328466534614563,
+        "text": "5"
+      }
+    ]
+  },
+  "form_data": null
+}

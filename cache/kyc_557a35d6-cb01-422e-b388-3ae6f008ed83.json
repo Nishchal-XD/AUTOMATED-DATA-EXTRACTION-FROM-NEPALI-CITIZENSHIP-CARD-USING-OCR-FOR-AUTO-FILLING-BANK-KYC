@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-04-01T16:04:54.538785",
+  "unique_id": "557a35d6-cb01-422e-b388-3ae6f008ed83",
+  "front_image": "रोचक तिमल्सिन",
+  "back_image": "ROCHAK TIMALSINA",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 2,
+        "confidence": 0.8548716306686401,
+        "text": "श्याम प्रसाद तिमल्सिन"
+      },
+      {
+        "box_id": 1,
+        "class_id": 3,
+        "confidence": 0.8505135178565979,
+        "text": "रेणुका तिम"
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.518813967704773,
+        "text": "रोचक तिमल्सिन"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9716727137565613,
+        "text": "2007"
+      },
+      {
+        "box_id": 1,
+        "class_id": 8,
+        "confidence": 0.9686939716339111,
+        "text": "02"
+      },
+      {
+        "box_id": 2,
+        "class_id": 11,
+        "confidence": 0.912211537361145,
+        "text": "Mahankal"
+      },
+      {
+        "box_id": 3,
+        "class_id": 13,
+        "confidence": 0.8516836762428284,
+        "text": "२०८२-०४-२६"
+      },
+      {
+        "box_id": 4,
+        "class_id": 10,
+        "confidence": 0.8457127809524536,
+        "text": "Lalitpur"
+      },
+      {
+        "box_id": 5,
+        "class_id": 9,
+        "confidence": 0.7416473627090454,
+        "text": "01"
+      },
+      {
+        "box_id": 6,
+        "class_id": 5,
+        "confidence": 0.5720698833465576,
+        "text": "ROCHAK TIMALSINA"
+      },
+      {
+        "box_id": 7,
+        "class_id": 4,
+        "confidence": 0.5682851076126099,
+        "text": ""
+      }
+    ]
+  },
+  "form_data": null
+}

@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-26T13:08:16.856764",
+  "unique_id": "5a9c44fe-e564-4d98-8183-c2979c236a51",
+  "front_image": "201front.jpg",
+  "back_image": "201back.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.8976865410804749,
+        "text": "जिल्ला प्रशासन कार्यालय, खोटाङ"
+      },
+      {
+        "box_id": 1,
+        "class_id": 3,
+        "confidence": 0.8869906663894653,
+        "text": "सरिता राई"
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.8251645565032959,
+        "text": "प्राप्ति राई"
+      },
+      {
+        "box_id": 3,
+        "class_id": 2,
+        "confidence": 0.8222036361694336,
+        "text": "ध्रुव जित राई"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.9634037613868713,
+        "text": "२०७९-०९-०१"
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.9372937083244324,
+        "text": "04"
+      },
+      {
+        "box_id": 2,
+        "class_id": 7,
+        "confidence": 0.9259150624275208,
+        "text": "2008"
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.899490237236023,
+        "text": "11"
+      },
+      {
+        "box_id": 4,
+        "class_id": 12,
+        "confidence": 0.8731415867805481,
+        "text": "5"
+      },
+      {
+        "box_id": 5,
+        "class_id": 11,
+        "confidence": 0.8543264269828796,
+        "text": "Barahapokhari"
+      },
+      {
+        "box_id": 6,
+        "class_id": 6,
+        "confidence": 0.8165252208709717,
+        "text": "Female"
+      },
+      {
+        "box_id": 7,
+        "class_id": 5,
+        "confidence": 0.7507060170173645,
+        "text": "PRAPTI RAI"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.6950477361679077,
+        "text": "Khotang"
+      },
+      {
+        "box_id": 9,
+        "class_id": 4,
+        "confidence": 0.6928316950798035,
+        "text": "12-02-81-01329"
+      }
+    ]
+  },
+  "form_data": null
+}

@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-09T02:49:08.241277",
+  "unique_id": "2248bed4-bf5c-4c9d-af14-ee2668e03fae",
+  "front_image": "front65.jpeg",
+  "back_image": "back65.jpeg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 3,
+        "confidence": 0.9630082845687866,
+        "text": "कुेछँछुम रपुमाग ठ्रेष्ठ"
+      },
+      {
+        "box_id": 1,
+        "class_id": 0,
+        "confidence": 0.9200770854949951,
+        "text": ""
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.8963770270347595,
+        "text": ""
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.7707561254501343,
+        "text": ""
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.977618932723999,
+        "text": "1999"
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.9179303050041199,
+        "text": "04"
+      },
+      {
+        "box_id": 2,
+        "class_id": 6,
+        "confidence": 0.9003689885139465,
+        "text": "Female"
+      },
+      {
+        "box_id": 3,
+        "class_id": 13,
+        "confidence": 0.8844525814056396,
+        "text": "२०७४-०३-१४"
+      },
+      {
+        "box_id": 4,
+        "class_id": 11,
+        "confidence": 0.8782755136489868,
+        "text": "Dhunibeshi"
+      },
+      {
+        "box_id": 5,
+        "class_id": 12,
+        "confidence": 0.8705743551254272,
+        "text": "7"
+      },
+      {
+        "box_id": 6,
+        "class_id": 8,
+        "confidence": 0.8676536083221436,
+        "text": "08"
+      },
+      {
+        "box_id": 7,
+        "class_id": 4,
+        "confidence": 0.8432418704032898,
+        "text": "26-01-74-02022"
+      },
+      {
+        "box_id": 8,
+        "class_id": 5,
+        "confidence": 0.8053745627403259,
+        "text": "SABINA SHRESTHA"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.7974874973297119,
+        "text": "Dhading"
+      }
+    ]
+  },
+  "form_data": null
+}

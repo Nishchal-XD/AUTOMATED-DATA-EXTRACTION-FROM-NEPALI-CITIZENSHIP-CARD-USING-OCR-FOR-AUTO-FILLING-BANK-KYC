@@ -1,0 +1,124 @@
+================================================================================
+NEPALI CITIZENSHIP CARD OCR SYSTEM - EVALUATION REPORT
+================================================================================
+
+Generated: 2026-03-10 12:26:02
+Total Cards Evaluated: 112
+
+--------------------------------------------------------------------------------
+1. OVERALL STATISTICS
+--------------------------------------------------------------------------------
+
+Total Fields Extracted: 1513
+Average Fields per Card: 13.51
+YOLO Detections (Front): 421
+YOLO Detections (Back): 1092
+Fallback Detections (Front): 0
+Fallback Detections (Back): 0
+
+--------------------------------------------------------------------------------
+2. FIELD-WISE PRESENCE RATE
+--------------------------------------------------------------------------------
+
+Class  Field Name                Presence     Avg Confidence 
+------------------------------------------------------------
+1      Name (Nepali)               96.4%        82.6%
+2      Father's Name               92.9%        86.5%
+3      Mother's Name               94.6%        83.2%
+4      Citizenship No.             98.2%        82.7%
+5      Full Name (English)        100.0%        81.0%
+6      Gender                      96.4%        88.9%
+7      DOB Year                    96.4%        93.8%
+8      DOB Month                   97.3%        88.8%
+9      DOB Day                     97.3%        91.0%
+10     District                    94.6%        76.1%
+11     Municipality/Address        98.2%        88.8%
+12     Ward No.                    98.2%        88.7%
+13     Issue Date                  98.2%        90.5%
+
+--------------------------------------------------------------------------------
+3. EMPTY FIELD RATE
+--------------------------------------------------------------------------------
+
+Class  Field Name                Empty Rate  
+---------------------------------------------
+1      Name (Nepali)                2.8%
+2      Father's Name                1.9%
+3      Mother's Name               28.3%
+4      Citizenship No.              1.8%
+5      Full Name (English)          3.6%
+6      Gender                       3.7%
+7      DOB Year                     4.6%
+8      DOB Month                    8.3%
+9      DOB Day                      8.3%
+10     District                     2.8%
+11     Municipality/Address         4.5%
+12     Ward No.                    10.9%
+13     Issue Date                   1.8%
+
+--------------------------------------------------------------------------------
+4. MOST COMMON EXTRACTED VALUES
+--------------------------------------------------------------------------------
+
+
+Name (Nepali):
+  - सिसम पन्थ (appeared 5 times)
+  - निश्चल राज तुला (appeared 4 times)
+  - युनिश शाक्य (appeared 3 times)
+  - निश्चल राज तुलाधर (appeared 3 times)
+  - कर्मिष्टा बस्नेत (appeared 2 times)
+
+Father's Name:
+  - रुद्रराज पन्थ (appeared 5 times)
+  - राजेद्र तुला (appeared 4 times)
+  - युवराज शाक्य (appeared 3 times)
+  - राजेद्र तुलाधर (appeared 3 times)
+  - किरण बस्नेत (appeared 2 times)
+
+Citizenship No.:
+  - 28-01-76-02213 (appeared 7 times)
+  - 43-01-78-00495 (appeared 6 times)
+  - 28-01-76-02041 (appeared 4 times)
+  - 27-01-78-04654 (appeared 3 times)
+  - 25-02-78-00536 (appeared 2 times)
+
+Full Name (English):
+  - NISHCHAL RAJ TULADHAR (appeared 7 times)
+  - SHISAM PANTHA (appeared 5 times)
+  - SAHANSHEELA MAHARJAN (appeared 4 times)
+  - SIDDHARTHA THAPA (appeared 3 times)
+  - PRAKASH TAMANG (appeared 2 times)
+
+District:
+  - Surkhet (appeared 17 times)
+  - LALITPUR (appeared 13 times)
+  - Dailekh (appeared 12 times)
+  - Chitwan (appeared 8 times)
+  - Nuwakot (appeared 7 times)
+
+Municipality/Address:
+  - Lalitpur (appeared 12 times)
+  - Naumule (appeared 7 times)
+  - Vyas (appeared 6 times)
+  - Birendranagar (appeared 5 times)
+  - Barahataal (appeared 4 times)
+
+--------------------------------------------------------------------------------
+5. POST-PROCESSING CORRECTIONS
+--------------------------------------------------------------------------------
+
+Father's Name Fix: 24 times
+District Correction: 18 times
+Municipality Correction: 9 times
+Surname Correction: 6 times
+
+--------------------------------------------------------------------------------
+6. SAMPLE EXTRACTIONS
+--------------------------------------------------------------------------------
+
+Note: For accuracy metrics, please provide ground truth data.
+See ground_truth_template.json for format.
+
+================================================================================
+END OF REPORT
+================================================================================

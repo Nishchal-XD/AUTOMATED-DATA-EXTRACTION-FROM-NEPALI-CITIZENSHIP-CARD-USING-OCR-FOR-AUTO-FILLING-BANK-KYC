@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-08T23:31:57.596336",
+  "unique_id": "445ae898-9b08-4b0a-a6f6-10ba8c242ec9",
+  "front_image": "front20.jpg",
+  "back_image": "back20.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9126086831092834,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.8918203711509705,
+        "text": "शिशिर योग"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.8329277634620667,
+        "text": ""
+      },
+      {
+        "box_id": 3,
+        "class_id": 2,
+        "confidence": 0.8317260146141052,
+        "text": "काँसी नाध यौग"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 9,
+        "confidence": 0.9611210823059082,
+        "text": "01"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.9578144550323486,
+        "text": "2003"
+      },
+      {
+        "box_id": 2,
+        "class_id": 6,
+        "confidence": 0.9311946034431458,
+        "text": "Male"
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.9052889347076416,
+        "text": "12"
+      },
+      {
+        "box_id": 4,
+        "class_id": 11,
+        "confidence": 0.9035288095474243,
+        "text": "Simtaa"
+      },
+      {
+        "box_id": 5,
+        "class_id": 13,
+        "confidence": 0.9012916684150696,
+        "text": "२०७८-०७-०४,"
+      },
+      {
+        "box_id": 6,
+        "class_id": 12,
+        "confidence": 0.8987584710121155,
+        "text": "5"
+      },
+      {
+        "box_id": 7,
+        "class_id": 4,
+        "confidence": 0.8757840394973755,
+        "text": "64-01-78-04081"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.8486513495445251,
+        "text": "Surkhet"
+      },
+      {
+        "box_id": 9,
+        "class_id": 5,
+        "confidence": 0.810143232345581,
+        "text": "SHISHIR YOGI"
+      }
+    ]
+  },
+  "form_data": null
+}

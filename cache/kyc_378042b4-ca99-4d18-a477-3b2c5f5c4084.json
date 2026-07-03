@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T20:20:18.226080",
+  "unique_id": "378042b4-ca99-4d18-a477-3b2c5f5c4084",
+  "front_image": "आवाज बुलुन",
+  "back_image": "AAWAJ BULUN",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 3,
+        "confidence": 0.9371170401573181,
+        "text": "ज्ञानिबुलुन"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.9177358746528625,
+        "text": "पेटै बहादुर बुलुन"
+      },
+      {
+        "box_id": 2,
+        "class_id": 0,
+        "confidence": 0.8776028156280518,
+        "text": "विन अकवानपुर कार्यालय"
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.8701172471046448,
+        "text": "आवाज बुलुन"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.9912841320037842,
+        "text": "२०६३-११-११"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.9624497294425964,
+        "text": "1989"
+      },
+      {
+        "box_id": 2,
+        "class_id": 6,
+        "confidence": 0.9577754139900208,
+        "text": "Male"
+      },
+      {
+        "box_id": 3,
+        "class_id": 9,
+        "confidence": 0.9334696531295776,
+        "text": "14"
+      },
+      {
+        "box_id": 4,
+        "class_id": 8,
+        "confidence": 0.9184467792510986,
+        "text": "09"
+      },
+      {
+        "box_id": 5,
+        "class_id": 4,
+        "confidence": 0.8297113180160522,
+        "text": "31-30-14-123"
+      },
+      {
+        "box_id": 6,
+        "class_id": 11,
+        "confidence": 0.8138127326965332,
+        "text": "Madi"
+      },
+      {
+        "box_id": 7,
+        "class_id": 12,
+        "confidence": 0.7722717523574829,
+        "text": "6"
+      },
+      {
+        "box_id": 8,
+        "class_id": 5,
+        "confidence": 0.7717716693878174,
+        "text": "AAWAJ BULUN"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.6577326655387878,
+        "text": "Makwanpur"
+      }
+    ]
+  },
+  "form_data": null
+}

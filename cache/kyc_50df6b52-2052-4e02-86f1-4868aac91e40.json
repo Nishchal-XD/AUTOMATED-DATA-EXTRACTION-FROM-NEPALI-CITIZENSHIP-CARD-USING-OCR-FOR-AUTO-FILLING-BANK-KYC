@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T22:24:01.569447",
+  "unique_id": "50df6b52-2052-4e02-86f1-4868aac91e40",
+  "front_image": "समिर भित्रकोटी",
+  "back_image": "SAMIR BHITRAKOTI",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 1,
+        "confidence": 0.9240928292274475,
+        "text": "समिर भित्रकोटी"
+      },
+      {
+        "box_id": 1,
+        "class_id": 3,
+        "confidence": 0.8489800691604614,
+        "text": "सरिता भित्रकोटी"
+      },
+      {
+        "box_id": 2,
+        "class_id": 0,
+        "confidence": 0.8324729800224304,
+        "text": "पि ३ कार्यालय - काठमाड"
+      },
+      {
+        "box_id": 3,
+        "class_id": 2,
+        "confidence": 0.6297820806503296,
+        "text": "सुरज भित्रकोटी दमाई"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.9871025681495667,
+        "text": "२०८१-०८-१०"
+      },
+      {
+        "box_id": 1,
+        "class_id": 8,
+        "confidence": 0.9638141989707947,
+        "text": "08"
+      },
+      {
+        "box_id": 2,
+        "class_id": 7,
+        "confidence": 0.9626773595809937,
+        "text": "2007"
+      },
+      {
+        "box_id": 3,
+        "class_id": 9,
+        "confidence": 0.9523531794548035,
+        "text": "22"
+      },
+      {
+        "box_id": 4,
+        "class_id": 12,
+        "confidence": 0.9506314992904663,
+        "text": "10"
+      },
+      {
+        "box_id": 5,
+        "class_id": 5,
+        "confidence": 0.9482570290565491,
+        "text": "SAMIR BHITRAKOTI"
+      },
+      {
+        "box_id": 6,
+        "class_id": 6,
+        "confidence": 0.9454363584518433,
+        "text": "Male"
+      },
+      {
+        "box_id": 7,
+        "class_id": 11,
+        "confidence": 0.9134785532951355,
+        "text": "Nagarjun"
+      },
+      {
+        "box_id": 8,
+        "class_id": 4,
+        "confidence": 0.8706973195075989,
+        "text": "27-01-81-09585"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.7061300873756409,
+        "text": "Kathmandu"
+      }
+    ]
+  },
+  "form_data": null
+}

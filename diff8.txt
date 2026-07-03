@@ -1,0 +1,329 @@
+﻿diff --git a/main.py b/mayn.py
+index afd629bc..c1805dae 100644
+--- a/main.py
++++ b/mayn.py
+@@ -36,8 +36,8 @@ if tesseract_path and os.path.exists(tesseract_path):
+ # ------------------ CONFIG ------------------
+ SWAGGER_URL = '/api/docs'
+ ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
+-TESS_CONFIG_ENG = "--oem 1 --psm 7"
+-TESS_CONFIG_NEP = "--oem 1 --psm 7"
++TESS_CONFIG_ENG = "--oem 1 --psm 6"
++TESS_CONFIG_NEP = "--oem 1 --psm 6"
+ UPLOAD_FOLDER = 'uploads'
+ OCR_BACKEND = os.getenv("OCR_BACKEND", "tesseract").lower()
+ NOUGAT_MODEL_ID = os.getenv("NOUGAT_MODEL_ID", "facebook/nougat-base")
+@@ -279,24 +279,31 @@ def correct_district_name(ocr_text):
+     if not ocr_text:
+         return ocr_text
+     
+-    import difflib
+-    
+     # Clean the OCR text
+     cleaned = ocr_text.strip().lower()
+-    cleaned_no_space = cleaned.replace(" ", "").replace("-", "")
+     
+     # Direct match (case-insensitive)
+     for district in NEPAL_DISTRICTS:
+-        dist_lower = district.lower()
+-        if dist_lower == cleaned or dist_lower.replace(" ", "") == cleaned_no_space:
++        if district.lower() == cleaned:
+             return district
+     
+-    # Fuzzy match using difflib
+-    matches = difflib.get_close_matches(cleaned_no_space, [d.lower() for d in NEPAL_DISTRICTS], n=1, cutoff=0.6 if len(cleaned_no_space) > 4 else 0.8)
+-    if matches:
+-        match_idx = [d.lower() for d in NEPAL_DISTRICTS].index(matches[0])
+-        return NEPAL_DISTRICTS[match_idx]
+-        
++    # Common OCR mistakes for districts
++    district_variations = {
++        "sarahi": "Sarlahi",
++        "saralahi": "Sarlahi", 
++        "sarlahi": "Sarlahi",
++        "sarlah": "Sarlahi",
++        "sarlai": "Sarlahi",
++        "serlahi": "Sarlahi",
++        "tanahu": "Tanahun",
++        "tanahun": "Tanahun"
++    }
++    
++    if cleaned in district_variations:
++        return district_variations[cleaned]
++    
++    # For other districts, try fuzzy matching if needed
++    # But for now, return the original if no match
+     return ocr_text
+ 
+ 
+@@ -432,13 +439,6 @@ def allowed_file(*filenames):
+ def preprocess_for_nepali(pil_img):
+     img = np.array(pil_img)
+     gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
+-    
+-    # Upscale heavily since Tesseract accuracy plummets below ~20-30px x-height
+-    scale = 2.5
+-    width = int(gray.shape[1] * scale)
+-    height = int(gray.shape[0] * scale)
+-    gray = cv2.resize(gray, (width, height), interpolation=cv2.INTER_CUBIC)
+-    
+     blur = cv2.GaussianBlur(gray, (3, 3), 0)
+     thresh = cv2.threshold(blur, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
+     return Image.fromarray(thresh)
+@@ -467,13 +467,6 @@ def deskew_image(pil_img):
+ def preprocess_for_english(pil_img):
+     img = np.array(pil_img)
+     gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
+-    
+-    # Upscale heavily to enhance feature detection for Tesseract
+-    scale = 2.5
+-    width = int(gray.shape[1] * scale)
+-    height = int(gray.shape[0] * scale)
+-    gray = cv2.resize(gray, (width, height), interpolation=cv2.INTER_CUBIC)
+-    
+     denoised = cv2.bilateralFilter(gray, 9, 75, 75)
+     thresh = cv2.adaptiveThreshold(denoised, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
+                                    cv2.THRESH_BINARY, 11, 2)
+@@ -581,13 +574,10 @@ FIELD_PREFIX_PATTERNS = {
+         r"αñ¿αñ╛αñ«\s*:",        # "name:" label with colon
+         r"(?<![αñà-αñ╣])αñ¿αñ╛αñ«(?!\s*(?:αñÑαñ░|αñª|αñªαÑçαñ╡|αñ░αñ╛αñ£|αñ¼αñ╣αñ╛αñªαÑüαñ░|αñòαÑüαñ«αñ╛αñ░|αñ╕αñ┐αñéαñ╣|αñ¬αÑìαñ░αñ╕αñ╛αñª))",  # bare "αñ¿αñ╛αñ«" not part of a name
+         r"αñ£αñ╛αñ«αñ╖αñ░",
+-        r"αñ¿[αñ░αññαÑìαñ░αñ╛αñ«]+\s*[αñÑαñ»][αñ░αñ░αÑç]+", # Matches "αñ¿αñ░αñ« αñÑαñ░αÑç", "αñ¿αññαÑìαñ░ αñÑαñ░αÑç", etc.
+-        r"(?:αñ¿αñ╛αñ«|αñ¿αñ░αñ«|αñ¿αññαÑìαñ░|αñ¿αññαñ╛αñ«)\s*(?:αñÑαñ░|αñÑαñ░αÑç|αñÑαñ¬|αñ»αñ░αÑç)",
+     ],
+     2: [
+         r"(?:father\s*'?s?)\s*name",
+         r"(?:αñ¼αÑüαñ╡(?:αñ╛αñòαÑï|αÑüαñòαÑï)?|αñ¼αñ╛αñ¼αÑü(?:αñòαÑï)?|αñ╣αñ╛αñ¼αÑü(?:αñòαÑï)?|αñ¼αÑüαñ¼)(?:αñòαÑï)?(?:\s*αñ¿αñ░/?αñÑαÑçαñ░)?",
+-        r"^.*αñÑαñ░[αñâ:]\s*",
+         r"αñ¼αÑüαñ¼αÑüαñòαÑï\s*αñ¿αñ░/?αñÑαÑçαñ░",
+         r"αñ¼αñ╛αñóαÑìαñòαÑï\s*αñ╣αñ«αñ┐αñ¬αñ░\s*αñ░αÑïαñ¬αÑçαññ",
+         r"αñ¼αñ╛αñóαÑüαñòαñòαÑìαñ¬αÑïαñ¡αñ┐αñàαñ░",
+@@ -599,7 +589,6 @@ FIELD_PREFIX_PATTERNS = {
+     3: [
+         r"(?:mother\s*'?s?)\s*name",
+         r"(?:αñåαñ«(?:αñ╛αñòαÑï|αñòαÑï)?|αñåαñ«αñ╛)(?:\s*αñòαÑï)?(?:\s*αñ¿αñ╛αñ«(?:\s*αñÑαñ░)?)?",
+-        r"^.*αñÑαñ░[αñâ:]\s*",
+         r"αñåαñ«αñ╛αñòαÑï\s*αñ¿αñ╛αñ«(?:\s*αñÑαñ░)?",
+         r"αñëαñòαÑìαñòαñ┐αñòαÑï\s*αñ¿αñ╛αñ«\s*αñ¬αñ░αñâ",
+         r"αñ£αÑêαñüαñ«αÑìαñ«αñ╛αñòαÑï\s*αñ¿αñ╛αñ«",
+@@ -725,29 +714,11 @@ def fix_nepali_name(text):
+     text = re.sub(r'αñòαñ«αñ╛αñ░αÑÇ', 'αñòαÑüαñ«αñ╛αñ░αÑÇ', text)
+ 
+     # Split common surnames from the first name when run together without space
+-    _surnames = r'(αñòαñ╛αñ░αÑìαñòαÑÇ|αñûαñíαÑìαñùαÑÇ|αñ¡αñ┐αññαÑìαñ░αñòαÑïαñƒαÑÇ|αñ¬αÑüαñíαñ╛αñ╕αÑêαñ¿αÑÇ|αñÜαñ¿αÑìαñª|αñ╢αñ╛αñ╣|αñÑαñ╛αñ¬αñ╛|αñ╢αÑìαñ░αÑçαñ╖αÑìαñá|αñ«αñùαñ░|αñùαÑüαñ░αÑüαñÖ|αñùαÑüαñ╕αÑìαñÖ|αññαñ╛αñ«αñ╛αñÖ|αññαñ╛αñ«αñ╛αñÖαÑìαñù|αñùαÑîαñÜαñ¿|αñÜαÑîαñºαñ░αÑÇ|αñÜαÑîαñºαñ░|αñ▓αñ╛αñ«αñ╛|αñ▓αñ╛αñ«|αñ¼αñ£αÑìαñ░αñ╛αñÜαñ╛αñ░αÑìαñ»|αñ¼αñ¼αÑìαñ░αñ╛αñÜαñ╛αñ░αÑìαñ»|αñ╕αÑìαñ»αñ╛αñÖαññαñ╛αñ¿|αñ╕αÑìαñ¬αñ╛αñÖαññαñ╛αñ¿|αñåαñÜαñ╛αñ░αÑìαñ»|αñ░αÑçαñùαÑìαñ«αÑÇ|αñ░αÑçαñùαÑìαñ«)'
++    _surnames = r'(αñòαñ╛αñ░αÑìαñòαÑÇ|αñûαñíαÑìαñùαÑÇ|αñ¡αñ┐αññαÑìαñ░αñòαÑïαñƒαÑÇ|αñ¬αÑüαñíαñ╛αñ╕αÑêαñ¿αÑÇ|αñÜαñ¿αÑìαñª|αñ╢αñ╛αñ╣|αñÑαñ╛αñ¬αñ╛|αñ╢αÑìαñ░αÑçαñ╖αÑìαñá|αñ«αñùαñ░|αñùαÑüαñ░αÑüαñÖ|αññαñ╛αñ«αñ╛αñÖ|αñùαÑîαñÜαñ¿)'
+     # Matches any non-space characters followed by the surname
+     text = re.sub(r'([^\s]+)' + _surnames + r'\b', r'\1 \2', text)
+-    
+-    # Prefix garbage that slipped through
+-    text = re.sub(r'^αñºαñ░\s+', '', text)
+-    text = re.sub(r'^αñ░αñ¬\s+αñºαñ░\s+', '', text)
+-    text = re.sub(r'^αñòαñ¼αÑüαñòαÑï\s+', '', text)
+ 
+     # ---- Singular character fixes ----
+-    text = re.sub(r'\bαñÜαÑîαñºαñ░\b', 'αñÜαÑîαñºαñ░αÑÇ', text)
+-    text = re.sub(r'αñÜαÑîαñºαñ░$', 'αñÜαÑîαñºαñ░αÑÇ', text)
+-    text = re.sub(r'\bαñ▓αñ╛αñ«\b', 'αñ▓αñ╛αñ«αñ╛', text)
+-    text = re.sub(r'αñ▓αñ╛αñ«$', 'αñ▓αñ╛αñ«αñ╛', text)
+-    text = re.sub(r'\bαñ¼αñ¼αÑìαñ░αñ╛αñÜαñ╛αñ░αÑìαñ»\b', 'αñ¼αñ£αÑìαñ░αñ╛αñÜαñ╛αñ░αÑìαñ»', text)
+-    text = re.sub(r'αñ¼αñ¼αÑìαñ░αñ╛αñÜαñ╛αñ░αÑìαñ»$', 'αñ¼αñ£αÑìαñ░αñ╛αñÜαñ╛αñ░αÑìαñ»', text)
+-    text = re.sub(r'\bαñ╕αÑìαñ¬αñ╛αñÖαññαñ╛αñ¿\b', 'αñ╕αÑìαñ»αñ╛αñÖαññαñ╛αñ¿', text)
+-    text = re.sub(r'αñ╕αÑìαñ¬αñ╛αñÖαññαñ╛αñ¿$', 'αñ╕αÑìαñ»αñ╛αñÖαññαñ╛αñ¿', text)
+-    text = re.sub(r'\bαñ░αÑçαñùαÑìαñ«\b', 'αñ░αÑçαñùαÑìαñ«αÑÇ', text)
+-    text = re.sub(r'αñ░αÑçαñùαÑìαñ«$', 'αñ░αÑçαñùαÑìαñ«αÑÇ', text)
+-    text = re.sub(r'\bαñùαÑüαñ╕αÑìαñÖ\b', 'αñùαÑüαñ░αÑüαñÖ', text)
+-    text = re.sub(r'αñùαÑüαñ╕αÑìαñÖ$', 'αñùαÑüαñ░αÑüαñÖ', text)
+-    text = re.sub(r'\bαñàαñ«αÑéαÑâαññ', 'αñàαñ«αÑâαññ', text)
+     text = re.sub(r'\bαñ¡αñ¿', 'αñºαñ¿', text)
+     text = re.sub(r'^αñ¡αñ¿', 'αñºαñ¿', text)
+     text = re.sub(r'\bαñàαñ¢αñ╛αñ«\b', 'αñàαñ¢αñ╛αñ«αÑÇ', text)
+@@ -894,18 +865,6 @@ _ENGLISH_TO_NEPALI_FIRST = {
+     'subam':      'αñ╢αÑüαñ╡αñ«',
+     'shuvam':     'αñ╢αÑüαñ╡αñ«',
+     'shubham':    'αñ╢αÑüαñ¡αñ«',
+-    
+-    # Common surnames
+-    'lama':       'αñ▓αñ╛αñ«αñ╛',
+-    'tamang':     'αññαñ╛αñ«αñ╛αñÖ',
+-    'chaudhary':  'αñÜαÑîαñºαñ░αÑÇ',
+-    'sherpa':     'αñ╢αÑçαñ░αÑìαñ¬αñ╛',
+-    'magar':      'αñ«αñùαñ░',
+-    'bajracharya':'αñ¼αñ£αÑìαñ░αñ╛αñÜαñ╛αñ░αÑìαñ»',
+-    'syangtan':   'αñ╕αÑìαñ»αñ╛αñÖαññαñ╛αñ¿',
+-    'acharya':    'αñåαñÜαñ╛αñ░αÑìαñ»',
+-    'regmi':      'αñ░αÑçαñùαÑìαñ«αÑÇ',
+-    'gurung':     'αñùαÑüαñ░αÑüαñÖ',
+ }
+ 
+ 
+@@ -1292,15 +1251,12 @@ def post_process_extracted_data(data):
+         if item['class_id'] == 5 and item.get('text'):  # english name
+             item['text'] = re.sub(r'(?i)^es\s+', '', item['text'])
+             item['text'] = re.sub(r'(?i)^ree\s+', '', item['text'])
+-            item['text'] = re.sub(r'(?i)^ee\s+', '', item['text'])
+-            # Address garbage prefix ING commonly read from the top-left logo or watermark
+-            item['text'] = re.sub(r'(?i)^ing\w*\s*', '', item['text'])
+             
+             # Specific user-reported misreads
+             item['text'] = re.sub(r'\bAASISA\b', 'AASISH', item['text'], flags=re.IGNORECASE)
+             
+-            # Remove standalone "ING" misreads 
+-            item['text'] = re.sub(r'(?i)\bING\b', '', item['text'])
++            # "ING is coming garbage value" - typically attached to a word with a space by OCR
++            item['text'] = re.sub(r'\s+ING\b', 'ING', item['text'], flags=re.IGNORECASE)
+             
+             # Normalize spacing / casing
+             item['text'] = ' '.join(item['text'].upper().split())
+@@ -1337,88 +1293,6 @@ def post_process_extracted_data(data):
+     return data
+ # =====================================
+ 
+-# ========== LLM REFINEMENT ==========
+-def gemini_refine_kyc(data, front_path, back_path):
+-    """Pass the post-processed OCR JSON along with the actual images to Gemini 1.5 for visual validation."""
+-    gemini_key = os.getenv("GEMINI_API_KEY")
+-    if not gemini_key:
+-        logger.warning("GEMINI_API_KEY not found. Skipping final LLM refinement.")
+-        return data
+-        
+-    try:
+-        import google.generativeai as genai
+-        import json
+-        from PIL import Image
+-        genai.configure(api_key=gemini_key)
+-        
+-        # Switched to 2.0-flash to avoid the 20 Requests Per Day API limit of the newer 2.5 endpoint
+-        model = genai.GenerativeModel('gemini-2.0-flash')
+-        
+-        # Optimize image size to dramatically speed up API upload speed
+-        img_front = Image.open(front_path)
+-        img_front.thumbnail((1024, 1024))
+-        
+-        img_back = Image.open(back_path)
+-        img_back.thumbnail((1024, 1024))
+-        
+-        prompt = f"""
+-        You are an expert Nepali KYC Document data extractor and corrector. I have attached the original front and back images of a Nepali Citizenship Card.
+-        I have also provided a preliminary JSON data mapping extracted via a native OCR framework.
+-        
+-        CRITICAL SCHEMA MAPPING:
+-        The JSON contains `class_id` integers which perfectly map to explicit form fields. 
+-        Front Side Fields:
+-        - 0: Issue Office
+-        - 1: Person's Nepali Name
+-        - 2: Father's Name
+-        - 3: Mother's Name
+-        Back Side Fields:
+-        - 4: Citizenship Number
+-        - 5: Person's English Name
+-        - 6: Gender
+-        - 7: Date of Birth (Year)
+-        - 8: Date of Birth (Month)
+-        - 9: Date of Birth (Day)
+-        - 10: District
+-        - 11: Municipality
+-        - 12: Ward Number
+-        - 13: Full Issue Date (B.S.)
+-
+-        Your task is to closely analyze the attached physical images, verify every single text entry strictly matching its corresponding `class_id` schema, and fix any OCR misspellings or typos natively reading from the picture.
+-        You MUST place the extracted strings precisely into their proper `class_id` objects.
+-        You must rely entirely on the provided images for truth. Extract the EXACT spellings as seen on the physical card.
+-        Return ONLY valid JSON sharing the EXACT same structure array as the input data. Do NOT use markdown code blocks (like ```json), just the naked raw JSON string.
+-        
+-        Initial OCR Data Array:
+-        {json.dumps(data, ensure_ascii=False)}
+-        """
+-        
+-        response = model.generate_content([prompt, img_front, img_back])
+-        text_resp = response.text.strip()
+-        
+-        # Clean up possible markdown code block wrappers
+-        if text_resp.startswith("```json"):
+-            text_resp = text_resp[7:]
+-        if text_resp.startswith("```"):
+-            text_resp = text_resp[3:]
+-        if text_resp.endswith("```"):
+-            text_resp = text_resp[:-3]
+-            
+-        refined_data = json.loads(text_resp.strip())
+-        
+-        # Basic validation to ensure the LLM didn't break the structure
+-        if "front" in refined_data and "back" in refined_data:
+-            logger.info("Gemini LLM Refinement successful.")
+-            return refined_data
+-        else:
+-            logger.warning("Gemini LLM returned malformed structure. Falling back to original.")
+-            return data
+-            
+-    except Exception as e:
+-        logger.error(f"Gemini LLM Refinement failed: {e}")
+-        return data
+-# ====================================
+-
+ # ------------------ ROUTES ------------------
+ @app.route("/", methods=['GET'])
+ def index():
+@@ -1571,24 +1445,24 @@ def upload_file():
+ 
+         # Cross-check Front (Nepali Name) and Back (English Name)
+         try:
+-            front_name_text = ""
++            front_name = ""
+             for item in final_output.get('front', []):
+                 if item.get('class_id') == 1 and item.get('text'):
+-                    front_name_text = item.get('text')
++                    front_name = item.get('text')
+                     break
+                     
+-            back_name_text = ""
++            back_name = ""
+             for item in final_output.get('back', []):
+                 if item.get('class_id') == 5 and item.get('text'):
+-                    back_name_text = item.get('text')
++                    back_name = item.get('text')
+                     break
+             
+-            if front_name_text and back_name_text:
++            if front_name and back_name:
+                 import difflib
+-                romanized_front = nepali_to_roman(front_name_text)
++                romanized_front = nepali_to_roman(front_name)
+                 # Clean up punctuation and spaces for cleaner compare
+                 rf_clean = re.sub(r'[^a-z]', '', romanized_front.lower())
+-                bn_clean = re.sub(r'[^a-z]', '', back_name_text.lower())
++                bn_clean = re.sub(r'[^a-z]', '', back_name.lower())
+                 
+                 similarity = difflib.SequenceMatcher(None, rf_clean, bn_clean).ratio()
+                 logger.info(f"Name match similarity: {similarity:.2f} ({rf_clean} vs {bn_clean})")
+@@ -1602,9 +1476,6 @@ def upload_file():
+         # ========== ONLY CHANGE HERE ==========
+         # Apply simple post-processing for father's name
+         final_output = post_process_extracted_data(final_output)
+-        
+-        # Apply final multimodal LLM refinement if API key exists
+-        final_output = gemini_refine_kyc(final_output, front_path, back_path)
+         # ======================================
+ 
+         session['kyc_data'] = final_output
+@@ -1682,19 +1553,11 @@ def kyc_form():
+     if prefill["dob_year"] and prefill["dob_month"] and prefill["dob_day"]:
+         try:
+             dob_year = str(prefill["dob_year"]).strip()
+-            dob_month_raw = str(prefill["dob_month"]).strip().upper()
++            dob_month = str(prefill["dob_month"]).strip()
+             dob_day = str(prefill["dob_day"]).strip()
+             
+-            # Map text abbreviations to numeric strings
+-            month_map = {"JAN": "01", "FEB": "02", "MAR": "03", "APR": "04", "MAY": "05", "JUN": "06", 
+-                         "JUL": "07", "AUG": "08", "SEP": "09", "OCT": "10", "NOV": "11", "DEC": "12"}
+-            for m_str, m_num in month_map.items():
+-                if m_str in dob_month_raw:
+-                    dob_month_raw = m_num
+-                    break
+-            
+             dob_year = re.sub(r"\D", "", dob_year)
+-            dob_month = re.sub(r"\D", "", dob_month_raw).zfill(2)
++            dob_month = re.sub(r"\D", "", dob_month).zfill(2)
+             dob_day = re.sub(r"\D", "", dob_day).zfill(2)
+             
+             if len(dob_year) == 4 and len(dob_month) == 2 and len(dob_day) == 2:

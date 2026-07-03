@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T19:29:51.693829",
+  "unique_id": "845bcf88-3bd4-46ac-ab37-2897163a9867",
+  "front_image": "अनिस तामाङ",
+  "back_image": "ANISH TAMANG",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 3,
+        "confidence": 0.9263795018196106,
+        "text": "चन्द्रमाँया थिङ"
+      },
+      {
+        "box_id": 1,
+        "class_id": 0,
+        "confidence": 0.8902605175971985,
+        "text": "ललितपुर"
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.8523454070091248,
+        "text": "विर बहादुर तामाङ्ग"
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.8469750881195068,
+        "text": "अनिस तामाङ"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.9858933687210083,
+        "text": "२०८१-०७-०७"
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.9687666893005371,
+        "text": "01"
+      },
+      {
+        "box_id": 2,
+        "class_id": 7,
+        "confidence": 0.9511152505874634,
+        "text": "2008"
+      },
+      {
+        "box_id": 3,
+        "class_id": 12,
+        "confidence": 0.945334792137146,
+        "text": "7"
+      },
+      {
+        "box_id": 4,
+        "class_id": 8,
+        "confidence": 0.9384701251983643,
+        "text": "05"
+      },
+      {
+        "box_id": 5,
+        "class_id": 11,
+        "confidence": 0.9242625832557678,
+        "text": "Godawari"
+      },
+      {
+        "box_id": 6,
+        "class_id": 6,
+        "confidence": 0.9233404397964478,
+        "text": "Male"
+      },
+      {
+        "box_id": 7,
+        "class_id": 5,
+        "confidence": 0.9051525592803955,
+        "text": "ANISH TAMANG"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.8278397917747498,
+        "text": "Lalitpur"
+      },
+      {
+        "box_id": 9,
+        "class_id": 4,
+        "confidence": 0.8087725043296814,
+        "text": "28-01-81-03401"
+      }
+    ]
+  },
+  "form_data": null
+}

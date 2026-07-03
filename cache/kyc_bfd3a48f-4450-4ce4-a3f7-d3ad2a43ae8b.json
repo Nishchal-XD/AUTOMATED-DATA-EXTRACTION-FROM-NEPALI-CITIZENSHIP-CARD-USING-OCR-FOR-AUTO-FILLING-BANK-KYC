@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T22:11:16.371387",
+  "unique_id": "bfd3a48f-4450-4ce4-a3f7-d3ad2a43ae8b",
+  "front_image": "प्रशान्त थापा",
+  "back_image": "PRASHANT THAPA",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.941852867603302,
+        "text": "सुर्खेत"
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.9165136814117432,
+        "text": "प्रशान्त थापा"
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.8455652594566345,
+        "text": "सूर्य बहादुर थापा"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.7569758296012878,
+        "text": ""
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9724391102790833,
+        "text": "2004"
+      },
+      {
+        "box_id": 1,
+        "class_id": 8,
+        "confidence": 0.9226717948913574,
+        "text": "07"
+      },
+      {
+        "box_id": 2,
+        "class_id": 9,
+        "confidence": 0.8969968557357788,
+        "text": "13"
+      },
+      {
+        "box_id": 3,
+        "class_id": 11,
+        "confidence": 0.8947198390960693,
+        "text": "Gurans"
+      },
+      {
+        "box_id": 4,
+        "class_id": 6,
+        "confidence": 0.8816679120063782,
+        "text": "Male"
+      },
+      {
+        "box_id": 5,
+        "class_id": 12,
+        "confidence": 0.8046593070030212,
+        "text": "5"
+      },
+      {
+        "box_id": 6,
+        "class_id": 4,
+        "confidence": 0.8042514324188232,
+        "text": "64-01-77-04449"
+      },
+      {
+        "box_id": 7,
+        "class_id": 10,
+        "confidence": 0.8025839924812317,
+        "text": "Dailekh"
+      },
+      {
+        "box_id": 8,
+        "class_id": 5,
+        "confidence": 0.7238248586654663,
+        "text": "PRASHANT THAPA"
+      },
+      {
+        "box_id": 9,
+        "class_id": 13,
+        "confidence": 0.6083168983459473,
+        "text": "२०७७.१९-&"
+      }
+    ]
+  },
+  "form_data": null
+}

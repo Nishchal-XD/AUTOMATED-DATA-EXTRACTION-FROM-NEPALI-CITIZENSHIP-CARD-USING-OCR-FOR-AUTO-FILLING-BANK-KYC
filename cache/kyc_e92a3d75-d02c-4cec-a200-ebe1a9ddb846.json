@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-26T13:17:26.683566",
+  "unique_id": "e92a3d75-d02c-4cec-a200-ebe1a9ddb846",
+  "front_image": "208front.jpg",
+  "back_image": "208back.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9182538390159607,
+        "text": "इलाका प्रशासन कार्यालय, तुलसीपुर, दाङ"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.8757059574127197,
+        "text": "शेर बहादुर डाँगी"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.859874963760376,
+        "text": "XXX"
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.7442353367805481,
+        "text": "तोयननाथ डाँगी"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9662929177284241,
+        "text": "1988"
+      },
+      {
+        "box_id": 1,
+        "class_id": 5,
+        "confidence": 0.9405179023742676,
+        "text": "TOYANATH DANG"
+      },
+      {
+        "box_id": 2,
+        "class_id": 8,
+        "confidence": 0.9190054535865784,
+        "text": "Jul"
+      },
+      {
+        "box_id": 3,
+        "class_id": 11,
+        "confidence": 0.8812064528465271,
+        "text": "Durawa"
+      },
+      {
+        "box_id": 4,
+        "class_id": 10,
+        "confidence": 0.8371170163154602,
+        "text": "Dang"
+      },
+      {
+        "box_id": 5,
+        "class_id": 4,
+        "confidence": 0.8210335373878479,
+        "text": "521027/57"
+      },
+      {
+        "box_id": 6,
+        "class_id": 6,
+        "confidence": 0.7369529008865356,
+        "text": "Male"
+      },
+      {
+        "box_id": 7,
+        "class_id": 9,
+        "confidence": 0.6532068848609924,
+        "text": "25"
+      },
+      {
+        "box_id": -1,
+        "class_id": 12,
+        "confidence": 1.0,
+        "text": "6"
+      },
+      {
+        "box_id": -1,
+        "class_id": 13,
+        "confidence": 1.0,
+        "text": "२०४४-०४-२०"
+      }
+    ]
+  },
+  "form_data": null
+}

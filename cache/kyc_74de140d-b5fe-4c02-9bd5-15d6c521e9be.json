@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T20:25:21.767662",
+  "unique_id": "74de140d-b5fe-4c02-9bd5-15d6c521e9be",
+  "front_image": "सिसम पन्थ",
+  "back_image": "SHISAM PANTHA",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 3,
+        "confidence": 0.956199049949646,
+        "text": "मैना पन्थ"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.9531260132789612,
+        "text": "रुटराज पन्थ"
+      },
+      {
+        "box_id": 2,
+        "class_id": 0,
+        "confidence": 0.8823937177658081,
+        "text": "त ठा । न 1"
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.8131241202354431,
+        "text": "सिसम पन्थ"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 5,
+        "confidence": 0.9521052241325378,
+        "text": "SHISAM PANTHA"
+      },
+      {
+        "box_id": 1,
+        "class_id": 6,
+        "confidence": 0.9467904567718506,
+        "text": "Seu Female"
+      },
+      {
+        "box_id": 2,
+        "class_id": 7,
+        "confidence": 0.9274595379829407,
+        "text": "2003"
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.9236907958984375,
+        "text": "10"
+      },
+      {
+        "box_id": 4,
+        "class_id": 4,
+        "confidence": 0.909735381603241,
+        "text": "3-01-78-0405"
+      },
+      {
+        "box_id": 5,
+        "class_id": 13,
+        "confidence": 0.9091171026229858,
+        "text": "२०७८.०).२१"
+      },
+      {
+        "box_id": 6,
+        "class_id": 12,
+        "confidence": 0.888079047203064,
+        "text": "12"
+      },
+      {
+        "box_id": 7,
+        "class_id": 9,
+        "confidence": 0.8875137567520142,
+        "text": "11"
+      },
+      {
+        "box_id": 8,
+        "class_id": 11,
+        "confidence": 0.7875267863273621,
+        "text": "Byas"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.759135901927948,
+        "text": "Tanahun"
+      }
+    ]
+  },
+  "form_data": null
+}

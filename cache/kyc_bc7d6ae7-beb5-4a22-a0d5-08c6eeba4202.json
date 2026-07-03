@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T22:02:50.930860",
+  "unique_id": "bc7d6ae7-beb5-4a22-a0d5-08c6eeba4202",
+  "front_image": "कर्मिष्टा बस्नेत",
+  "back_image": "KARMISTA BASNET",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 3,
+        "confidence": 0.916903018951416,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.8773874044418335,
+        "text": "कर्मिष्टा बस्नेत"
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.85226970911026,
+        "text": "किरण बस्नेत"
+      },
+      {
+        "box_id": 3,
+        "class_id": 0,
+        "confidence": 0.762643039226532,
+        "text": "सुर्खेत"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9517217874526978,
+        "text": "2004"
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.9512261748313904,
+        "text": "01"
+      },
+      {
+        "box_id": 2,
+        "class_id": 11,
+        "confidence": 0.9156875610351562,
+        "text": "Barahataal"
+      },
+      {
+        "box_id": 3,
+        "class_id": 4,
+        "confidence": 0.9121139645576477,
+        "text": "64-01-77-03762"
+      },
+      {
+        "box_id": 4,
+        "class_id": 8,
+        "confidence": 0.8991925716400146,
+        "text": "02"
+      },
+      {
+        "box_id": 5,
+        "class_id": 12,
+        "confidence": 0.8926639556884766,
+        "text": "5"
+      },
+      {
+        "box_id": 6,
+        "class_id": 6,
+        "confidence": 0.8559173345565796,
+        "text": "Female"
+      },
+      {
+        "box_id": 7,
+        "class_id": 13,
+        "confidence": 0.8378061056137085,
+        "text": "२०७७-०८,२२"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.8110759854316711,
+        "text": "Surkhet"
+      },
+      {
+        "box_id": 9,
+        "class_id": 5,
+        "confidence": 0.5443055629730225,
+        "text": "KARMISTA BASNET"
+      }
+    ]
+  },
+  "form_data": null
+}

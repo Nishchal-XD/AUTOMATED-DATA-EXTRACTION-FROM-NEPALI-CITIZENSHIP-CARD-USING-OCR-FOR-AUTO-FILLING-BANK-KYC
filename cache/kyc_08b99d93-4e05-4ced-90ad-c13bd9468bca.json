@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-04-01T10:22:50.581914",
+  "unique_id": "08b99d93-4e05-4ced-90ad-c13bd9468bca",
+  "front_image": "विनायक पहरी",
+  "back_image": "BINAYAK PAHARI",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 2,
+        "confidence": 0.9509437680244446,
+        "text": "बाब्रकी परः नवराज पहरी"
+      },
+      {
+        "box_id": 1,
+        "class_id": 3,
+        "confidence": 0.9141084551811218,
+        "text": "विमला पहरी"
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.8528795838356018,
+        "text": "विनायक पहरी"
+      },
+      {
+        "box_id": 3,
+        "class_id": 0,
+        "confidence": 0.8455893993377686,
+        "text": "कार्यालय ललितपुर"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.9898515939712524,
+        "text": "२०८१-०३-०५"
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.9708243608474731,
+        "text": "17"
+      },
+      {
+        "box_id": 2,
+        "class_id": 12,
+        "confidence": 0.9593746662139893,
+        "text": "4"
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.920672595500946,
+        "text": "06"
+      },
+      {
+        "box_id": 4,
+        "class_id": 5,
+        "confidence": 0.8985044956207275,
+        "text": "BINAYAK PAHARI"
+      },
+      {
+        "box_id": 5,
+        "class_id": 7,
+        "confidence": 0.8887693881988525,
+        "text": "2006"
+      },
+      {
+        "box_id": 6,
+        "class_id": 6,
+        "confidence": 0.8855376839637756,
+        "text": "Male"
+      },
+      {
+        "box_id": 7,
+        "class_id": 11,
+        "confidence": 0.8707630038261414,
+        "text": "Godawari"
+      },
+      {
+        "box_id": 8,
+        "class_id": 4,
+        "confidence": 0.7097340226173401,
+        "text": "51-5"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.6947853565216064,
+        "text": "LALITPUK"
+      },
+      {
+        "box_id": 10,
+        "class_id": 4,
+        "confidence": 0.63092041015625,
+        "text": "28-01-81-01485"
+      }
+    ]
+  },
+  "form_data": null
+}

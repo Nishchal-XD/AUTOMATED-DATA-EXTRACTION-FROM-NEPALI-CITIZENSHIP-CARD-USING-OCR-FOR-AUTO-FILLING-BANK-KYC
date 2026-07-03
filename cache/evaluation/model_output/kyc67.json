@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-09T02:51:50.612508",
+  "unique_id": "b4d75c12-3d27-4c38-be2b-54784fb5b4f3",
+  "front_image": "front67.jpg",
+  "back_image": "back67.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.8958253264427185,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.8822641372680664,
+        "text": "मपेन्द्र"
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.8475078344345093,
+        "text": "हेमन्त गौतम"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.8311216235160828,
+        "text": ""
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 6,
+        "confidence": 0.9622015953063965,
+        "text": "Male"
+      },
+      {
+        "box_id": 1,
+        "class_id": 13,
+        "confidence": 0.9436163902282715,
+        "text": ""
+      },
+      {
+        "box_id": 2,
+        "class_id": 7,
+        "confidence": 0.9428258538246155,
+        "text": "2003"
+      },
+      {
+        "box_id": 3,
+        "class_id": 12,
+        "confidence": 0.9142075777053833,
+        "text": ""
+      },
+      {
+        "box_id": 4,
+        "class_id": 9,
+        "confidence": 0.9138303399085999,
+        "text": ""
+      },
+      {
+        "box_id": 5,
+        "class_id": 11,
+        "confidence": 0.8791530728340149,
+        "text": "Barahataal"
+      },
+      {
+        "box_id": 6,
+        "class_id": 10,
+        "confidence": 0.847476065158844,
+        "text": "Surkhet"
+      },
+      {
+        "box_id": 7,
+        "class_id": 8,
+        "confidence": 0.8346083164215088,
+        "text": "07"
+      },
+      {
+        "box_id": 8,
+        "class_id": 4,
+        "confidence": 0.7849969863891602,
+        "text": "64-01-77-07347"
+      },
+      {
+        "box_id": 9,
+        "class_id": 5,
+        "confidence": 0.7393847107887268,
+        "text": "HEMANT GAUTAM"
+      }
+    ]
+  },
+  "form_data": null
+}

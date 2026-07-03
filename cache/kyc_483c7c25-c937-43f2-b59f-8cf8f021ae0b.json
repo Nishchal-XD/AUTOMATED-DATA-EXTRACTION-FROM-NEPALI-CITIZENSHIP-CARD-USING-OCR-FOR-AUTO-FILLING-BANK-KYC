@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-26T13:37:43.297175",
+  "unique_id": "483c7c25-c937-43f2-b59f-8cf8f021ae0b",
+  "front_image": "222front.jpeg",
+  "back_image": "222back.jpeg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9127599596977234,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.878125011920929,
+        "text": "वायुको माग थर माइला बक"
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.853317379951477,
+        "text": "गाम माग थोकर"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.8482702970504761,
+        "text": ""
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9696739912033081,
+        "text": "2003"
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.9330828785896301,
+        "text": "16"
+      },
+      {
+        "box_id": 2,
+        "class_id": 8,
+        "confidence": 0.9283554553985596,
+        "text": ""
+      },
+      {
+        "box_id": 3,
+        "class_id": 11,
+        "confidence": 0.8965860605239868,
+        "text": "Indrasarowar"
+      },
+      {
+        "box_id": 4,
+        "class_id": 13,
+        "confidence": 0.8846244812011719,
+        "text": "२०७८-०८-१२"
+      },
+      {
+        "box_id": 5,
+        "class_id": 5,
+        "confidence": 0.8808107376098633,
+        "text": "MUNA THOKAR"
+      },
+      {
+        "box_id": 6,
+        "class_id": 10,
+        "confidence": 0.8744145035743713,
+        "text": ""
+      },
+      {
+        "box_id": 7,
+        "class_id": 4,
+        "confidence": 0.8520482182502747,
+        "text": "31-01-78-07833"
+      },
+      {
+        "box_id": 8,
+        "class_id": 12,
+        "confidence": 0.8426500558853149,
+        "text": "5"
+      },
+      {
+        "box_id": 9,
+        "class_id": 6,
+        "confidence": 0.8016498684883118,
+        "text": "Ferale"
+      }
+    ]
+  },
+  "form_data": null
+}

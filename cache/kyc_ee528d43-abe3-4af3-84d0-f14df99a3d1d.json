@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T22:24:43.853391",
+  "unique_id": "ee528d43-abe3-4af3-84d0-f14df99a3d1d",
+  "front_image": "नितिशा खड्गी",
+  "back_image": "NITISHA KHADGI",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 1,
+        "confidence": 0.8970854878425598,
+        "text": "नितिशा खड्गी"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.8771457672119141,
+        "text": "नविन खड्गी"
+      },
+      {
+        "box_id": 2,
+        "class_id": 0,
+        "confidence": 0.855962336063385,
+        "text": "हत पन ॥३ काठनाड कार्यालय 10"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.8381635546684265,
+        "text": "सविता शाह"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.9948055148124695,
+        "text": "२०८१-०२-२८"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.9633371829986572,
+        "text": "2008"
+      },
+      {
+        "box_id": 2,
+        "class_id": 9,
+        "confidence": 0.9526929259300232,
+        "text": "23"
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.9508261680603027,
+        "text": "04"
+      },
+      {
+        "box_id": 4,
+        "class_id": 5,
+        "confidence": 0.9137880206108093,
+        "text": "NITISHA KHADGI"
+      },
+      {
+        "box_id": 5,
+        "class_id": 6,
+        "confidence": 0.9000663161277771,
+        "text": "Female"
+      },
+      {
+        "box_id": 6,
+        "class_id": 12,
+        "confidence": 0.8991127610206604,
+        "text": ""
+      },
+      {
+        "box_id": 7,
+        "class_id": 11,
+        "confidence": 0.8350950479507446,
+        "text": "Kathmandu"
+      },
+      {
+        "box_id": 8,
+        "class_id": 4,
+        "confidence": 0.8343508243560791,
+        "text": "27-01-81-03037"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.7363077402114868,
+        "text": "Kathmandu"
+      }
+    ]
+  },
+  "form_data": null
+}

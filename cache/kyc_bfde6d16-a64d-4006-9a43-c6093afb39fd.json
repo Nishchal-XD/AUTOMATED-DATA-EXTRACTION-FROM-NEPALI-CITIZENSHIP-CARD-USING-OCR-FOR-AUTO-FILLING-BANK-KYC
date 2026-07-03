@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-04-01T13:50:39.817916",
+  "unique_id": "bfde6d16-a64d-4006-9a43-c6093afb39fd",
+  "front_image": "शोपिली शोपी सगर",
+  "back_image": "",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 1,
+        "confidence": 0.6388220191001892,
+        "text": "शोपिली शोपी सगर"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.604708731174469,
+        "text": "रिप बहादुर आल मगर"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 11,
+        "confidence": 0.7275237441062927,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.6214591860771179,
+        "text": ""
+      },
+      {
+        "box_id": 2,
+        "class_id": 13,
+        "confidence": 0.5677849650382996,
+        "text": "२०६२०४१६"
+      }
+    ]
+  },
+  "form_data": null
+}

@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T19:23:11.574402",
+  "unique_id": "53dbaabb-7875-4337-a906-ed38f1f981e9",
+  "front_image": "नकुल राई",
+  "back_image": "NAKUL RAI",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 3,
+        "confidence": 0.9100388288497925,
+        "text": "तिलक कुमारी राई"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.8917604684829712,
+        "text": "राजकुमार राई"
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.8736000061035156,
+        "text": "नकुल राई"
+      },
+      {
+        "box_id": 3,
+        "class_id": 0,
+        "confidence": 0.8043280839920044,
+        "text": ""
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9433733820915222,
+        "text": "2007"
+      },
+      {
+        "box_id": 1,
+        "class_id": 11,
+        "confidence": 0.9347285032272339,
+        "text": "Thulung Dudhkoshi"
+      },
+      {
+        "box_id": 2,
+        "class_id": 13,
+        "confidence": 0.9243598580360413,
+        "text": "२०८०-१०-२६"
+      },
+      {
+        "box_id": 3,
+        "class_id": 12,
+        "confidence": 0.9166439175605774,
+        "text": "7"
+      },
+      {
+        "box_id": 4,
+        "class_id": 8,
+        "confidence": 0.8939448595046997,
+        "text": "02"
+      },
+      {
+        "box_id": 5,
+        "class_id": 6,
+        "confidence": 0.7858143448829651,
+        "text": "Male"
+      },
+      {
+        "box_id": 6,
+        "class_id": 9,
+        "confidence": 0.7656969428062439,
+        "text": "17"
+      },
+      {
+        "box_id": 7,
+        "class_id": 4,
+        "confidence": 0.731744647026062,
+        "text": "11-01-80-14836"
+      },
+      {
+        "box_id": 8,
+        "class_id": 5,
+        "confidence": 0.7276896238327026,
+        "text": "NAKUL RAI"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.7061207294464111,
+        "text": "i"
+      }
+    ]
+  },
+  "form_data": null
+}

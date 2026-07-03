@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T16:19:45.610371",
+  "unique_id": "eb4f5d80-5fee-45ee-b724-855cd6e328b2",
+  "front_image": "दिनाभट्ट",
+  "back_image": "DINA BHATTA",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 3,
+        "confidence": 0.8856356739997864,
+        "text": "कोपिलाभट्ट"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.8573923110961914,
+        "text": "जिबनाधमभट्ट"
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.848443865776062,
+        "text": "दिनाभट्ट"
+      },
+      {
+        "box_id": 3,
+        "class_id": 0,
+        "confidence": 0.8456504344940186,
+        "text": ""
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9591615200042725,
+        "text": "2003"
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.9491075277328491,
+        "text": "05"
+      },
+      {
+        "box_id": 2,
+        "class_id": 8,
+        "confidence": 0.9360677599906921,
+        "text": "05"
+      },
+      {
+        "box_id": 3,
+        "class_id": 12,
+        "confidence": 0.9127508997917175,
+        "text": "6"
+      },
+      {
+        "box_id": 4,
+        "class_id": 5,
+        "confidence": 0.8534730076789856,
+        "text": "DINA BHATTA"
+      },
+      {
+        "box_id": 5,
+        "class_id": 4,
+        "confidence": 0.833787202835083,
+        "text": "44-01-79-09783"
+      },
+      {
+        "box_id": 6,
+        "class_id": 11,
+        "confidence": 0.8210033774375916,
+        "text": "Bhimsenthapa"
+      },
+      {
+        "box_id": 7,
+        "class_id": 6,
+        "confidence": 0.8001063466072083,
+        "text": "Female"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.776159405708313,
+        "text": "Gorkha"
+      },
+      {
+        "box_id": 9,
+        "class_id": 13,
+        "confidence": 0.7659202218055725,
+        "text": "२०७९-०१-१५"
+      }
+    ]
+  },
+  "form_data": null
+}

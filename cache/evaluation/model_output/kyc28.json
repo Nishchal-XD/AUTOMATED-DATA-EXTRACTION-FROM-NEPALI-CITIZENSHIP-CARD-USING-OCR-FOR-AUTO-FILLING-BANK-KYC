@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-08T23:39:15.716238",
+  "unique_id": "837aec6d-ba72-4ba8-8747-928232df9d1f",
+  "front_image": "front28.jpg",
+  "back_image": "back28.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9489519596099854,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.8991414904594421,
+        "text": "अमृत चन्द"
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.7969854474067688,
+        "text": "५"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 8,
+        "confidence": 0.9518585205078125,
+        "text": "06"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.9512457251548767,
+        "text": "1963"
+      },
+      {
+        "box_id": 2,
+        "class_id": 11,
+        "confidence": 0.9123806953430176,
+        "text": "Baluwatar"
+      },
+      {
+        "box_id": 3,
+        "class_id": 10,
+        "confidence": 0.907148003578186,
+        "text": "Dailekh"
+      },
+      {
+        "box_id": 4,
+        "class_id": 4,
+        "confidence": 0.8058297038078308,
+        "text": "902"
+      },
+      {
+        "box_id": 5,
+        "class_id": 5,
+        "confidence": 0.7843111157417297,
+        "text": "AMRITA CHAND"
+      },
+      {
+        "box_id": 6,
+        "class_id": 12,
+        "confidence": 0.7788979411125183,
+        "text": "6"
+      },
+      {
+        "box_id": 7,
+        "class_id": 6,
+        "confidence": 0.7784361243247986,
+        "text": "Female"
+      },
+      {
+        "box_id": 8,
+        "class_id": 4,
+        "confidence": 0.7488119006156921,
+        "text": ""
+      },
+      {
+        "box_id": 9,
+        "class_id": 13,
+        "confidence": 0.6527100205421448,
+        "text": "२०४५-०१-१४"
+      },
+      {
+        "box_id": 10,
+        "class_id": 9,
+        "confidence": 0.6320397853851318,
+        "text": "01"
+      }
+    ]
+  },
+  "form_data": null
+}

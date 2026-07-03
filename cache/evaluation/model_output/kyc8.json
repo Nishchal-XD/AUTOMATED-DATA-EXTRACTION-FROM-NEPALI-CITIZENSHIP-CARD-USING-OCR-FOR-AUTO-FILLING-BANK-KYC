@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-08T22:56:57.747164",
+  "unique_id": "ccd74e31-cffa-4b00-bbc0-3f1de8e34dbf",
+  "front_image": "front8.jpeg",
+  "back_image": "back8.jpeg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.8928012847900391,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.8898891806602478,
+        "text": "ससे बुढाथोकी"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.8405933380126953,
+        "text": "तारा श्रेष्ठ"
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.8044925332069397,
+        "text": "मोहित बुढाथोक"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9751254320144653,
+        "text": "2003"
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.9389912486076355,
+        "text": "31"
+      },
+      {
+        "box_id": 2,
+        "class_id": 6,
+        "confidence": 0.9312748312950134,
+        "text": "Male"
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.9086647033691406,
+        "text": "07"
+      },
+      {
+        "box_id": 4,
+        "class_id": 11,
+        "confidence": 0.9015989303588867,
+        "text": "Kohalpur"
+      },
+      {
+        "box_id": 5,
+        "class_id": 12,
+        "confidence": 0.8896551132202148,
+        "text": "12"
+      },
+      {
+        "box_id": 6,
+        "class_id": 4,
+        "confidence": 0.8530027270317078,
+        "text": "66-06-78-02287"
+      },
+      {
+        "box_id": 7,
+        "class_id": 13,
+        "confidence": 0.851104736328125,
+        "text": "२०७८-०७-११"
+      },
+      {
+        "box_id": 8,
+        "class_id": 5,
+        "confidence": 0.7793831825256348,
+        "text": "MOHIT BUDHATHOKI"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.6326096057891846,
+        "text": "Banke"
+      }
+    ]
+  },
+  "form_data": null
+}

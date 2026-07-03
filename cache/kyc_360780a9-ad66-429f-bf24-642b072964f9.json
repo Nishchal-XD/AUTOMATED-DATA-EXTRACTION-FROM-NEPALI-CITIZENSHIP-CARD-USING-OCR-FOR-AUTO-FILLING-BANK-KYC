@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-03-26T13:34:34.314555",
+  "unique_id": "360780a9-ad66-429f-bf24-642b072964f9",
+  "front_image": "218front.jpg",
+  "back_image": "218back.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 1,
+        "confidence": 0.8723644018173218,
+        "text": "शम्भु खतिवडा"
+      },
+      {
+        "box_id": 1,
+        "class_id": 0,
+        "confidence": 0.827951192855835,
+        "text": "जिल्ला प्रशासन कार्यालय- झापा"
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.5388432145118713,
+        "text": "नारायण प्रसाद उपाध्याय खतिवडा"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 9,
+        "confidence": 0.9408796429634094,
+        "text": "14"
+      },
+      {
+        "box_id": 1,
+        "class_id": 13,
+        "confidence": 0.9254727363586426,
+        "text": "२०४४-१२-११"
+      },
+      {
+        "box_id": 2,
+        "class_id": 7,
+        "confidence": 0.8949277400970459,
+        "text": "1970"
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.8919710516929626,
+        "text": "APR"
+      },
+      {
+        "box_id": 4,
+        "class_id": 4,
+        "confidence": 0.8914451003074646,
+        "text": "06851050"
+      },
+      {
+        "box_id": 5,
+        "class_id": 6,
+        "confidence": 0.8793957829475403,
+        "text": "Male"
+      },
+      {
+        "box_id": 6,
+        "class_id": 5,
+        "confidence": 0.8630414009094238,
+        "text": "SAMBHU KHATIWADA"
+      },
+      {
+        "box_id": 7,
+        "class_id": 12,
+        "confidence": 0.8596535921096802,
+        "text": "1"
+      },
+      {
+        "box_id": 8,
+        "class_id": 11,
+        "confidence": 0.78914874792099,
+        "text": "Balubadi"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.7153721451759338,
+        "text": "Jhapa"
+      }
+    ]
+  },
+  "form_data": null
+}

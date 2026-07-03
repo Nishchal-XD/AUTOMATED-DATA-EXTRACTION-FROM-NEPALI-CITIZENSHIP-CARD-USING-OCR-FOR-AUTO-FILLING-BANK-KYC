@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T22:17:35.954811",
+  "unique_id": "cf6f0ffa-8ff7-4c58-8da4-08176f22db0a",
+  "front_image": "रुपेश महर्जन",
+  "back_image": "RUPESH MAHARJAN",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 3,
+        "confidence": 0.9633244276046753,
+        "text": "तिर्षमाया महर्जन"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.9354822635650635,
+        "text": "शुकु महर्जन"
+      },
+      {
+        "box_id": 2,
+        "class_id": 0,
+        "confidence": 0.8519417643547058,
+        "text": ""
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.7998979091644287,
+        "text": "रुपेश महर्जन"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 9,
+        "confidence": 0.963538408279419,
+        "text": "19"
+      },
+      {
+        "box_id": 1,
+        "class_id": 8,
+        "confidence": 0.9552572965621948,
+        "text": "09"
+      },
+      {
+        "box_id": 2,
+        "class_id": 11,
+        "confidence": 0.954213559627533,
+        "text": "Kathmandu"
+      },
+      {
+        "box_id": 3,
+        "class_id": 7,
+        "confidence": 0.9175304174423218,
+        "text": "2001"
+      },
+      {
+        "box_id": 4,
+        "class_id": 6,
+        "confidence": 0.8975372314453125,
+        "text": "Male"
+      },
+      {
+        "box_id": 5,
+        "class_id": 13,
+        "confidence": 0.8958248496055603,
+        "text": "२०७७-०८-१४"
+      },
+      {
+        "box_id": 6,
+        "class_id": 12,
+        "confidence": 0.8889170289039612,
+        "text": "4"
+      },
+      {
+        "box_id": 7,
+        "class_id": 10,
+        "confidence": 0.856837272644043,
+        "text": "Kathmandu"
+      },
+      {
+        "box_id": 8,
+        "class_id": 5,
+        "confidence": 0.7403902411460876,
+        "text": "RUPESH MAHARJAN"
+      },
+      {
+        "box_id": 9,
+        "class_id": 4,
+        "confidence": 0.661281168460846,
+        "text": "27-01-77-02856"
+      }
+    ]
+  },
+  "form_data": null
+}

@@ -1,0 +1,20 @@
+path: C:/Users/ACER/nagarikta_project/dataset
+train: C:/Users/ACER/nagarikta_project/dataset/images/train
+val: C:/Users/ACER/nagarikta_project/dataset/images/val
+test:
+nc: 13
+names: [
+    "name_nep",
+    "father_name",
+    "mother_name",
+    "citizenship_no",
+    "full_name_eng",
+    "sex",
+    "dob_year",
+    "dob_month",
+    "dob_day",
+    "perm_district",
+    "perm_address",
+    "perm_ward_no",
+    "issued_date"
+]

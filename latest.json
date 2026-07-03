@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-25T12:31:50.306111",
+  "unique_id": "de9bc98e-df84-49a1-ba2e-a05c4b46e867",
+  "front_image": "राजु निरौला",
+  "back_image": "",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9546895623207092,
+        "text": "१२४-३६८७"
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.9003472924232483,
+        "text": "राजु निरौला"
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.8807874321937561,
+        "text": "लिलानाथ निरौला"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.8021141886711121,
+        "text": "XXX"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 9,
+        "confidence": 0.946681559085846,
+        "text": "26"
+      },
+      {
+        "box_id": 1,
+        "class_id": 11,
+        "confidence": 0.9437031149864197,
+        "text": "Phidim"
+      },
+      {
+        "box_id": 2,
+        "class_id": 6,
+        "confidence": 0.9152665138244629,
+        "text": "Male"
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.8912575840950012,
+        "text": "APR"
+      },
+      {
+        "box_id": 4,
+        "class_id": 12,
+        "confidence": 0.8839215040206909,
+        "text": "1"
+      },
+      {
+        "box_id": 5,
+        "class_id": 10,
+        "confidence": 0.8604840636253357,
+        "text": "Panchthar"
+      },
+      {
+        "box_id": 6,
+        "class_id": 7,
+        "confidence": 0.859892725944519,
+        "text": "1983"
+      },
+      {
+        "box_id": 7,
+        "class_id": 13,
+        "confidence": 0.8021631836891174,
+        "text": "२०७८-०१-०६"
+      },
+      {
+        "box_id": 8,
+        "class_id": 5,
+        "confidence": 0.739798903465271,
+        "text": ""
+      },
+      {
+        "box_id": 9,
+        "class_id": 4,
+        "confidence": 0.7059792876243591,
+        "text": "124-3687"
+      }
+    ]
+  },
+  "form_data": null
+}

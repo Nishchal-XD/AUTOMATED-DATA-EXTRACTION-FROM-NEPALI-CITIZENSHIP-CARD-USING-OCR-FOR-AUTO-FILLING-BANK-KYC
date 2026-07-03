@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-04-01T16:50:02.774631",
+  "unique_id": "0f67ce0d-5c63-4df0-b349-060ddbd8ebcf",
+  "front_image": "क",
+  "back_image": "SANJAY KUMAR BK",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.8943406939506531,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.8932080268859863,
+        "text": "शालिभानविश्क"
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.8421865701675415,
+        "text": "क"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.7906720042228699,
+        "text": ""
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 8,
+        "confidence": 0.9801464676856995,
+        "text": "04"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.9402837753295898,
+        "text": "1986"
+      },
+      {
+        "box_id": 2,
+        "class_id": 13,
+        "confidence": 0.9375593662261963,
+        "text": "२०५९-०२-०५"
+      },
+      {
+        "box_id": 3,
+        "class_id": 4,
+        "confidence": 0.9171785116195679,
+        "text": "775"
+      },
+      {
+        "box_id": 4,
+        "class_id": 11,
+        "confidence": 0.889944314956665,
+        "text": "Tribhuwanbasti"
+      },
+      {
+        "box_id": 5,
+        "class_id": 6,
+        "confidence": 0.8099775910377502,
+        "text": ""
+      },
+      {
+        "box_id": 6,
+        "class_id": 5,
+        "confidence": 0.8040505051612854,
+        "text": "SANJAY KUMAR BK"
+      },
+      {
+        "box_id": 7,
+        "class_id": 10,
+        "confidence": 0.7519960999488831,
+        "text": "Kanchanpur"
+      },
+      {
+        "box_id": 8,
+        "class_id": 12,
+        "confidence": 0.7514642477035522,
+        "text": ""
+      }
+    ]
+  },
+  "form_data": null
+}

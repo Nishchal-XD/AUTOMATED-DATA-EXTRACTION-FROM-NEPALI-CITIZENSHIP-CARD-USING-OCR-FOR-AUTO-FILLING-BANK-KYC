@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-04-01T19:29:23.194525",
+  "unique_id": "3536a9ae-4173-4325-89ec-f20929eec4c9",
+  "front_image": "सहन कँघर",
+  "back_image": "",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.8864268064498901,
+        "text": "कार्यालय, गोरख"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.8578085899353027,
+        "text": "दोत्र बढादुर-ङुँवार"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.8505503535270691,
+        "text": ""
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.6960895657539368,
+        "text": "सहन कँघर"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9756603837013245,
+        "text": "199"
+      },
+      {
+        "box_id": 1,
+        "class_id": 11,
+        "confidence": 0.9243360757827759,
+        "text": ""
+      },
+      {
+        "box_id": 2,
+        "class_id": 5,
+        "confidence": 0.8900965452194214,
+        "text": ""
+      },
+      {
+        "box_id": 3,
+        "class_id": 13,
+        "confidence": 0.8823501467704773,
+        "text": "२०७२२०४-२५-"
+      },
+      {
+        "box_id": 4,
+        "class_id": 10,
+        "confidence": 0.8078272342681885,
+        "text": ""
+      },
+      {
+        "box_id": 5,
+        "class_id": 12,
+        "confidence": 0.7990219593048096,
+        "text": "6"
+      },
+      {
+        "box_id": 6,
+        "class_id": 4,
+        "confidence": 0.6260347962379456,
+        "text": "4-44-0142203460"
+      }
+    ]
+  },
+  "form_data": null
+}

@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T14:29:56.522475",
+  "unique_id": "20d46892-43d5-4291-88d1-7b14056093d0",
+  "front_image": "",
+  "back_image": "KUMAR SYANGTAN",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 2,
+        "confidence": 0.9394558668136597,
+        "text": "संखबुद्ध स्पाङतान"
+      },
+      {
+        "box_id": 1,
+        "class_id": 3,
+        "confidence": 0.9090067744255066,
+        "text": ""
+      },
+      {
+        "box_id": 2,
+        "class_id": 0,
+        "confidence": 0.832817018032074,
+        "text": ""
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.8036457896232605,
+        "text": ""
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 11,
+        "confidence": 0.9465131163597107,
+        "text": "Gadhi"
+      },
+      {
+        "box_id": 1,
+        "class_id": 5,
+        "confidence": 0.9430821537971497,
+        "text": "KUMAR SYANGTAN"
+      },
+      {
+        "box_id": 2,
+        "class_id": 7,
+        "confidence": 0.9298632740974426,
+        "text": "2001"
+      },
+      {
+        "box_id": 3,
+        "class_id": 6,
+        "confidence": 0.9237843751907349,
+        "text": "Male"
+      },
+      {
+        "box_id": 4,
+        "class_id": 12,
+        "confidence": 0.9175001978874207,
+        "text": "7"
+      },
+      {
+        "box_id": 5,
+        "class_id": 9,
+        "confidence": 0.898734986782074,
+        "text": "22"
+      },
+      {
+        "box_id": 6,
+        "class_id": 4,
+        "confidence": 0.884170651435852,
+        "text": "20-01-75-05397"
+      },
+      {
+        "box_id": 7,
+        "class_id": 13,
+        "confidence": 0.816552996635437,
+        "text": "२०७५-०८-१६"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.7904860377311707,
+        "text": ""
+      },
+      {
+        "box_id": 9,
+        "class_id": 8,
+        "confidence": 0.6583247184753418,
+        "text": "11"
+      }
+    ]
+  },
+  "form_data": null
+}

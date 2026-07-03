@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-26T14:41:30.119576",
+  "unique_id": "b0a216a1-e2cb-4148-9fdf-64d5a970a217",
+  "front_image": "front18.jpg",
+  "back_image": "back18.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.929837703704834,
+        "text": "ढैलेख"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.9184244871139526,
+        "text": "टोपेन्द्र बहादुर सिंह"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.9005125164985657,
+        "text": "दिपासिँंह"
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.7361032962799072,
+        "text": "बिशाल सिंह ठकुर"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.9768809676170349,
+        "text": "२०७८-०७-२२"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.9195060729980469,
+        "text": "2004"
+      },
+      {
+        "box_id": 2,
+        "class_id": 8,
+        "confidence": 0.9035148620605469,
+        "text": "09"
+      },
+      {
+        "box_id": 3,
+        "class_id": 6,
+        "confidence": 0.8792873620986938,
+        "text": "Male"
+      },
+      {
+        "box_id": 4,
+        "class_id": 11,
+        "confidence": 0.8746408820152283,
+        "text": "Naumule"
+      },
+      {
+        "box_id": 5,
+        "class_id": 12,
+        "confidence": 0.8537859916687012,
+        "text": "2"
+      },
+      {
+        "box_id": 6,
+        "class_id": 9,
+        "confidence": 0.8329687714576721,
+        "text": "19"
+      },
+      {
+        "box_id": 7,
+        "class_id": 4,
+        "confidence": 0.8064889907836914,
+        "text": "63-01-78-01969"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.806430995464325,
+        "text": "Dailekh"
+      },
+      {
+        "box_id": 9,
+        "class_id": 5,
+        "confidence": 0.7881008982658386,
+        "text": "BISHAL SINGH THAKURI"
+      }
+    ]
+  },
+  "form_data": null
+}

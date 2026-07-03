@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-03-26T13:41:53.906795",
+  "unique_id": "a78d3638-4a6b-44cc-840a-b4a1dca9e184",
+  "front_image": "228front.jpg",
+  "back_image": "228back.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 1,
+        "confidence": 0.5919064879417419,
+        "text": "यर बिखाल बाइव"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 11,
+        "confidence": 0.9023756980895996,
+        "text": "Mahankal"
+      },
+      {
+        "box_id": 1,
+        "class_id": 13,
+        "confidence": 0.7764440178871155,
+        "text": "२०७,/०३/३१"
+      },
+      {
+        "box_id": 2,
+        "class_id": 5,
+        "confidence": 0.5291680097579956,
+        "text": "BISAL WAIBA"
+      },
+      {
+        "box_id": 3,
+        "class_id": 7,
+        "confidence": 0.504355788230896,
+        "text": "2001"
+      }
+    ]
+  },
+  "form_data": null
+}

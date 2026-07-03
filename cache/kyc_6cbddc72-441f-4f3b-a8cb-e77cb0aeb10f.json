@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-03-26T13:41:16.406025",
+  "unique_id": "6cbddc72-441f-4f3b-a8cb-e77cb0aeb10f",
+  "front_image": "227front.jpg",
+  "back_image": "227back.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 1,
+        "confidence": 0.8543645143508911,
+        "text": "मनहरी सिल्वाल"
+      },
+      {
+        "box_id": 1,
+        "class_id": 0,
+        "confidence": 0.8246557712554932,
+        "text": "कार्यालय लणितपुर"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.79637211561203,
+        "text": ""
+      },
+      {
+        "box_id": 3,
+        "class_id": 2,
+        "confidence": 0.7808640003204346,
+        "text": "का राजाराम सिल्वाल"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 6,
+        "confidence": 0.9544152021408081,
+        "text": "Mile"
+      },
+      {
+        "box_id": 1,
+        "class_id": 8,
+        "confidence": 0.9090783596038818,
+        "text": "10"
+      },
+      {
+        "box_id": 2,
+        "class_id": 9,
+        "confidence": 0.8958096504211426,
+        "text": "17"
+      },
+      {
+        "box_id": 3,
+        "class_id": 11,
+        "confidence": 0.8652485609054565,
+        "text": "Godawari"
+      },
+      {
+        "box_id": 4,
+        "class_id": 7,
+        "confidence": 0.8522293567657471,
+        "text": "1974"
+      },
+      {
+        "box_id": 5,
+        "class_id": 5,
+        "confidence": 0.8431816101074219,
+        "text": "MANAHARI SILWAL"
+      },
+      {
+        "box_id": 6,
+        "class_id": 4,
+        "confidence": 0.8184979557991028,
+        "text": "61748"
+      },
+      {
+        "box_id": 7,
+        "class_id": 10,
+        "confidence": 0.798400342464447,
+        "text": "Lalitpur"
+      },
+      {
+        "box_id": 8,
+        "class_id": 12,
+        "confidence": 0.7390840649604797,
+        "text": ""
+      }
+    ]
+  },
+  "form_data": null
+}

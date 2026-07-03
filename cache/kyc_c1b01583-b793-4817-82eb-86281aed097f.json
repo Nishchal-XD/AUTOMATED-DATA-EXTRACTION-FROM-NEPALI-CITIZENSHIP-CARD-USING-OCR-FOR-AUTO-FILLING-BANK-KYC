@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T14:23:21.112193",
+  "unique_id": "c1b01583-b793-4817-82eb-86281aed097f",
+  "front_image": "क्रिष्टिन बज्जाचार्प",
+  "back_image": "CHRISTINA BAJRACHARYA",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9506100416183472,
+        "text": "ललितपुर"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.847655713558197,
+        "text": "कबुको अम्नियर किसोर बज्राचार्य"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.8463011980056763,
+        "text": "परः भुवना शोभा शाक्य"
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.8344417810440063,
+        "text": "क्रिष्टिन बज्जाचार्प"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.9556559324264526,
+        "text": "२०७८०४०५"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.9502465128898621,
+        "text": "2003"
+      },
+      {
+        "box_id": 2,
+        "class_id": 9,
+        "confidence": 0.9496738910675049,
+        "text": "24"
+      },
+      {
+        "box_id": 3,
+        "class_id": 6,
+        "confidence": 0.9492712020874023,
+        "text": "Female"
+      },
+      {
+        "box_id": 4,
+        "class_id": 4,
+        "confidence": 0.9454044699668884,
+        "text": "2-28-01-78-00585"
+      },
+      {
+        "box_id": 5,
+        "class_id": 5,
+        "confidence": 0.8685950040817261,
+        "text": "CHRISTINA BAJRACHARYA"
+      },
+      {
+        "box_id": 6,
+        "class_id": 8,
+        "confidence": 0.8573930263519287,
+        "text": "04"
+      },
+      {
+        "box_id": 7,
+        "class_id": 11,
+        "confidence": 0.855507493019104,
+        "text": "Lalitpur"
+      },
+      {
+        "box_id": 8,
+        "class_id": 12,
+        "confidence": 0.8176299929618835,
+        "text": "11"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.7121098637580872,
+        "text": ""
+      }
+    ]
+  },
+  "form_data": null
+}

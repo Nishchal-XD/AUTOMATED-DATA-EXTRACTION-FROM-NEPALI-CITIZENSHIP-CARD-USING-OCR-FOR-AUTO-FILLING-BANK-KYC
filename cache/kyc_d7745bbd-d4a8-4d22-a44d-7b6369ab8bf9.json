@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-26T13:39:05.681873",
+  "unique_id": "d7745bbd-d4a8-4d22-a44d-7b6369ab8bf9",
+  "front_image": "223front.jpeg",
+  "back_image": "223back.jpeg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.969027578830719,
+        "text": "कार्यालय [.......... मकवानपुर"
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.9328034520149231,
+        "text": "मनिषा थोकर"
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.9002968668937683,
+        "text": "थ्षेकर"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.8964133262634277,
+        "text": "फुल कुमारी थोकर"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 9,
+        "confidence": 0.9668935537338257,
+        "text": "07"
+      },
+      {
+        "box_id": 1,
+        "class_id": 8,
+        "confidence": 0.9589238166809082,
+        "text": "12"
+      },
+      {
+        "box_id": 2,
+        "class_id": 6,
+        "confidence": 0.933650016784668,
+        "text": "Female"
+      },
+      {
+        "box_id": 3,
+        "class_id": 13,
+        "confidence": 0.9239409565925598,
+        "text": "ः२०८१-१०-२४"
+      },
+      {
+        "box_id": 4,
+        "class_id": 10,
+        "confidence": 0.9118039011955261,
+        "text": "Makwanpur"
+      },
+      {
+        "box_id": 5,
+        "class_id": 7,
+        "confidence": 0.9068681001663208,
+        "text": "2007"
+      },
+      {
+        "box_id": 6,
+        "class_id": 11,
+        "confidence": 0.8983144760131836,
+        "text": "Indrasarowar"
+      },
+      {
+        "box_id": 7,
+        "class_id": 12,
+        "confidence": 0.8814899921417236,
+        "text": "5"
+      },
+      {
+        "box_id": 8,
+        "class_id": 4,
+        "confidence": 0.8690087795257568,
+        "text": "31-01-81-10171"
+      },
+      {
+        "box_id": 9,
+        "class_id": 5,
+        "confidence": 0.8635761737823486,
+        "text": "MANISHA THOKAR"
+      }
+    ]
+  },
+  "form_data": null
+}

@@ -1,0 +1,386 @@
+{
+  "timestamp": "2026-02-12T13:08:56.032903",
+  "front_image": "front2.jpg",
+  "back_image": "back2.jpg",
+  "extracted_fields": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 1,
+        "confidence": 0.9064134359359741,
+        "text": "सिसम पन्य",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_front_class_1_box_0.png",
+        "coordinates": [
+          262,
+          264,
+          608,
+          302
+        ]
+      },
+      {
+        "box_id": 1,
+        "class_id": 3,
+        "confidence": 0.9017117023468018,
+        "text": "आमाको नाम थर; मैनापन्थ",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_front_class_3_box_1.png",
+        "coordinates": [
+          264,
+          551,
+          569,
+          585
+        ]
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.8335091471672058,
+        "text": "रुद्रराज पन्थ",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_front_class_2_box_2.png",
+        "coordinates": [
+          268,
+          481,
+          594,
+          516
+        ]
+      },
+      {
+        "box_id": 3,
+        "class_id": 0,
+        "confidence": 0.7566059231758118,
+        "text": "",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_front_class_0_box_3.png",
+        "coordinates": [
+          495,
+          126,
+          763,
+          188
+        ]
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.9725445508956909,
+        "text": "०३ २ १",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_13_box_0.png",
+        "coordinates": [
+          540,
+          576,
+          778,
+          611
+        ]
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.9386149048805237,
+        "text": "It",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_9_box_1.png",
+        "coordinates": [
+          749,
+          137,
+          826,
+          173
+        ]
+      },
+      {
+        "box_id": 2,
+        "class_id": 6,
+        "confidence": 0.908827543258667,
+        "text": "Female",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_6_box_2.png",
+        "coordinates": [
+          748,
+          73,
+          876,
+          108
+        ]
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.8972861766815186,
+        "text": "OCT",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_8_box_3.png",
+        "coordinates": [
+          566,
+          136,
+          697,
+          171
+        ]
+      },
+      {
+        "box_id": 4,
+        "class_id": 7,
+        "confidence": 0.8872000575065613,
+        "text": "2003",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_7_box_4.png",
+        "coordinates": [
+          368,
+          135,
+          473,
+          167
+        ]
+      },
+      {
+        "box_id": 5,
+        "class_id": 12,
+        "confidence": 0.8820611834526062,
+        "text": "12",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_12_box_5.png",
+        "coordinates": [
+          745,
+          266,
+          886,
+          299
+        ]
+      },
+      {
+        "box_id": 6,
+        "class_id": 11,
+        "confidence": 0.8506836295127869,
+        "text": "Municipality : Vyas",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_11_box_6.png",
+        "coordinates": [
+          360,
+          263,
+          571,
+          299
+        ]
+      },
+      {
+        "box_id": 7,
+        "class_id": 4,
+        "confidence": 0.810448944568634,
+        "text": "43-01-78-00495",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_4_box_7.png",
+        "coordinates": [
+          40,
+          67,
+          525,
+          100
+        ]
+      },
+      {
+        "box_id": 8,
+        "class_id": 5,
+        "confidence": 0.7691390514373779,
+        "text": "SHISAM PANTHA",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_5_box_8.png",
+        "coordinates": [
+          33,
+          101,
+          570,
+          136
+        ]
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.759151816368103,
+        "text": "Permanent Address District Tanahun",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_10_box_9.png",
+        "coordinates": [
+          38,
+          230,
+          551,
+          263
+        ]
+      }
+    ]
+  },
+  "crops": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 1,
+        "confidence": 0.9064134359359741,
+        "text": "सिसम पन्य",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_front_class_1_box_0.png",
+        "coordinates": [
+          262,
+          264,
+          608,
+          302
+        ]
+      },
+      {
+        "box_id": 1,
+        "class_id": 3,
+        "confidence": 0.9017117023468018,
+        "text": "आमाको नाम थर; मैनापन्थ",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_front_class_3_box_1.png",
+        "coordinates": [
+          264,
+          551,
+          569,
+          585
+        ]
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.8335091471672058,
+        "text": "रुद्रराज पन्थ",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_front_class_2_box_2.png",
+        "coordinates": [
+          268,
+          481,
+          594,
+          516
+        ]
+      },
+      {
+        "box_id": 3,
+        "class_id": 0,
+        "confidence": 0.7566059231758118,
+        "text": "",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_front_class_0_box_3.png",
+        "coordinates": [
+          495,
+          126,
+          763,
+          188
+        ]
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.9725445508956909,
+        "text": "०३ २ १",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_13_box_0.png",
+        "coordinates": [
+          540,
+          576,
+          778,
+          611
+        ]
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.9386149048805237,
+        "text": "It",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_9_box_1.png",
+        "coordinates": [
+          749,
+          137,
+          826,
+          173
+        ]
+      },
+      {
+        "box_id": 2,
+        "class_id": 6,
+        "confidence": 0.908827543258667,
+        "text": "Female",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_6_box_2.png",
+        "coordinates": [
+          748,
+          73,
+          876,
+          108
+        ]
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.8972861766815186,
+        "text": "OCT",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_8_box_3.png",
+        "coordinates": [
+          566,
+          136,
+          697,
+          171
+        ]
+      },
+      {
+        "box_id": 4,
+        "class_id": 7,
+        "confidence": 0.8872000575065613,
+        "text": "2003",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_7_box_4.png",
+        "coordinates": [
+          368,
+          135,
+          473,
+          167
+        ]
+      },
+      {
+        "box_id": 5,
+        "class_id": 12,
+        "confidence": 0.8820611834526062,
+        "text": "12",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_12_box_5.png",
+        "coordinates": [
+          745,
+          266,
+          886,
+          299
+        ]
+      },
+      {
+        "box_id": 6,
+        "class_id": 11,
+        "confidence": 0.8506836295127869,
+        "text": "Municipality : Vyas",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_11_box_6.png",
+        "coordinates": [
+          360,
+          263,
+          571,
+          299
+        ]
+      },
+      {
+        "box_id": 7,
+        "class_id": 4,
+        "confidence": 0.810448944568634,
+        "text": "43-01-78-00495",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_4_box_7.png",
+        "coordinates": [
+          40,
+          67,
+          525,
+          100
+        ]
+      },
+      {
+        "box_id": 8,
+        "class_id": 5,
+        "confidence": 0.7691390514373779,
+        "text": "SHISAM PANTHA",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_5_box_8.png",
+        "coordinates": [
+          33,
+          101,
+          570,
+          136
+        ]
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.759151816368103,
+        "text": "Permanent Address District Tanahun",
+        "crop_path": "cache\\20260212_102442_a4c0702a\\crops\\crop_back_class_10_box_9.png",
+        "coordinates": [
+          38,
+          230,
+          551,
+          263
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "ocr_backend": "tesseract",
+    "model_confidence": 0.5,
+    "total_fields_extracted": 14
+  }
+}

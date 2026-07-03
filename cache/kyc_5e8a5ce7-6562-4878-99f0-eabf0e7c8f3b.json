@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-26T13:30:56.124930",
+  "unique_id": "5e8a5ce7-6562-4878-99f0-eabf0e7c8f3b",
+  "front_image": "215front.jpg",
+  "back_image": "215back.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 1,
+        "confidence": 0.9163280129432678,
+        "text": "सुस्मा गुरुङ"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.8884439468383789,
+        "text": "कृष्ण बहादुर गुरुङ"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.8623670935630798,
+        "text": "सिता गुरुङ"
+      },
+      {
+        "box_id": 3,
+        "class_id": 0,
+        "confidence": 0.833772599697113,
+        "text": "जिल्ला प्रशासन कार्यालय लमजुङ"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 8,
+        "confidence": 0.9588479399681091,
+        "text": "APR"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.934425950050354,
+        "text": "2004"
+      },
+      {
+        "box_id": 2,
+        "class_id": 9,
+        "confidence": 0.9253987073898315,
+        "text": "29"
+      },
+      {
+        "box_id": 3,
+        "class_id": 6,
+        "confidence": 0.9052513241767883,
+        "text": "Female"
+      },
+      {
+        "box_id": 4,
+        "class_id": 12,
+        "confidence": 0.8868785500526428,
+        "text": "1"
+      },
+      {
+        "box_id": 5,
+        "class_id": 4,
+        "confidence": 0.8855012059211731,
+        "text": "45-01-78-0449"
+      },
+      {
+        "box_id": 6,
+        "class_id": 11,
+        "confidence": 0.83675616979599,
+        "text": "Rainas"
+      },
+      {
+        "box_id": 7,
+        "class_id": 5,
+        "confidence": 0.7844765186309814,
+        "text": "SUSMA GURUNG"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.7470336556434631,
+        "text": "Lamjung"
+      },
+      {
+        "box_id": 9,
+        "class_id": 13,
+        "confidence": 0.6887499690055847,
+        "text": "२०७८-०२-२९"
+      }
+    ]
+  },
+  "form_data": null
+}

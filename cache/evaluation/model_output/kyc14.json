@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-08T23:24:09.722815",
+  "unique_id": "7f876a53-d042-46c9-b9a6-3462c85136da",
+  "front_image": "front14.jpeg",
+  "back_image": "back14.jpeg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9274692535400391,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.8876499533653259,
+        "text": "रुद्र प्रसाद पाण्डे"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.8746045827865601,
+        "text": "पुष्पलता उप्रेत"
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.7342507839202881,
+        "text": "प्रशंसा पाण्ड"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.99435955286026,
+        "text": "२०७७-१०-०५"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.9700418710708618,
+        "text": "2002"
+      },
+      {
+        "box_id": 2,
+        "class_id": 12,
+        "confidence": 0.9196173548698425,
+        "text": "1"
+      },
+      {
+        "box_id": 3,
+        "class_id": 9,
+        "confidence": 0.9123098850250244,
+        "text": "23"
+      },
+      {
+        "box_id": 4,
+        "class_id": 6,
+        "confidence": 0.906433641910553,
+        "text": "Female"
+      },
+      {
+        "box_id": 5,
+        "class_id": 8,
+        "confidence": 0.8966860175132751,
+        "text": "10"
+      },
+      {
+        "box_id": 6,
+        "class_id": 4,
+        "confidence": 0.855704128742218,
+        "text": "04-01-77-06900"
+      },
+      {
+        "box_id": 7,
+        "class_id": 11,
+        "confidence": 0.8456832766532898,
+        "text": "Birtamode"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.8302733898162842,
+        "text": "Jhapa"
+      },
+      {
+        "box_id": 9,
+        "class_id": 5,
+        "confidence": 0.8245224952697754,
+        "text": "PRASAMSHA PANDAY"
+      }
+    ]
+  },
+  "form_data": null
+}

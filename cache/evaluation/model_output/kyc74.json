@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-09T03:00:10.816233",
+  "unique_id": "03790193-aa87-434f-96bf-15966dea65ce",
+  "front_image": "front74.jpg",
+  "back_image": "back74.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9213892817497253,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.8791795969009399,
+        "text": "आइतमाने तामाङ"
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.828265368938446,
+        "text": "प्रकाश तामाङ"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.7817800641059875,
+        "text": "तोकसानी तामाङ"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9590625166893005,
+        "text": "2003"
+      },
+      {
+        "box_id": 1,
+        "class_id": 6,
+        "confidence": 0.9390289187431335,
+        "text": "Male"
+      },
+      {
+        "box_id": 2,
+        "class_id": 9,
+        "confidence": 0.9257850646972656,
+        "text": "15"
+      },
+      {
+        "box_id": 3,
+        "class_id": 11,
+        "confidence": 0.916680634021759,
+        "text": "Dupcheshwor"
+      },
+      {
+        "box_id": 4,
+        "class_id": 12,
+        "confidence": 0.8993380665779114,
+        "text": "6"
+      },
+      {
+        "box_id": 5,
+        "class_id": 10,
+        "confidence": 0.8685882091522217,
+        "text": "Nuwakot"
+      },
+      {
+        "box_id": 6,
+        "class_id": 13,
+        "confidence": 0.809927225112915,
+        "text": "२०७८-०७-२१"
+      },
+      {
+        "box_id": 7,
+        "class_id": 8,
+        "confidence": 0.802993655204773,
+        "text": "12"
+      },
+      {
+        "box_id": 8,
+        "class_id": 4,
+        "confidence": 0.8026488423347473,
+        "text": "25-02-78-00536"
+      },
+      {
+        "box_id": 9,
+        "class_id": 5,
+        "confidence": 0.7431260943412781,
+        "text": "PRAKASH TAMANG"
+      }
+    ]
+  },
+  "form_data": null
+}

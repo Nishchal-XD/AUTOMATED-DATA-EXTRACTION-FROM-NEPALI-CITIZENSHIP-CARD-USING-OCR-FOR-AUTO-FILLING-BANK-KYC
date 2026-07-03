@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-03-09T02:56:15.756249",
+  "unique_id": "dad84012-eab3-49f1-8142-6a0a09c80031",
+  "front_image": "front70.jpg",
+  "back_image": "back70.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9301126599311829,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 3,
+        "confidence": 0.7532662749290466,
+        "text": "पदम कुमारी थाप"
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.7434883713722229,
+        "text": "उपेन्द्र बहादुर था"
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.7393907904624939,
+        "text": "स्वस्तिका पाप"
+      },
+      {
+        "box_id": 4,
+        "class_id": 1,
+        "confidence": 0.665364146232605,
+        "text": "स्वस्तिका थाप"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.9752427339553833,
+        "text": "२०७९-०६-३०"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.9602188467979431,
+        "text": "2005"
+      },
+      {
+        "box_id": 2,
+        "class_id": 9,
+        "confidence": 0.9456595182418823,
+        "text": "06"
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.9307827353477478,
+        "text": "08"
+      },
+      {
+        "box_id": 4,
+        "class_id": 6,
+        "confidence": 0.9068171381950378,
+        "text": "Female"
+      },
+      {
+        "box_id": 5,
+        "class_id": 11,
+        "confidence": 0.891276478767395,
+        "text": "Dullu"
+      },
+      {
+        "box_id": 6,
+        "class_id": 12,
+        "confidence": 0.8548076748847961,
+        "text": "1"
+      },
+      {
+        "box_id": 7,
+        "class_id": 4,
+        "confidence": 0.8476747274398804,
+        "text": "63-01-79-01940"
+      },
+      {
+        "box_id": 8,
+        "class_id": 5,
+        "confidence": 0.7420541644096375,
+        "text": "SWASTIKA THAPA"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.6461806893348694,
+        "text": "Dailekh"
+      }
+    ]
+  },
+  "form_data": null
+}

@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-04-01T19:26:34.001429",
+  "unique_id": "0408dc68-625d-471b-835b-ad43497d73fa",
+  "front_image": "काम श्र प्रेम कुमार",
+  "back_image": "ullPREM KUMAR",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 2,
+        "confidence": 0.9148892164230347,
+        "text": "निर बहादुर विस्ककम"
+      },
+      {
+        "box_id": 1,
+        "class_id": 3,
+        "confidence": 0.907891035079956,
+        "text": ""
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.8979712724685669,
+        "text": "काम श्र प्रेम कुमार"
+      },
+      {
+        "box_id": 3,
+        "class_id": 0,
+        "confidence": 0.8418583869934082,
+        "text": "कार्यालय उदग्पर"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.98050457239151,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.978325366973877,
+        "text": "1995"
+      },
+      {
+        "box_id": 2,
+        "class_id": 11,
+        "confidence": 0.9658216238021851,
+        "text": "Triyuga"
+      },
+      {
+        "box_id": 3,
+        "class_id": 6,
+        "confidence": 0.9651484489440918,
+        "text": "Bex Male"
+      },
+      {
+        "box_id": 4,
+        "class_id": 8,
+        "confidence": 0.9554721713066101,
+        "text": "10"
+      },
+      {
+        "box_id": 5,
+        "class_id": 9,
+        "confidence": 0.9497087001800537,
+        "text": "3"
+      },
+      {
+        "box_id": 6,
+        "class_id": 12,
+        "confidence": 0.8767733573913574,
+        "text": "7"
+      },
+      {
+        "box_id": 7,
+        "class_id": 4,
+        "confidence": 0.8705312609672546,
+        "text": "14-00086"
+      },
+      {
+        "box_id": 8,
+        "class_id": 5,
+        "confidence": 0.7697848081588745,
+        "text": "ULLPREM KUMAR"
+      }
+    ]
+  },
+  "form_data": null
+}

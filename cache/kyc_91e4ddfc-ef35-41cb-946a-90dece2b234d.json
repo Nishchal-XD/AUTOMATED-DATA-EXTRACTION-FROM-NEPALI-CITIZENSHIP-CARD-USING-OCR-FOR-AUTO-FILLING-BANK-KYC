@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-04-01T15:53:36.293963",
+  "unique_id": "91e4ddfc-ef35-41cb-946a-90dece2b234d",
+  "front_image": "साजन भुजेल",
+  "back_image": "ee Seth TS Calista pape sqipican te oe SAJAN BHUJEL",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 3,
+        "confidence": 0.9179684519767761,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.9174094200134277,
+        "text": "साजन भुजेल"
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.8768441081047058,
+        "text": "खड्गी बहादुर भुजेल"
+      },
+      {
+        "box_id": 3,
+        "class_id": 0,
+        "confidence": 0.861090362071991,
+        "text": "कार्यालय सिन्धुल"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 9,
+        "confidence": 0.9633816480636597,
+        "text": "26"
+      },
+      {
+        "box_id": 1,
+        "class_id": 8,
+        "confidence": 0.9386836886405945,
+        "text": "11"
+      },
+      {
+        "box_id": 2,
+        "class_id": 6,
+        "confidence": 0.9165658950805664,
+        "text": "Male"
+      },
+      {
+        "box_id": 3,
+        "class_id": 7,
+        "confidence": 0.9143916368484497,
+        "text": "2007"
+      },
+      {
+        "box_id": 4,
+        "class_id": 11,
+        "confidence": 0.8766114711761475,
+        "text": "Kamal"
+      },
+      {
+        "box_id": 5,
+        "class_id": 5,
+        "confidence": 0.8611283898353577,
+        "text": "EE SETH TS CALISTA PAPE SQIPICAN TE OE SAJAN BHUJEL"
+      },
+      {
+        "box_id": 6,
+        "class_id": 4,
+        "confidence": 0.8155709505081177,
+        "text": "20-01-51-0"
+      },
+      {
+        "box_id": 7,
+        "class_id": 13,
+        "confidence": 0.5988713502883911,
+        "text": "ःर०(१-०९-१९"
+      },
+      {
+        "box_id": 8,
+        "class_id": 12,
+        "confidence": 0.5854863524436951,
+        "text": "7"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.5813105702400208,
+        "text": "feet WEA s agessinc"
+      },
+      {
+        "box_id": 10,
+        "class_id": 4,
+        "confidence": 0.532172679901123,
+        "text": ""
+      }
+    ]
+  },
+  "form_data": null
+}

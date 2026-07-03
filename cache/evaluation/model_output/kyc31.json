@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-08T23:43:57.130207",
+  "unique_id": "3147f282-2d2b-47e4-81b7-de95db55e307",
+  "front_image": "front31.jpg",
+  "back_image": "back31.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 2,
+        "confidence": 0.9263296723365784,
+        "text": "हरि बहादर सिंह"
+      },
+      {
+        "box_id": 1,
+        "class_id": 0,
+        "confidence": 0.9108963012695312,
+        "text": ""
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.8734602332115173,
+        "text": "रमेश बहादर सिंह"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.8536538481712341,
+        "text": "मान कमारी सिंह"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 4,
+        "confidence": 0.9677189588546753,
+        "text": "63-01-74-01803"
+      },
+      {
+        "box_id": 1,
+        "class_id": 11,
+        "confidence": 0.9586206078529358,
+        "text": "Naumule"
+      },
+      {
+        "box_id": 2,
+        "class_id": 7,
+        "confidence": 0.9374487996101379,
+        "text": "1999"
+      },
+      {
+        "box_id": 3,
+        "class_id": 12,
+        "confidence": 0.9289977550506592,
+        "text": "2"
+      },
+      {
+        "box_id": 4,
+        "class_id": 8,
+        "confidence": 0.9145925641059875,
+        "text": "07"
+      },
+      {
+        "box_id": 5,
+        "class_id": 6,
+        "confidence": 0.9123888611793518,
+        "text": "Male"
+      },
+      {
+        "box_id": 6,
+        "class_id": 9,
+        "confidence": 0.9029837250709534,
+        "text": "20"
+      },
+      {
+        "box_id": 7,
+        "class_id": 13,
+        "confidence": 0.9002663493156433,
+        "text": "२०७४-०६-३०"
+      },
+      {
+        "box_id": 8,
+        "class_id": 5,
+        "confidence": 0.8455974459648132,
+        "text": "RAMESH BAHADUR SINGH"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.8044452667236328,
+        "text": "Dailekh"
+      }
+    ]
+  },
+  "form_data": null
+}

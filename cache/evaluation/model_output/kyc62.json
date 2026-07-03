@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-09T02:41:47.451341",
+  "unique_id": "8598abc0-1ec8-4252-a45b-06882652c36e",
+  "front_image": "front62.jpeg",
+  "back_image": "back62.jpeg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 2,
+        "confidence": 0.9291458129882812,
+        "text": "नमराज बोहोर"
+      },
+      {
+        "box_id": 1,
+        "class_id": 3,
+        "confidence": 0.8774518370628357,
+        "text": "रकम जर्पाल"
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.8763377070426941,
+        "text": "अरुचि बोहोर"
+      },
+      {
+        "box_id": 3,
+        "class_id": 0,
+        "confidence": 0.8686777353286743,
+        "text": ""
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9446657299995422,
+        "text": "2003"
+      },
+      {
+        "box_id": 1,
+        "class_id": 11,
+        "confidence": 0.940185546875,
+        "text": "Chandragiri"
+      },
+      {
+        "box_id": 2,
+        "class_id": 12,
+        "confidence": 0.9192302823066711,
+        "text": "8"
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.9045873284339905,
+        "text": "04"
+      },
+      {
+        "box_id": 4,
+        "class_id": 4,
+        "confidence": 0.8812296986579895,
+        "text": "27-01-77-02888"
+      },
+      {
+        "box_id": 5,
+        "class_id": 9,
+        "confidence": 0.8768669962882996,
+        "text": "22"
+      },
+      {
+        "box_id": 6,
+        "class_id": 6,
+        "confidence": 0.8573550581932068,
+        "text": "Female"
+      },
+      {
+        "box_id": 7,
+        "class_id": 10,
+        "confidence": 0.8383320569992065,
+        "text": "Kathmandu"
+      },
+      {
+        "box_id": 8,
+        "class_id": 13,
+        "confidence": 0.7538015842437744,
+        "text": "२०७७-०८-१५"
+      },
+      {
+        "box_id": 9,
+        "class_id": 5,
+        "confidence": 0.744816780090332,
+        "text": "ARUDHI BOHARA"
+      }
+    ]
+  },
+  "form_data": null
+}

@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-26T13:32:27.278755",
+  "unique_id": "2d5a0648-163d-432c-b669-0e7ce5e9cdf6",
+  "front_image": "216front.jpg",
+  "back_image": "216back.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 2,
+        "confidence": 0.9346526265144348,
+        "text": "नन्दे लुहार"
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.8308091163635254,
+        "text": "लोकेन्द्र लुहार"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.7602452635765076,
+        "text": "काली लुहार"
+      },
+      {
+        "box_id": 3,
+        "class_id": 0,
+        "confidence": 0.6152381896972656,
+        "text": "जिल्ला प्रशासन कार्यालय, बाजुरा"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 9,
+        "confidence": 0.9752885699272156,
+        "text": "18"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.9653424620628357,
+        "text": "2004"
+      },
+      {
+        "box_id": 2,
+        "class_id": 12,
+        "confidence": 0.944386899471283,
+        "text": "5"
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.9320090413093567,
+        "text": "11"
+      },
+      {
+        "box_id": 4,
+        "class_id": 13,
+        "confidence": 0.9058545231819153,
+        "text": "२०७४-०३-०२"
+      },
+      {
+        "box_id": 5,
+        "class_id": 4,
+        "confidence": 0.8979037404060364,
+        "text": "70-01-81-01187"
+      },
+      {
+        "box_id": 6,
+        "class_id": 6,
+        "confidence": 0.8798649907112122,
+        "text": "Male"
+      },
+      {
+        "box_id": 7,
+        "class_id": 5,
+        "confidence": 0.8776353597640991,
+        "text": "LOKENDRA LUHAR"
+      },
+      {
+        "box_id": 8,
+        "class_id": 11,
+        "confidence": 0.8295753598213196,
+        "text": "Himali"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.7077286243438721,
+        "text": "Bajura"
+      }
+    ]
+  },
+  "form_data": null
+}

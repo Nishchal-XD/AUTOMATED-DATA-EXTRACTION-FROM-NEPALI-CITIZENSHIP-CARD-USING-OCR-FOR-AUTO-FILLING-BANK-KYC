@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-03-08T23:09:46.726867",
+  "unique_id": "10c1db44-361a-4bf2-97fb-bf2aab431963",
+  "front_image": "front11.jpeg",
+  "back_image": "back11.jpeg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 2,
+        "confidence": 0.8637549877166748,
+        "text": "भरत बहादुर शाह"
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.8534107804298401,
+        "text": "आशुतोष शाह"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.7539896368980408,
+        "text": "लक्ष्मी कुमारी सिंह"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9775217771530151,
+        "text": "2007"
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.9664000868797302,
+        "text": "13"
+      },
+      {
+        "box_id": 2,
+        "class_id": 13,
+        "confidence": 0.9563248157501221,
+        "text": "२०८१-१२-११"
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.9382721185684204,
+        "text": "06"
+      },
+      {
+        "box_id": 4,
+        "class_id": 5,
+        "confidence": 0.9162663221359253,
+        "text": "ASHUTOSH SHAH"
+      },
+      {
+        "box_id": 5,
+        "class_id": 6,
+        "confidence": 0.9075782895088196,
+        "text": "Male"
+      },
+      {
+        "box_id": 6,
+        "class_id": 12,
+        "confidence": 0.8812140822410583,
+        "text": "1"
+      },
+      {
+        "box_id": 7,
+        "class_id": 11,
+        "confidence": 0.8004590272903442,
+        "text": "Beldandi"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.7556540966033936,
+        "text": "Kanchanpur"
+      },
+      {
+        "box_id": 9,
+        "class_id": 4,
+        "confidence": 0.7479054927825928,
+        "text": "75-01-81-11682"
+      }
+    ]
+  },
+  "form_data": null
+}

@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-04-01T20:29:01.491710",
+  "unique_id": "3cf1dd38-60e7-406c-9545-6c04be1b16a6",
+  "front_image": "आशुतोष शाह",
+  "back_image": "ASHUTOSH SHAH",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 2,
+        "confidence": 0.8637549877166748,
+        "text": "भरत बहादुर शाह"
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.8534107804298401,
+        "text": "आशुतोष शाह"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.7539896368980408,
+        "text": "लक्ष्मी कुमारी सिंह"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9754142165184021,
+        "text": "2007"
+      },
+      {
+        "box_id": 1,
+        "class_id": 12,
+        "confidence": 0.9737123847007751,
+        "text": ""
+      },
+      {
+        "box_id": 2,
+        "class_id": 9,
+        "confidence": 0.9703125357627869,
+        "text": "13"
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.9631232619285583,
+        "text": "06"
+      },
+      {
+        "box_id": 4,
+        "class_id": 5,
+        "confidence": 0.9500923752784729,
+        "text": "ASHUTOSH SHAH"
+      },
+      {
+        "box_id": 5,
+        "class_id": 10,
+        "confidence": 0.9097920060157776,
+        "text": "Kanchanpur"
+      },
+      {
+        "box_id": 6,
+        "class_id": 6,
+        "confidence": 0.8883036971092224,
+        "text": "Male"
+      },
+      {
+        "box_id": 7,
+        "class_id": 13,
+        "confidence": 0.8864303827285767,
+        "text": "२०८१-६२-११"
+      },
+      {
+        "box_id": 8,
+        "class_id": 11,
+        "confidence": 0.8543200492858887,
+        "text": "Beldandi"
+      },
+      {
+        "box_id": 9,
+        "class_id": 4,
+        "confidence": 0.834111213684082,
+        "text": "75-0-81-11682"
+      }
+    ]
+  },
+  "form_data": null
+}

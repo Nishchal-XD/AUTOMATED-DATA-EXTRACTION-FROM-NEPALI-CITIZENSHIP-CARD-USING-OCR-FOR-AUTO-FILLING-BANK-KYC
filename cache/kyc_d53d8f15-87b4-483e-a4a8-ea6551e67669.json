@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-26T13:36:23.515346",
+  "unique_id": "d53d8f15-87b4-483e-a4a8-ea6551e67669",
+  "front_image": "220front.JPG",
+  "back_image": "220back.JPG",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9059520959854126,
+        "text": "हुम्ल"
+      },
+      {
+        "box_id": 1,
+        "class_id": 3,
+        "confidence": 0.7871913909912109,
+        "text": "उक्खिलोम अबकतिबुढ"
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.7766278386116028,
+        "text": "मनरिरे बुढ"
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.7676451206207275,
+        "text": "दान बहादुर बुढ"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9438824653625488,
+        "text": "2003"
+      },
+      {
+        "box_id": 1,
+        "class_id": 11,
+        "confidence": 0.9053314924240112,
+        "text": "Tanjakot"
+      },
+      {
+        "box_id": 2,
+        "class_id": 6,
+        "confidence": 0.8639408946037292,
+        "text": "Male"
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.8615936636924744,
+        "text": "04"
+      },
+      {
+        "box_id": 4,
+        "class_id": 9,
+        "confidence": 0.8598923683166504,
+        "text": "21"
+      },
+      {
+        "box_id": 5,
+        "class_id": 12,
+        "confidence": 0.8340467810630798,
+        "text": "5"
+      },
+      {
+        "box_id": 6,
+        "class_id": 13,
+        "confidence": 0.8150196075439453,
+        "text": "२०७८-०५-२४"
+      },
+      {
+        "box_id": 7,
+        "class_id": 4,
+        "confidence": 0.8070369362831116,
+        "text": "59-017800400"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.8051013946533203,
+        "text": "Humla"
+      },
+      {
+        "box_id": 9,
+        "class_id": 5,
+        "confidence": 0.6988928318023682,
+        "text": "POG COS ET RATRENST YA BARADUR BLASS"
+      }
+    ]
+  },
+  "form_data": null
+}

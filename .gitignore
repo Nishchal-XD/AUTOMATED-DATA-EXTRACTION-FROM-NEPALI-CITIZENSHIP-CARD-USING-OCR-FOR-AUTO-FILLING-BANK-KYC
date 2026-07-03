@@ -1,0 +1,33 @@
+# Virtual environments
+.env/
+.envnew/
+ocr-env/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Logs
+logs/
+
+# Uploads
+uploads/
+
+# Databases
+*.db
+
+# Environment variables
+config.env
+
+# VS Code
+.vscode/
+
+# YOLO / ML generated files
+runs/
+cache/
+evaluation_results/
+evaluation_reports/
+
+# Model weights (optional)
+*.pt

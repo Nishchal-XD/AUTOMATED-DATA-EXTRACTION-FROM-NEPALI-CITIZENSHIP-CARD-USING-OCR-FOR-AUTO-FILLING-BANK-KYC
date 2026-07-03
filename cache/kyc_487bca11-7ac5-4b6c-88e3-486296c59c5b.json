@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-04-01T19:16:14.168361",
+  "unique_id": "487bca11-7ac5-4b6c-88e3-486296c59c5b",
+  "front_image": "दिपेश चौधरी",
+  "back_image": "he DIPESH CHAUDHARY",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9197531938552856,
+        "text": "मन्त्रालय कैलाल"
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.8990958333015442,
+        "text": "दिपेश चौधरी"
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.8682222366333008,
+        "text": "थानेदार चौधरी"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.8564130067825317,
+        "text": "सीतारानीचौधरी"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 11,
+        "confidence": 0.9525042772293091,
+        "text": "Bardagoriya"
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.9518794417381287,
+        "text": "07"
+      },
+      {
+        "box_id": 2,
+        "class_id": 7,
+        "confidence": 0.9488613605499268,
+        "text": "1999"
+      },
+      {
+        "box_id": 3,
+        "class_id": 6,
+        "confidence": 0.9170365929603577,
+        "text": "Male"
+      },
+      {
+        "box_id": 4,
+        "class_id": 12,
+        "confidence": 0.8788522481918335,
+        "text": "5"
+      },
+      {
+        "box_id": 5,
+        "class_id": 8,
+        "confidence": 0.8483660817146301,
+        "text": "08"
+      },
+      {
+        "box_id": 6,
+        "class_id": 4,
+        "confidence": 0.8126059174537659,
+        "text": "67-06-74-05994"
+      },
+      {
+        "box_id": 7,
+        "class_id": 13,
+        "confidence": 0.7964808344841003,
+        "text": "२०७४-११-२३"
+      },
+      {
+        "box_id": 8,
+        "class_id": 5,
+        "confidence": 0.7805601954460144,
+        "text": "DIPESH CHAUDHARY"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.7381529808044434,
+        "text": "Kailali"
+      },
+      {
+        "box_id": 10,
+        "class_id": 5,
+        "confidence": 0.5182534456253052,
+        "text": "STUFDIPESH CHAUDEL"
+      }
+    ]
+  },
+  "form_data": null
+}

@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T22:23:05.313562",
+  "unique_id": "28f543a2-ce40-4df3-a4f3-55687bca772c",
+  "front_image": "आश्मा कार्की",
+  "back_image": "AASMA KARKI",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 3,
+        "confidence": 0.9002663493156433,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.8836628794670105,
+        "text": "आश्मा कार्की"
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.8802530169487,
+        "text": "भीम बहादुर कार्की"
+      },
+      {
+        "box_id": 3,
+        "class_id": 0,
+        "confidence": 0.879673421382904,
+        "text": "कार्यालय, ..सर्लाङ"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 12,
+        "confidence": 0.9368764162063599,
+        "text": "8"
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.906886637210846,
+        "text": "22"
+      },
+      {
+        "box_id": 2,
+        "class_id": 4,
+        "confidence": 0.9024015069007874,
+        "text": "19-06-73-06594"
+      },
+      {
+        "box_id": 3,
+        "class_id": 7,
+        "confidence": 0.9003139734268188,
+        "text": "1998"
+      },
+      {
+        "box_id": 4,
+        "class_id": 10,
+        "confidence": 0.8990271091461182,
+        "text": "Sarlahi"
+      },
+      {
+        "box_id": 5,
+        "class_id": 13,
+        "confidence": 0.8754757046699524,
+        "text": "२०७३-१०-१०"
+      },
+      {
+        "box_id": 6,
+        "class_id": 11,
+        "confidence": 0.8538026213645935,
+        "text": "Rajghat"
+      },
+      {
+        "box_id": 7,
+        "class_id": 6,
+        "confidence": 0.8210670351982117,
+        "text": "Female"
+      },
+      {
+        "box_id": 8,
+        "class_id": 5,
+        "confidence": 0.7919142246246338,
+        "text": "AASMA KARKI"
+      },
+      {
+        "box_id": 9,
+        "class_id": 8,
+        "confidence": 0.6629440784454346,
+        "text": "09"
+      }
+    ]
+  },
+  "form_data": null
+}

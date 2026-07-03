@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-26T13:40:00.598735",
+  "unique_id": "694b352d-b153-4556-9c0b-1b27d3808858",
+  "front_image": "224front.jpg",
+  "back_image": "224back.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 3,
+        "confidence": 0.9020175337791443,
+        "text": "रैको पर सुनिता दैदी रावल"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.8924645185470581,
+        "text": "बनको थर टेक बहादुर रावल"
+      },
+      {
+        "box_id": 2,
+        "class_id": 0,
+        "confidence": 0.8676621317863464,
+        "text": "ल्बाजुर"
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.8124775290489197,
+        "text": ""
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 11,
+        "confidence": 0.9733547568321228,
+        "text": "Municipality Tbent"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.9615433216094971,
+        "text": "2003"
+      },
+      {
+        "box_id": 2,
+        "class_id": 9,
+        "confidence": 0.9465639591217041,
+        "text": "27"
+      },
+      {
+        "box_id": 3,
+        "class_id": 6,
+        "confidence": 0.9429135918617249,
+        "text": "Male"
+      },
+      {
+        "box_id": 4,
+        "class_id": 12,
+        "confidence": 0.9422153234481812,
+        "text": "2"
+      },
+      {
+        "box_id": 5,
+        "class_id": 5,
+        "confidence": 0.9272159337997437,
+        "text": "KRISHNA BAHADUR RAWAL"
+      },
+      {
+        "box_id": 6,
+        "class_id": 8,
+        "confidence": 0.8984715342521667,
+        "text": "01"
+      },
+      {
+        "box_id": 7,
+        "class_id": 13,
+        "confidence": 0.894917905330658,
+        "text": "जदीम्रिति२०७६.०२.१६"
+      },
+      {
+        "box_id": 8,
+        "class_id": 4,
+        "confidence": 0.8505560159683228,
+        "text": "70-01-76-00760"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.5647425055503845,
+        "text": "Bajura"
+      }
+    ]
+  },
+  "form_data": null
+}

@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T20:29:23.060892",
+  "unique_id": "be1a55b6-eec1-4c34-b1b9-498ba92d7012",
+  "front_image": "जगदिश्वर कार्की",
+  "back_image": "JAGADISHWOR KARKI",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.864230751991272,
+        "text": "कार्यालय ललितपुर"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.862761914730072,
+        "text": "जयराम कार्की"
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.8421958684921265,
+        "text": "जगदिश्वर कार्की"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.7672554850578308,
+        "text": "कोपिला कटुवाल"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9693232774734497,
+        "text": "2003"
+      },
+      {
+        "box_id": 1,
+        "class_id": 13,
+        "confidence": 0.9412944316864014,
+        "text": "२०७८-०८-०१"
+      },
+      {
+        "box_id": 2,
+        "class_id": 9,
+        "confidence": 0.9409641623497009,
+        "text": "05"
+      },
+      {
+        "box_id": 3,
+        "class_id": 12,
+        "confidence": 0.9303598403930664,
+        "text": "9"
+      },
+      {
+        "box_id": 4,
+        "class_id": 6,
+        "confidence": 0.9300575852394104,
+        "text": "Male"
+      },
+      {
+        "box_id": 5,
+        "class_id": 4,
+        "confidence": 0.8846427202224731,
+        "text": "28-01-78-03241"
+      },
+      {
+        "box_id": 6,
+        "class_id": 11,
+        "confidence": 0.8602022528648376,
+        "text": "Mahalaxmi"
+      },
+      {
+        "box_id": 7,
+        "class_id": 8,
+        "confidence": 0.8058840036392212,
+        "text": "12"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.7948592305183411,
+        "text": "Lalitpur"
+      },
+      {
+        "box_id": 9,
+        "class_id": 5,
+        "confidence": 0.5590487718582153,
+        "text": "JAGADISHWOR KARKI"
+      }
+    ]
+  },
+  "form_data": null
+}

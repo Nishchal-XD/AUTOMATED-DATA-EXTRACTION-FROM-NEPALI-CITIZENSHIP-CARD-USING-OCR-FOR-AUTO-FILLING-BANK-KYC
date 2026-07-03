@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T19:18:19.104920",
+  "unique_id": "2bb3e256-6996-4805-881b-2428e010ebb4",
+  "front_image": "किरण क्षेत्र",
+  "back_image": "",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9509602785110474,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.9423815011978149,
+        "text": "किरण क्षेत्र"
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.8422116041183472,
+        "text": "कष्ण बहादुर क्षेत्र"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.746042788028717,
+        "text": ""
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.9710226058959961,
+        "text": "२०७४-०८-१२"
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.9638577103614807,
+        "text": ""
+      },
+      {
+        "box_id": 2,
+        "class_id": 7,
+        "confidence": 0.9622323513031006,
+        "text": "1985"
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.909734308719635,
+        "text": "11"
+      },
+      {
+        "box_id": 4,
+        "class_id": 4,
+        "confidence": 0.895673930644989,
+        "text": "37-02-74-0772"
+      },
+      {
+        "box_id": 5,
+        "class_id": 11,
+        "confidence": 0.8565559387207031,
+        "text": ""
+      },
+      {
+        "box_id": 6,
+        "class_id": 6,
+        "confidence": 0.8554601669311523,
+        "text": "Me"
+      },
+      {
+        "box_id": 7,
+        "class_id": 5,
+        "confidence": 0.8366819024085999,
+        "text": ""
+      },
+      {
+        "box_id": 8,
+        "class_id": 12,
+        "confidence": 0.8242254257202148,
+        "text": "5"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.6675816178321838,
+        "text": "Rupandehi"
+      }
+    ]
+  },
+  "form_data": null
+}

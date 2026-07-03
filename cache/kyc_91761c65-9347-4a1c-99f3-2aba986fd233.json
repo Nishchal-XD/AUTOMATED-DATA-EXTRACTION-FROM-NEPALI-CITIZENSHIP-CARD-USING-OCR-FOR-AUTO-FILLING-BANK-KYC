@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T22:04:48.859625",
+  "unique_id": "91761c65-9347-4a1c-99f3-2aba986fd233",
+  "front_image": "देवराज चपाई",
+  "back_image": "DEVRAJ CHAPAI",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 1,
+        "confidence": 0.9354120492935181,
+        "text": "देवराज चपाई"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.9275092482566833,
+        "text": "बाबुराम चपाई"
+      },
+      {
+        "box_id": 2,
+        "class_id": 0,
+        "confidence": 0.9072628021240234,
+        "text": "151 'कार्यालयकीलिकोट"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.6225321888923645,
+        "text": "देविसरा चपाई"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9478852152824402,
+        "text": "2003"
+      },
+      {
+        "box_id": 1,
+        "class_id": 11,
+        "confidence": 0.9302219152450562,
+        "text": "Khandachakra"
+      },
+      {
+        "box_id": 2,
+        "class_id": 8,
+        "confidence": 0.9244992733001709,
+        "text": "12"
+      },
+      {
+        "box_id": 3,
+        "class_id": 12,
+        "confidence": 0.8982205390930176,
+        "text": "1"
+      },
+      {
+        "box_id": 4,
+        "class_id": 9,
+        "confidence": 0.8899182677268982,
+        "text": "03"
+      },
+      {
+        "box_id": 5,
+        "class_id": 4,
+        "confidence": 0.8772149085998535,
+        "text": "61-01-77-01255"
+      },
+      {
+        "box_id": 6,
+        "class_id": 13,
+        "confidence": 0.8735695481300354,
+        "text": "२०७७-०७-१९"
+      },
+      {
+        "box_id": 7,
+        "class_id": 10,
+        "confidence": 0.8329265117645264,
+        "text": "Kalikot"
+      },
+      {
+        "box_id": 8,
+        "class_id": 6,
+        "confidence": 0.8192480206489563,
+        "text": "Male"
+      },
+      {
+        "box_id": 9,
+        "class_id": 5,
+        "confidence": 0.7871894240379333,
+        "text": "VRAJ CHAPAI"
+      }
+    ]
+  },
+  "form_data": null
+}

@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --nic-red: #d32f2f;
+            --nic-dark-red: #b71c1c;
+            --nic-gold: #ffc107;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 30px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .bank-header {
+            background: linear-gradient(135deg, var(--nic-red), var(--nic-dark-red));
+            color: white;
+            padding: 30px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 4px solid var(--nic-gold);
+        }
+
+        .bank-logo h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .bank-logo p {
+            font-size: 14px;
+            opacity: 0.9;
+            margin-top: 5px;
+        }
+
+        .form-title {
+            text-align: right;
+        }
+
+        .form-title h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .form-title p {
+            font-size: 14px;
+            margin-top: 5px;
+            color: var(--nic-gold);
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .progress-bar {
+            height: 8px;
+            background: #f0f0f0;
+            border-radius: 4px;
+            margin: 30px 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--nic-red), var(--nic-gold));
+            width: 33%;
+            border-radius: 4px;
+        }
+
+        .upload-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .drop-zone {
+            border: 3px dashed #ccc;
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            background: #f9f9f9;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            min-height: 450px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .drop-zone.drag-over {
+            border-color: var(--nic-red);
+            background: rgba(211, 47, 47, 0.05);
+            transform: scale(1.02);
+            box-shadow: 0 20px 40px rgba(211, 47, 47, 0.2);
+        }
+
+        .drop-zone:hover {
+            border-color: var(--nic-red);
+            background: rgba(211, 47, 47, 0.02);
+        }
+
+        .drop-zone-icon {
+            font-size: 80px;
+            color: #999;
+            margin-bottom: 20px;
+        }
+
+        .drop-zone h3 {
+            color: var(--nic-dark-red);
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .drop-zone p {
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        .browse-btn {
+            background: white;
+            color: var(--nic-red);
+            border: 2px solid var(--nic-red);
+            padding: 14px 40px;
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .browse-btn:hover {
+            background: var(--nic-red);
+            color: white;
+        }
+
+        .preview-container {
+            width: 100%;
+            margin-top: 20px;
+            position: relative;
+        }
+
+        .preview-image {
+            width: 100%;
+            max-height: 350px;
+            object-fit: contain;
+            border-radius: 16px;
+            border: 4px solid white;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+            background: #f0f0f0;
+            display: none;
+        }
+
+        .preview-image.active {
+            display: block;
+        }
+
+        .preview-label {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background: var(--nic-red);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .submit-btn {
+            background: linear-gradient(135deg, var(--nic-red), var(--nic-dark-red));
+            color: white;
+            padding: 18px 50px;
+            border: none;
+            border-radius: 50px;
+            font-size: 20px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 30px;
+            transition: all 0.3s;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(211, 47, 47, 0.4);
+        }
+
+        .submit-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .alert {
+            padding: 16px 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+            display: none;
+        }
+
+        .alert.show {
+            display: block;
+        }
+
+        .alert-success {
+            background: #d4edda;
+            color: #155724;
+            border-left: 4px solid #28a745;
+        }
+
+        .alert-error {
+            background: #f8d7da;
+            color: #721c24;
+            border-left: 4px solid var(--nic-red);
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            border: 3px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s ease-in-out infinite;
+            margin-right: 10px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 768px) {
+            .bank-header {
+                flex-direction: column;
+                text-align: center;
+                gap: 15px;
+            }
+            .upload-container {
+                grid-template-columns: 1fr;
+            }
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bank-header">
+            <div class="bank-logo">
+                <h1>NIC ASIA BANK</h1>
+                <p>एन आई सी एशिया बैंक लि.</p>
+            </div>
+            <div class="form-title">
+                <h2>Document Upload</h2>
+                <p>Step 1 of 2</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>Upload Your Citizenship Documents</h1>
+            <p class="subtitle">Please upload clear, legible photos of your citizenship (Front & Back)</p>
+
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+
+            <form id="uploadForm" enctype="multipart/form-data">
+                <div class="upload-container">
+                    <!-- Front Side Drop Zone -->
+                    <div class="drop-zone" id="dropZoneFront">
+                        <div class="drop-zone-icon">📄</div>
+                        <h3>Front Side</h3>
+                        <p>Drag & drop your citizenship front side here</p>
+                        <p style="font-size: 14px; color: #999;">or</p>
+                        <button type="button" class="browse-btn" onclick="document.getElementById('frontInput').click()">Browse Files</button>
+                        <input type="file" name="front" id="frontInput" accept="image/*" required style="display: none;">
+                        
+                        <div class="preview-container">
+                            <img class="preview-image" id="frontPreview" src="" alt="Front preview">
+                            <span class="preview-label">Front Side</span>
+                        </div>
+                    </div>
+
+                    <!-- Back Side Drop Zone -->
+                    <div class="drop-zone" id="dropZoneBack">
+                        <div class="drop-zone-icon">📄</div>
+                        <h3>Back Side</h3>
+                        <p>Drag & drop your citizenship back side here</p>
+                        <p style="font-size: 14px; color: #999;">or</p>
+                        <button type="button" class="browse-btn" onclick="document.getElementById('backInput').click()">Browse Files</button>
+                        <input type="file" name="back" id="backInput" accept="image/*" required style="display: none;">
+                        
+                        <div class="preview-container">
+                            <img class="preview-image" id="backPreview" src="" alt="Back preview">
+                            <span class="preview-label">Back Side</span>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn" id="submitBtn">
+                    <span>Continue to KYC Form →</span>
+                </button>
+            </form>
+
+            <div id="result" class="alert"></div>
+        </div>
+    </div>
+
+    <script>
+        // Get elements
+        const frontDropZone = document.getElementById('dropZoneFront');
+        const backDropZone = document.getElementById('dropZoneBack');
+        const frontInput = document.getElementById('frontInput');
+        const backInput = document.getElementById('backInput');
+        const frontPreview = document.getElementById('frontPreview');
+        const backPreview = document.getElementById('backPreview');
+
+        // Drag & Drop for Front
+        frontDropZone.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            frontDropZone.classList.add('drag-over');
+        });
+
+        frontDropZone.addEventListener('dragleave', () => {
+            frontDropZone.classList.remove('drag-over');
+        });
+
+        frontDropZone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            frontDropZone.classList.remove('drag-over');
+            
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                frontInput.files = files;
+                previewImage(files[0], 'front');
+            }
+        });
+
+        // Drag & Drop for Back
+        backDropZone.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            backDropZone.classList.add('drag-over');
+        });
+
+        backDropZone.addEventListener('dragleave', () => {
+            backDropZone.classList.remove('drag-over');
+        });
+
+        backDropZone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            backDropZone.classList.remove('drag-over');
+            
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                backInput.files = files;
+                previewImage(files[0], 'back');
+            }
+        });
+
+        // Click on drop zones
+        frontDropZone.addEventListener('click', (e) => {
+            if (e.target.tagName !== 'BUTTON') {
+                frontInput.click();
+            }
+        });
+
+        backDropZone.addEventListener('click', (e) => {
+            if (e.target.tagName !== 'BUTTON') {
+                backInput.click();
+            }
+        });
+
+        // File input changes
+        frontInput.addEventListener('change', function() {
+            if (this.files[0]) {
+                previewImage(this.files[0], 'front');
+            }
+        });
+
+        backInput.addEventListener('change', function() {
+            if (this.files[0]) {
+                previewImage(this.files[0], 'back');
+            }
+        });
+
+        // Preview function
+        function previewImage(file, side) {
+            if (file.size > 10 * 1024 * 1024) {
+                alert('File size must be less than 10MB');
+                return;
+            }
+
+            const reader = new FileReader();
+            const preview = side === 'front' ? frontPreview : backPreview;
+            const dropZone = side === 'front' ? frontDropZone : backDropZone;
+            
+            reader.onload = function(e) {
+                preview.src = e.target.result;
+                preview.classList.add('active');
+                
+                // Hide initial content
+                const icon = dropZone.querySelector('.drop-zone-icon');
+                const h3 = dropZone.querySelector('h3');
+                const p = dropZone.querySelectorAll('p');
+                const browseBtn = dropZone.querySelector('.browse-btn');
+                
+                if (icon) icon.style.display = 'none';
+                if (h3) h3.style.display = 'none';
+                p.forEach(el => el.style.display = 'none');
+                if (browseBtn) browseBtn.style.display = 'none';
+            };
+            
+            reader.readAsDataURL(file);
+        }
+
+        // Form submission
+        document.getElementById('uploadForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const submitBtn = document.getElementById('submitBtn');
+            const originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<span class="spinner"></span> Uploading...';
+            submitBtn.disabled = true;
+
+            const formData = new FormData(this);
+            const resultDiv = document.getElementById('result');
+            resultDiv.classList.remove('alert-success', 'alert-error', 'show');
+
+            try {
+                const response = await fetch('/api/upload', {
+                    method: 'POST',
+                    body: formData,
+                    headers: { 'X-Requested-With': 'XMLHttpRequest' }
+                });
+
+                const data = await response.json();
+
+                if (data.redirect) {
+                    resultDiv.className = 'alert alert-success show';
+                    resultDiv.innerHTML = '✅ Upload successful! Redirecting to KYC form...';
+                    setTimeout(() => window.location.href = data.redirect, 1500);
+                } else if (data.error) {
+                    resultDiv.className = 'alert alert-error show';
+                    resultDiv.innerHTML = '❌ Error: ' + data.error;
+                    submitBtn.innerHTML = originalText;
+                    submitBtn.disabled = false;
+                }
+            } catch (err) {
+                resultDiv.className = 'alert alert-error show';
+                resultDiv.innerHTML = '❌ Upload failed. Please try again.';
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+            }
+        });
+    </script>
+</body>
+</html>

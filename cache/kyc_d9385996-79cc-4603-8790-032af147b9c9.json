@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T20:16:07.830376",
+  "unique_id": "d9385996-79cc-4603-8790-032af147b9c9",
+  "front_image": "जनक खत्री",
+  "back_image": "JANAK KHATRI",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9458338618278503,
+        "text": "कार्यालय भक्तबुर"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.9275214672088623,
+        "text": "भुवन बहादुर खत्री"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.9029932022094727,
+        "text": "नाग्न थयरः तक्ष्मौ खत्री"
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.7386957406997681,
+        "text": "जनक खत्री"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9777055382728577,
+        "text": "1991"
+      },
+      {
+        "box_id": 1,
+        "class_id": 6,
+        "confidence": 0.9644880890846252,
+        "text": "Male"
+      },
+      {
+        "box_id": 2,
+        "class_id": 13,
+        "confidence": 0.9583984017372131,
+        "text": "२०६६-०४-२६"
+      },
+      {
+        "box_id": 3,
+        "class_id": 4,
+        "confidence": 0.9326305389404297,
+        "text": "29-01-066-02394"
+      },
+      {
+        "box_id": 4,
+        "class_id": 12,
+        "confidence": 0.8970370888710022,
+        "text": "2"
+      },
+      {
+        "box_id": 5,
+        "class_id": 10,
+        "confidence": 0.8844215869903564,
+        "text": "Bhaktapur"
+      },
+      {
+        "box_id": 6,
+        "class_id": 9,
+        "confidence": 0.883010745048523,
+        "text": "12"
+      },
+      {
+        "box_id": 7,
+        "class_id": 8,
+        "confidence": 0.8661986589431763,
+        "text": "09"
+      },
+      {
+        "box_id": 8,
+        "class_id": 5,
+        "confidence": 0.8651478886604309,
+        "text": "JANAK KHATRI"
+      },
+      {
+        "box_id": 9,
+        "class_id": 11,
+        "confidence": 0.6762206554412842,
+        "text": "Sudal"
+      }
+    ]
+  },
+  "form_data": null
+}

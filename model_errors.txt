@@ -1,0 +1,4 @@
+FAILED gemini-pro-vision: NotFound('models/gemini-pro-vision is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.')
+FAILED models/gemini-pro-vision: NotFound('models/gemini-pro-vision is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.')
+FAILED gemini-1.5-flash-latest: NotFound('models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.')
+FAILED gemini-1.5-pro-latest: NotFound('models/gemini-1.5-pro-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.')

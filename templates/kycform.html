@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NIC Asia Bank - KYC Form</title>
+    <link rel="stylesheet" href="/static/style.css">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Geocoder CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        .top {
+            padding: 10px;
+            background: #f5f5f5;
+            margin-bottom: 10px;
+        }
+
+        .bottom {
+            padding: 10px;
+            background: #f5f5f5;
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 8px 16px;
+            background: #d32f2f;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #b71c1c;
+        }
+
+        .coords-display {
+            margin: 10px 0;
+            font-family: monospace;
+        }
+
+        #searchInput {
+            padding: 8px;
+            width: 300px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>NIC Asia Bank - KYC Form</h1>
+
+        <form action="/submit" method="POST" enctype="multipart/form-data">
+
+            <!-- Hidden uploaded files -->
+            <input type="hidden" name="front" value="{{ front }}">
+            <input type="hidden" name="back" value="{{ back }}">
+
+            <label for="date">Date:</label>
+            <input id="date" type="date" name="date" value="{{ prefill.get('date', '') }}" style="width: 150px;">
+
+            <h2>Account Information</h2>
+
+            <label for="account">Account Number</label>
+            <div class="account-container">
+                {% for i in range(16) %}
+                <input type="text" maxlength="1" class="account-box"
+                    value="{{ prefill.get('account', '')[i] if prefill.get('account') and i < prefill.get('account')|length else '' }}">
+                {% endfor %}
+            </div>
+
+            <h2>Personal Information</h2>
+
+            <label for="fullname">Full Name (English)</label>
+            <input id="fullname" name="fullname" placeholder="Full Name" value="{{ prefill.get('fullname', '') }}">
+
+            <label for="nepname">नेपाली नाम (Nepali)</label>
+            <input id="nepname" name="nepname" placeholder="नेपाली नाम" value="{{ prefill.get('nepname', '') }}">
+
+            <label for="father_name">Father's Name</label>
+            <input id="father_name" name="father_name" placeholder="Father's Name"
+                value="{{ prefill.get('father_name', '') }}">
+
+            <label for="mother_name">Mother's Name</label>
+            <input id="mother_name" name="mother_name" placeholder="Mother's Name"
+                value="{{ prefill.get('mother_name', '') }}">
+
+            <label for="dob">Date of Birth (A.D)</label>
+            <input id="dob" type="date" name="dob" value="{{ prefill.get('dob', '') }}">
+
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+                <option value="Male" {% if prefill.get('gender')=='Male' %}selected{% endif %}>Male</option>
+                <option value="Female" {% if prefill.get('gender')=='Female' %}selected{% endif %}>Female</option>
+                <option value="Other" {% if prefill.get('gender')=='Other' %}selected{% endif %}>Other</option>
+            </select>
+
+            <label for="nationality">Nationality</label>
+            <input id="nationality" name="nationality" value="{{ prefill.get('nationality', 'Nepali') }}">
+
+            <label for="marital">Marital Status</label>
+            <select id="marital" name="marital">
+                <option value="">Select Status</option>
+                <option value="Married" {% if prefill.get('marital')=='Married' %}selected{% endif %}>Married</option>
+                <option value="Unmarried" {% if prefill.get('marital')=='Unmarried' %}selected{% endif %}>Unmarried
+                </option>
+                <option value="Other" {% if prefill.get('marital')=='Other' %}selected{% endif %}>Other</option>
+            </select>
+
+            <label for="education">Education Level</label>
+            <select id="education" name="education">
+                <option value="">Select level</option>
+                <option value="SEE" {% if prefill.get('education')=='SEE' %}selected{% endif %}>SEE</option>
+                <option value="+2" {% if prefill.get('education')=='+2' %}selected{% endif %}>+2</option>
+                <option value="Bachelor" {% if prefill.get('education')=='Bachelor' %}selected{% endif %}>Bachelor
+                </option>
+                <option value="Master" {% if prefill.get('education')=='Master' %}selected{% endif %}>Master</option>
+                <option value="PhD" {% if prefill.get('education')=='PhD' %}selected{% endif %}>PhD</option>
+            </select>
+
+            <label for="mobile">Mobile Number</label>
+            <input id="mobile" name="mobile" placeholder="98XXXXXXXX" value="{{ prefill.get('mobile', '') }}">
+
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" placeholder="email@example.com"
+                value="{{ prefill.get('email', '') }}">
+
+            <h2>Address Information</h2>
+
+            <h3>Permanent Address</h3>
+            <label for="perm_house">House No.</label>
+            <input id="perm_house" name="perm_house" value="{{ prefill.get('perm_house', '') }}">
+
+            <label for="perm_ward">Ward No.</label>
+            <input id="perm_ward" name="perm_ward"
+                value="{{ prefill.get('perm_ward_no', prefill.get('perm_ward', '')) }}">
+
+            <label for="perm_street">Street/Tole</label>
+            <input id="perm_street" name="perm_street" value="{{ prefill.get('perm_street', '') }}">
+
+            <label for="perm_municipality">Municipality/Rural Municipality</label>
+            <input id="perm_municipality" name="perm_municipality" value="{{ prefill.get('perm_municipality', '') }}">
+
+            <label for="perm_district">District</label>
+            <input id="perm_district" name="perm_district"
+                value="{{ prefill.get('perm_district', prefill.get('district', '')) }}">
+
+            <label for="perm_province">Province</label>
+            <select id="perm_province" name="perm_province">
+                <option value="">Select Province</option>
+                <option value="1" {% if prefill.get('perm_province')=='1' %}selected{% endif %}>Province 1</option>
+                <option value="2" {% if prefill.get('perm_province')=='2' %}selected{% endif %}>Province 2</option>
+                <option value="3" {% if prefill.get('perm_province')=='3' %}selected{% endif %}>Bagmati Province
+                </option>
+                <option value="4" {% if prefill.get('perm_province')=='4' %}selected{% endif %}>Gandaki Province
+                </option>
+                <option value="5" {% if prefill.get('perm_province')=='5' %}selected{% endif %}>Lumbini Province
+                </option>
+                <option value="6" {% if prefill.get('perm_province')=='6' %}selected{% endif %}>Karnali Province
+                </option>
+                <option value="7" {% if prefill.get('perm_province')=='7' %}selected{% endif %}>Sudurpashchim Province
+                </option>
+            </select>
+
+            <label for="perm_country">Country</label>
+            <input id="perm_country" name="perm_country" value="{{ prefill.get('perm_country', 'Nepal') }}">
+
+            <h3>Current Address</h3>
+            <label>
+                <input type="checkbox" id="sameAsPermanent" onchange="copyPermanentAddress()">
+                Same as Permanent Address
+            </label>
+
+            <div id="currentAddressSection">
+                <label for="curr_house">House No.</label>
+                <input id="curr_house" name="curr_house" value="{{ prefill.get('curr_house', '') }}">
+
+                <label for="curr_ward">Ward No.</label>
+                <input id="curr_ward" name="curr_ward" value="{{ prefill.get('curr_ward', '') }}">
+
+                <label for="curr_street">Street/Tole</label>
+                <input id="curr_street" name="curr_street" value="{{ prefill.get('curr_street', '') }}">
+
+                <label for="curr_municipality">Municipality/Rural Municipality</label>
+                <input id="curr_municipality" name="curr_municipality"
+                    value="{{ prefill.get('curr_municipality', '') }}">
+
+                <label for="curr_district">District</label>
+                <input id="curr_district" name="curr_district" value="{{ prefill.get('curr_district', '') }}">
+
+                <label for="curr_province">Province</label>
+                <select id="curr_province" name="curr_province">
+                    <option value="">Select Province</option>
+                    <option value="1" {% if prefill.get('curr_province')=='1' %}selected{% endif %}>Province 1</option>
+                    <option value="2" {% if prefill.get('curr_province')=='2' %}selected{% endif %}>Province 2</option>
+                    <option value="3" {% if prefill.get('curr_province')=='3' %}selected{% endif %}>Bagmati Province
+                    </option>
+                    <option value="4" {% if prefill.get('curr_province')=='4' %}selected{% endif %}>Gandaki Province
+                    </option>
+                    <option value="5" {% if prefill.get('curr_province')=='5' %}selected{% endif %}>Lumbini Province
+                    </option>
+                    <option value="6" {% if prefill.get('curr_province')=='6' %}selected{% endif %}>Karnali Province
+                    </option>
+                    <option value="7" {% if prefill.get('curr_province')=='7' %}selected{% endif %}>Sudurpashchim
+                        Province</option>
+                </select>
+
+                <label for="curr_country">Country</label>
+                <input id="curr_country" name="curr_country" value="{{ prefill.get('curr_country', 'Nepal') }}">
+            </div>
+
+            <h2>Document Details</h2>
+
+            <label for="doctype">Document Type</label>
+            <select id="doctype" name="doctype">
+                <option value="Citizenship" {% if prefill.get('doctype')=='Citizenship' %}selected{% endif %}>
+                    Citizenship</option>
+                <option value="Passport" {% if prefill.get('doctype')=='Passport' %}selected{% endif %}>Passport
+                </option>
+                <option value="Driving License" {% if prefill.get('doctype')=='Driving License' %}selected{% endif %}>
+                    Driving License</option>
+                <option value="National ID" {% if prefill.get('doctype')=='National ID' %}selected{% endif %}>National
+                    ID</option>
+            </select>
+
+            <label for="docnum">Document Number</label>
+            <input id="docnum" name="docnum" placeholder="Document Number" value="{{ prefill.get('docnum', '') }}">
+
+            <label for="issuedate">Issue Date (B.S)</label>
+            <input id="issuedate" type="date" name="issuedate" value="{{ prefill.get('issuedate', '') }}">
+
+            <h3>Passport Photo</h3>
+            <input type="file" name="photo" accept="image/*" id="photoInput">
+            <img id="photoPreview" style="display: none; max-width: 200px; margin-top: 10px;">
+
+            <h3>Signature</h3>
+            <input type="file" name="signature" accept="image/*" id="signatureInput">
+            <img id="signaturePreview" style="display: none; max-width: 200px; margin-top: 10px;">
+
+            <!-- Location Map -->
+            <h3>Location Verification</h3>
+
+            <!-- Hidden fields for location -->
+            <input type="hidden" name="latitude" id="formLat" value="{{ prefill.get('latitude', '') }}">
+            <input type="hidden" name="longitude" id="formLng" value="{{ prefill.get('longitude', '') }}">
+            <input type="hidden" name="address" id="formAddress" value="{{ prefill.get('address', '') }}">
+
+            <div class="top">
+                <button type="button" onclick="getLocation()">📍 Use My Location</button>
+                <input type="text" id="searchInput" placeholder="Enter address to search">
+                <button type="button" onclick="searchAddress()">🔍 Search</button>
+            </div>
+
+            <div id="map"></div>
+
+            <div class="bottom coords-display">
+                Latitude: <span id="lat">{{ prefill.get('latitude', '-') }}</span> |
+                Longitude: <span id="lng">{{ prefill.get('longitude', '-') }}</span>
+                <br>
+                Address: <span id="addressDisplay">{{ prefill.get('address', '-') }}</span>
+            </div>
+
+            <button type="submit">Submit KYC Application</button>
+        </form>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Geocoder JS -->
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+
+    <script>
+        // Initialize map
+        var map = L.map('map').setView([27.7172, 85.3240], 13);
+        var marker;
+        var geocoder = L.Control.geocoder({
+            defaultMarkGeocode: false
+        }).addTo(map);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        // If we have saved coordinates, show marker
+        var savedLat = document.getElementById('formLat').value;
+        var savedLng = document.getElementById('formLng').value;
+        if (savedLat && savedLng && savedLat !== '-' && savedLng !== '-') {
+            setMarker(parseFloat(savedLat), parseFloat(savedLng));
+            map.setView([savedLat, savedLng], 15);
+        }
+
+        // Geocoder event
+        geocoder.on('markgeocode', function (e) {
+            var latlng = e.geocode.center;
+            setMarker(latlng.lat, latlng.lng);
+            map.setView(latlng, 15);
+            document.getElementById('formAddress').value = e.geocode.name || '';
+            document.getElementById('addressDisplay').innerText = e.geocode.name || '';
+            document.getElementById('searchInput').value = e.geocode.name || '';
+        });
+
+        // Map click event
+        map.on('click', function (e) {
+            setMarker(e.latlng.lat, e.latlng.lng);
+            // Reverse geocode
+            fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${e.latlng.lat}&lon=${e.latlng.lng}`)
+                .then(res => res.json())
+                .then(data => {
+                    if (data.display_name) {
+                        document.getElementById('formAddress').value = data.display_name;
+                        document.getElementById('addressDisplay').innerText = data.display_name;
+                    }
+                });
+        });
+
+        function setMarker(lat, lng) {
+            if (marker) {
+                marker.setLatLng([lat, lng]);
+            } else {
+                marker = L.marker([lat, lng], { draggable: true }).addTo(map);
+                marker.on('dragend', function () {
+                    var pos = marker.getLatLng();
+                    updateCoords(pos.lat, pos.lng);
+                    // Reverse geocode on drag end
+                    fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${pos.lat}&lon=${pos.lng}`)
+                        .then(res => res.json())
+                        .then(data => {
+                            if (data.display_name) {
+                                document.getElementById('formAddress').value = data.display_name;
+                                document.getElementById('addressDisplay').innerText = data.display_name;
+                            }
+                        });
+                });
+            }
+            updateCoords(lat, lng);
+        }
+
+        function updateCoords(lat, lng) {
+            var latVal = lat.toFixed(6);
+            var lngVal = lng.toFixed(6);
+            document.getElementById('lat').innerText = latVal;
+            document.getElementById('lng').innerText = lngVal;
+            document.getElementById('formLat').value = latVal;
+            document.getElementById('formLng').value = lngVal;
+        }
+
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function (pos) {
+                    setMarker(pos.coords.latitude, pos.coords.longitude);
+                    map.setView([pos.coords.latitude, pos.coords.longitude], 15);
+
+                    // Reverse geocode
+                    fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${pos.coords.latitude}&lon=${pos.coords.longitude}`)
+                        .then(res => res.json())
+                        .then(data => {
+                            if (data.display_name) {
+                                document.getElementById('formAddress').value = data.display_name;
+                                document.getElementById('addressDisplay').innerText = data.display_name;
+                                document.getElementById('searchInput').value = data.display_name;
+                            }
+                        });
+                });
+            } else {
+                alert('Geolocation not supported');
+            }
+        }
+
+        function searchAddress() {
+            var query = document.getElementById('searchInput').value;
+            if (query) {
+                fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}`)
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.length > 0) {
+                            var result = data[0];
+                            var lat = parseFloat(result.lat);
+                            var lon = parseFloat(result.lon);
+                            setMarker(lat, lon);
+                            map.setView([lat, lon], 15);
+                            document.getElementById('formAddress').value = result.display_name;
+                            document.getElementById('addressDisplay').innerText = result.display_name;
+                        } else {
+                            alert('Address not found');
+                        }
+                    });
+            }
+        }
+
+        // Copy permanent address to current address
+        function copyPermanentAddress() {
+            var checkbox = document.getElementById('sameAsPermanent');
+            if (checkbox.checked) {
+                document.getElementById('curr_house').value = document.getElementById('perm_house').value;
+                document.getElementById('curr_ward').value = document.getElementById('perm_ward').value;
+                document.getElementById('curr_street').value = document.getElementById('perm_street').value;
+                document.getElementById('curr_municipality').value = document.getElementById('perm_municipality').value;
+                document.getElementById('curr_district').value = document.getElementById('perm_district').value;
+                document.getElementById('curr_province').value = document.getElementById('perm_province').value;
+                document.getElementById('curr_country').value = document.getElementById('perm_country').value;
+            }
+        }
+
+        // Image previews
+        document.getElementById('photoInput').addEventListener('change', function (e) {
+            if (this.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    var preview = document.getElementById('photoPreview');
+                    preview.src = e.target.result;
+                    preview.style.display = 'block';
+                };
+                reader.readAsDataURL(this.files[0]);
+            }
+        });
+
+        document.getElementById('signatureInput').addEventListener('change', function (e) {
+            if (this.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    var preview = document.getElementById('signaturePreview');
+                    preview.src = e.target.result;
+                    preview.style.display = 'block';
+                };
+                reader.readAsDataURL(this.files[0]);
+            }
+        });
+
+        // Mobile number validation
+        document.getElementById('mobile').addEventListener('input', function (e) {
+            this.value = this.value.replace(/\D/g, '').slice(0, 10);
+        });
+
+        // Prevent numbers in text fields
+        const noNumberFields = [
+            'fullname', 'nepname', 'father_name', 'mother_name',
+            'perm_municipality', 'perm_district', 'perm_country',
+            'curr_municipality', 'curr_district', 'curr_country',
+            'nationality'
+        ];
+
+        noNumberFields.forEach(function (id) {
+            var el = document.getElementById(id);
+            if (el) {
+                el.addEventListener('input', function (e) {
+                    this.value = this.value.replace(/[0-9]/g, '');
+                });
+            }
+        });
+
+        // Form validation
+        document.querySelector('form').addEventListener('submit', function (e) {
+            var required = document.querySelectorAll('[required]');
+            var valid = true;
+
+            required.forEach(function (field) {
+                if (!field.value) {
+                    field.style.border = '2px solid #d32f2f';
+                    valid = false;
+                }
+            });
+
+            if (!valid) {
+                e.preventDefault();
+                alert('Please fill all required fields!');
+            }
+        });
+    </script>
+
+    <script>
+        document.querySelectorAll('.account-box').forEach((input, index, array) => {
+            input.addEventListener('input', () => {
+                if (input.value.length === 1 && index < array.length - 1) {
+                    array[index + 1].focus();
+                }
+            });
+
+            input.addEventListener('keydown', (e) => {
+                if (e.key === 'Backspace' && !input.value && index > 0) {
+                    array[index - 1].focus();
+                }
+            });
+        });
+    </script>
+
+
+
+
+
+</body>
+
+</html>

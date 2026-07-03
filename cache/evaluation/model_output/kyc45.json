@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-09T00:21:50.020543",
+  "unique_id": "4208c428-1c88-498a-8fa6-c0e3dfe220a1",
+  "front_image": "front45.jpg",
+  "back_image": "back45.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 3,
+        "confidence": 0.926924467086792,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 0,
+        "confidence": 0.9210071563720703,
+        "text": ""
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.8733667135238647,
+        "text": "टोपेन्द्र बहावुरः सिंह"
+      },
+      {
+        "box_id": 3,
+        "class_id": 2,
+        "confidence": 0.773622453212738,
+        "text": "लाल सिंह"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9661603569984436,
+        "text": "1976"
+      },
+      {
+        "box_id": 1,
+        "class_id": 11,
+        "confidence": 0.9407543540000916,
+        "text": "Baluwatar"
+      },
+      {
+        "box_id": 2,
+        "class_id": 12,
+        "confidence": 0.9333573579788208,
+        "text": ""
+      },
+      {
+        "box_id": 3,
+        "class_id": 9,
+        "confidence": 0.9168210029602051,
+        "text": ""
+      },
+      {
+        "box_id": 4,
+        "class_id": 6,
+        "confidence": 0.9065946340560913,
+        "text": "Male"
+      },
+      {
+        "box_id": 5,
+        "class_id": 8,
+        "confidence": 0.8978114724159241,
+        "text": ""
+      },
+      {
+        "box_id": 6,
+        "class_id": 10,
+        "confidence": 0.8888759016990662,
+        "text": "Dailekh"
+      },
+      {
+        "box_id": 7,
+        "class_id": 5,
+        "confidence": 0.8623231649398804,
+        "text": "TOPENDRA BAHADUR SINGH"
+      },
+      {
+        "box_id": 8,
+        "class_id": 4,
+        "confidence": 0.8604477047920227,
+        "text": "86365/953"
+      },
+      {
+        "box_id": 9,
+        "class_id": 13,
+        "confidence": 0.7946894764900208,
+        "text": "२०७२-०१-१४"
+      }
+    ]
+  },
+  "form_data": null
+}

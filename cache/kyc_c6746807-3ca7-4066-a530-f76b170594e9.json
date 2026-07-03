@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T22:20:48.357242",
+  "unique_id": "c6746807-3ca7-4066-a530-f76b170594e9",
+  "front_image": "रमा कार्की",
+  "back_image": "ree RAMA KARKI",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.8822727799415588,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.8305319547653198,
+        "text": "रमा कार्की"
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.8258835077285767,
+        "text": "शिबजीकार्की"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.770995557308197,
+        "text": "जमुनाकार्की"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9674506783485413,
+        "text": "1999"
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.9484246373176575,
+        "text": "30"
+      },
+      {
+        "box_id": 2,
+        "class_id": 13,
+        "confidence": 0.9401459097862244,
+        "text": "२०७४-१,५८८\""
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.919496476650238,
+        "text": "10"
+      },
+      {
+        "box_id": 4,
+        "class_id": 4,
+        "confidence": 0.906216025352478,
+        "text": "28-01-74-03043"
+      },
+      {
+        "box_id": 5,
+        "class_id": 12,
+        "confidence": 0.8746995329856873,
+        "text": "9"
+      },
+      {
+        "box_id": 6,
+        "class_id": 6,
+        "confidence": 0.8496749401092529,
+        "text": "Female"
+      },
+      {
+        "box_id": 7,
+        "class_id": 11,
+        "confidence": 0.8145734667778015,
+        "text": "Mahalaxmi"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.7799690961837769,
+        "text": "Lalitpur"
+      },
+      {
+        "box_id": 9,
+        "class_id": 5,
+        "confidence": 0.6150377988815308,
+        "text": "RAMA KARKI"
+      }
+    ]
+  },
+  "form_data": null
+}

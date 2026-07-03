@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-26T13:42:09.549498",
+  "unique_id": "38d1650a-81cb-44be-803b-16de9bf89dd8",
+  "front_image": "229front.jpg",
+  "back_image": "229back.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 2,
+        "confidence": 0.9312960505485535,
+        "text": "परः नन्द बहादुर शाह"
+      },
+      {
+        "box_id": 1,
+        "class_id": 3,
+        "confidence": 0.9149496555328369,
+        "text": ""
+      },
+      {
+        "box_id": 2,
+        "class_id": 0,
+        "confidence": 0.8918485641479492,
+        "text": "कायालग कैलाल"
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.7771989107131958,
+        "text": "जगत शाह"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 9,
+        "confidence": 0.9596720933914185,
+        "text": "12"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.9334093928337097,
+        "text": "2005"
+      },
+      {
+        "box_id": 2,
+        "class_id": 11,
+        "confidence": 0.9294459223747253,
+        "text": "Mohanyal"
+      },
+      {
+        "box_id": 3,
+        "class_id": 12,
+        "confidence": 0.9189742207527161,
+        "text": "4"
+      },
+      {
+        "box_id": 4,
+        "class_id": 13,
+        "confidence": 0.9172336459159851,
+        "text": "२०८२-०३-०२"
+      },
+      {
+        "box_id": 5,
+        "class_id": 6,
+        "confidence": 0.9128958582878113,
+        "text": "Male"
+      },
+      {
+        "box_id": 6,
+        "class_id": 8,
+        "confidence": 0.8621212840080261,
+        "text": "12"
+      },
+      {
+        "box_id": 7,
+        "class_id": 4,
+        "confidence": 0.8242461085319519,
+        "text": "67-06-82-01758"
+      },
+      {
+        "box_id": 8,
+        "class_id": 5,
+        "confidence": 0.8132990002632141,
+        "text": "JAGAT SHAHI"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.6779837608337402,
+        "text": "Kailali"
+      }
+    ]
+  },
+  "form_data": null
+}

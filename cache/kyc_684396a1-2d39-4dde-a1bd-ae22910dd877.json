@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T15:51:15.594397",
+  "unique_id": "684396a1-2d39-4dde-a1bd-ae22910dd877",
+  "front_image": "अनिल कुंवर",
+  "back_image": "ANIL KUNWAR",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 2,
+        "confidence": 0.9336400032043457,
+        "text": "दुर्ग बहादुर जोगीी"
+      },
+      {
+        "box_id": 1,
+        "class_id": 3,
+        "confidence": 0.8602684140205383,
+        "text": "जाल कुमारी जोगीी"
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.829323410987854,
+        "text": "अनिल कुंवर"
+      },
+      {
+        "box_id": 3,
+        "class_id": 0,
+        "confidence": 0.8277278542518616,
+        "text": "मन्त्रालय बाग्लुङ त कित फक तु लुङ"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 12,
+        "confidence": 0.9805437922477722,
+        "text": "7"
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.9804273247718811,
+        "text": "07"
+      },
+      {
+        "box_id": 2,
+        "class_id": 7,
+        "confidence": 0.9377673864364624,
+        "text": "2004"
+      },
+      {
+        "box_id": 3,
+        "class_id": 6,
+        "confidence": 0.9358055591583252,
+        "text": "Male"
+      },
+      {
+        "box_id": 4,
+        "class_id": 8,
+        "confidence": 0.9238525629043579,
+        "text": "08"
+      },
+      {
+        "box_id": 5,
+        "class_id": 11,
+        "confidence": 0.9115733504295349,
+        "text": "Nisikhola"
+      },
+      {
+        "box_id": 6,
+        "class_id": 5,
+        "confidence": 0.905747652053833,
+        "text": "ANIL KUNWAR"
+      },
+      {
+        "box_id": 7,
+        "class_id": 13,
+        "confidence": 0.8760057091712952,
+        "text": "२०७८-०५-२१"
+      },
+      {
+        "box_id": 8,
+        "class_id": 4,
+        "confidence": 0.8048378229141235,
+        "text": "50-05-78-00501"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.7865466475486755,
+        "text": "Baglung"
+      }
+    ]
+  },
+  "form_data": null
+}

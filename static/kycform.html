@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIC Asia Bank - Related Party KYC Form</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Preeti';
+            src: url('https://himalayanfonts.com/fonts/preeti.ttf') format('truetype');
+        }
+        
+        .nepali-font {
+            font-family: 'Preeti', 'Himalaya', Arial, sans-serif;
+        }
+        
+        #photoPreview, #signaturePreview {
+            max-width: 100%;
+            max-height: 200px;
+            margin-top: 10px;
+            border-radius: 8px;
+            border: 3px solid var(--nic-red);
+            display: none;
+            object-fit: contain;
+        }
+        
+        .signature-preview, .photo-placeholder {
+            cursor: pointer;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+            min-height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f9f9f9;
+        }
+        
+        .signature-preview:hover, .photo-placeholder:hover {
+            border-color: var(--nic-red);
+            background: rgba(211, 47, 47, 0.05);
+        }
+        
+        .loading {
+            opacity: 0.6;
+            pointer-events: none;
+            position: relative;
+        }
+        
+        .loading::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 30px;
+            height: 30px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid var(--nic-red);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: translate(-50%, -50%) rotate(0deg); }
+            100% { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+        
+        .success-message {
+            background: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid #28a745;
+            display: none;
+        }
+        
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid var(--nic-red);
+            display: none;
+        }
+        
+        .field-highlight {
+            background-color: #fff3cd;
+            border-color: #ffc107 !important;
+            transition: background-color 0.3s;
+        }
+        
+        .ocr-badge {
+            background: var(--nic-gold);
+            color: #333;
+            font-size: 11px;
+            padding: 2px 8px;
+            border-radius: 12px;
+            margin-left: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Bank Header -->
+        <div class="bank-header">
+            <div class="bank-logo">
+                <h1>NIC ASIA BANK</h1>
+                <p>सीमित देयता साझेदारी संस्था • Limited Liability Partnership</p>
+            </div>
+            <div class="form-title">
+                <h2>Know Your Customer</h2>
+                <p>Related Party ( सम्बन्धित पक्ष )</p>
+            </div>
+        </div>
+
+        <!-- Progress Steps -->
+        <div style="padding: 20px 30px 0;">
+            <div class="progress-steps">
+                <span class="step completed">✓ Upload</span>
+                <span class="step active">KYC Form</span>
+                <span class="step">Family Details</span>
+                <span class="step">Verification</span>
+                <span class="step">Submit</span>
+            </div>
+        </div>
+
+        <!-- Success/Error Messages -->
+        <div id="successMessage" class="success-message"></div>
+        <div id="errorMessage" class="error-message"></div>
+
+        <div class="content">
+            <form action="/submit" method="POST" enctype="multipart/form-data" id="kycForm">
+                <!-- Hidden uploaded files from OCR -->
+                <input type="hidden" name="front" value="{{ front }}">
+                <input type="hidden" name="back" value="{{ back }}">
+
+                <!-- Date and Account Number Row -->
+                <div class="date-row">
+                    <div class="date-field">
+                        <label>Date (मिति) :</label>
+                        <div class="date-input-group">
+                            <input type="text" class="date-box" maxlength="2" placeholder="DD" id="dateDD" value="{{ prefill.dob_day or '' }}">
+                            <span class="date-separator">/</span>
+                            <input type="text" class="date-box" maxlength="2" placeholder="MM" id="dateMM" value="{{ prefill.dob_month or '' }}">
+                            <span class="date-separator">/</span>
+                            <input type="text" class="date-box" maxlength="4" placeholder="YYYY" id="dateYYYY" value="{{ prefill.dob_year or '' }}">
+                        </div>
+                        <input type="hidden" name="date" id="fullDate">
+                        <span class="ocr-badge">OCR Detected</span>
+                    </div>
+
+                    <div class="date-field">
+                        <label>Account No. (खाता नं.) :</label>
+                        <div class="account-number-box">
+                            <input type="text" class="acc-input" maxlength="1" placeholder="0" id="acc1">
+                            <input type="text" class="acc-input" maxlength="1" placeholder="0" id="acc2">
+                            <input type="text" class="acc-input" maxlength="1" placeholder="0" id="acc3">
+                            <input type="text" class="acc-input" maxlength="1" placeholder="0" id="acc4">
+                            <input type="text" class="acc-input" maxlength="1" placeholder="0" id="acc5">
+                            <input type="text" class="acc-input" maxlength="1" placeholder="0" id="acc6">
+                            <input type="text" class="acc-input" maxlength="1" placeholder="0" id="acc7">
+                            <input type="text" class="acc-input" maxlength="1" placeholder="0" id="acc8">
+                        </div>
+                        <input type="hidden" name="account" id="fullAccount">
+                    </div>
+                </div>
+
+                <!-- Account Information -->
+                <div class="section-header">1. Account Information ( खाता विवरण )</div>
+                
+                <div class="form-grid">
+                </div>
+
+                <!-- Personal Information -->
+                <div class="section-header">2. Personal Information ( व्यक्तिगत विवरण )</div>
+                
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Full Name (English) <span class="nepali">(पुरा नाम अंग्रेजीमा)</span></label>
+                        <input type="text" class="form-control" name="fullname" placeholder="Full Name" required value="{{ prefill.fullname or '' }}">
+                        {% if prefill.fullname %}<span class="ocr-badge">OCR</span>{% endif %}
+                    </div>
+
+                    <div class="form-group">
+                        <label>नेपाली नाम <span class="nepali">(Nepali Name)</span></label>
+                        <input type="text" class="form-control nepali-font" name="nepname" placeholder="नेपाली नाम" value="{{ prefill.nepname or '' }}">
+                        {% if prefill.nepname %}<span class="ocr-badge">OCR</span>{% endif %}
+                    </div>
+
+                    <div class="form-group">
+                        <label>Father's Name <span class="nepali">(बुवाको नाम)</span></label>
+                        <input type="text" class="form-control" name="father_name" placeholder="Father's name" required value="{{ prefill.father_name or '' }}">
+                        {% if prefill.father_name %}<span class="ocr-badge">OCR</span>{% endif %}
+                    </div>
+
+                    <div class="form-group">
+                        <label>Mother's Name <span class="nepali">(आमाको नाम)</span></label>
+                        <input type="text" class="form-control" name="mother_name" placeholder="Mother's name" required value="{{ prefill.mother_name or '' }}">
+                        {% if prefill.mother_name %}<span class="ocr-badge">OCR</span>{% endif %}
+                    </div>
+
+                    <div class="form-group">
+                        <label>Date of Birth <span class="nepali">(जन्म मिति)</span></label>
+                        <input type="date" class="form-control" name="dob" required value="{{ prefill.dob or '' }}">
+                        {% if prefill.dob %}<span class="ocr-badge">OCR</span>{% endif %}
+                    </div>
+
+                    <div class="form-group">
+                        <label>Gender <span class="nepali">(लिङ्ग)</span></label>
+                        <div class="radio-group">
+                            <label class="radio-option">
+                                <input type="radio" name="gender" value="Male" {% if prefill.gender == 'Male' %}checked{% endif %}> Male
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="gender" value="Female" {% if prefill.gender == 'Female' %}checked{% endif %}> Female
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="gender" value="Other"> Other
+                            </label>
+                        </div>
+                        {% if prefill.gender %}<span class="ocr-badge">OCR</span>{% endif %}
+                    </div>
+
+                    <div class="form-group">
+                        <label>Nationality <span class="nepali">(राष्ट्रियता)</span></label>
+                        <input type="text" class="form-control" name="nationality" value="{{ prefill.nationality or 'Nepali' }}" readonly style="background: #f0f0f0;">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Marital Status <span class="nepali">(वैवाहिक स्थिति)</span></label>
+                        <select class="form-control" name="marital">
+                            <option value="Married" {% if prefill.marital == 'Married' %}selected{% endif %}>Married</option>
+                            <option value="Unmarried" {% if prefill.marital == 'Unmarried' %}selected{% endif %}>Unmarried</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Education <span class="nepali">(शिक्षा)</span></label>
+                        <select class="form-control" name="education">
+                            <option value="SEE" {% if prefill.education == 'SEE' %}selected{% endif %}>SEE</option>
+                            <option value="+2" {% if prefill.education == '+2' %}selected{% endif %}>+2</option>
+                            <option value="Bachelor" {% if prefill.education == 'Bachelor' %}selected{% endif %}>Bachelor</option>
+                            <option value="Master" {% if prefill.education == 'Master' %}selected{% endif %}>Master</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Mobile Number <span class="nepali">(मोबाइल नं.)</span></label>
+                        <input type="text" class="form-control" name="mobile" id="mobile" placeholder="98XXXXXXXX" maxlength="10" pattern="[9][0-9]{9}" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email <span class="nepali">(इमेल)</span></label>
+                        <input type="email" class="form-control" name="email" placeholder="email@example.com" required>
+                    </div>
+                </div>
+
+                <!-- Document Details -->
+                <div class="section-header">3. Document Details ( कागजात विवरण )</div>
+                
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Document Type <span class="nepali">(कागजातको प्रकार)</span></label>
+                        <select class="form-control" name="doctype">
+                            <option value="Citizenship" {% if prefill.doctype == 'Citizenship' %}selected{% endif %}>Citizenship</option>
+                            <option value="Passport" {% if prefill.doctype == 'Passport' %}selected{% endif %}>Passport</option>
+                            <option value="Driving License" {% if prefill.doctype == 'Driving License' %}selected{% endif %}>Driving License</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Document Number <span class="nepali">(कागजात नं.)</span></label>
+                        <input type="text" class="form-control" name="docnum" placeholder="Document number" value="{{ prefill.docnum or '' }}">
+                        {% if prefill.docnum %}<span class="ocr-badge">OCR</span>{% endif %}
+                    </div>
+
+                    <div class="form-group">
+                        <label>Issue Date <span class="nepali">(जारी मिति)</span></label>
+                        <input type="date" class="form-control" name="issuedate" value="{{ prefill.issuedate or '' }}">
+                        {% if prefill.issuedate %}<span class="ocr-badge">OCR</span>{% endif %}
+                    </div>
+                </div>
+
+                <!-- Address Section -->
+                <div class="section-header">4. Address ( ठेगाना )</div>
+                
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>District <span class="nepali">(जिल्ला)</span></label>
+                        <input type="text" class="form-control" name="district" value="{{ prefill.district or '' }}">
+                        {% if prefill.district %}<span class="ocr-badge">OCR</span>{% endif %}
+                    </div>
+
+                    <div class="form-group">
+                        <label>Ward No. <span class="nepali">(वडा नं.)</span></label>
+                        <input type="text" class="form-control" name="ward_no" value="{{ prefill.ward_no or '' }}">
+                        {% if prefill.ward_no %}<span class="ocr-badge">OCR</span>{% endif %}
+                    </div>
+
+                    <div class="form-group">
+                        <label>Address <span class="nepali">(ठेगाना)</span></label>
+                        <input type="text" class="form-control" name="address" value="{{ prefill.address or '' }}">
+                        {% if prefill.address %}<span class="ocr-badge">OCR</span>{% endif %}
+                    </div>
+                </div>
+
+                <!-- Map Location -->
+                <div class="section-header">5. Location Verification ( स्थान पुष्टि )</div>
+                
+                <!-- Hidden fields for location -->
+                <input type="hidden" name="latitude" id="formLat">
+                <input type="hidden" name="longitude" id="formLng">
+                <input type="hidden" name="map_address" id="formAddress">
+
+                <!-- Map container -->
+                <div id="map"></div>
+
+                <!-- Search and locate controls -->
+                <div class="map-controls">
+                    <input type="text" id="search" class="form-control" placeholder="Enter your address (ठेगाना लेख्नुहोस्)" style="flex: 1;">
+                    <button type="button" id="locateBtn">📍 Use My Location</button>
+                </div>
+
+                <!-- Photo and Signature Upload -->
+                <div class="signature-section">
+                    <div class="signature-box">
+                        <h4>Passport Photo <span class="nepali">(फोटो)</span></h4>
+                        <div class="photo-placeholder" onclick="document.querySelector('input[name=\'photo\']').click()">
+                            Click to upload photo
+                        </div>
+                        <input type="file" name="photo" id="photoInput" accept="image/*" style="display: none;" required>
+                        <img id="photoPreview" alt="Photo preview">
+                        <p style="font-size: 12px; color: #666; margin-top: 5px;">Max size: 10MB</p>
+                    </div>
+
+                    <div class="signature-box">
+                        <h4>Signature <span class="nepali">(हस्ताक्षर)</span></h4>
+                        <div class="signature-preview" onclick="document.querySelector('input[name=\'signature\']').click()">
+                            Click to upload signature
+                        </div>
+                        <input type="file" name="signature" id="signatureInput" accept="image/*" style="display: none;" required>
+                        <img id="signaturePreview" alt="Signature preview">
+                        <p style="font-size: 12px; color: #666; margin-top: 5px;">Max size: 5MB</p>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn" id="submitBtn">✓ SUBMIT KYC APPLICATION</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    
+    <script>
+        // ========== MAP INITIALIZATION ==========
+        var map = L.map('map').setView([27.7172, 85.3240], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
+
+        // Draggable marker
+        var marker = L.marker([27.7172, 85.3240], { draggable: true }).addTo(map);
+
+        // Update hidden fields
+        function updateLatLng(lat, lng) {
+            document.getElementById('formLat').value = lat.toFixed(6);
+            document.getElementById('formLng').value = lng.toFixed(6);
+        }
+
+        marker.on('dragend', function(e) {
+            var pos = e.target.getLatLng();
+            updateLatLng(pos.lat, pos.lng);
+            reverseGeocode(pos.lat, pos.lng);
+        });
+
+        updateLatLng(27.7172, 85.3240);
+
+        // Reverse geocoding
+        function reverseGeocode(lat, lng) {
+            fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}`)
+                .then(res => res.json())
+                .then(data => {
+                    if (data.display_name) {
+                        document.getElementById('search').value = data.display_name;
+                        document.getElementById('formAddress').value = data.display_name;
+                    }
+                });
+        }
+
+        // Search location
+        document.getElementById('search').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                var query = this.value;
+                fetch('https://nominatim.openstreetmap.org/search?format=json&q=' + encodeURIComponent(query))
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.length > 0) {
+                            var result = data[0];
+                            var lat = parseFloat(result.lat);
+                            var lon = parseFloat(result.lon);
+                            map.setView([lat, lon], 16);
+                            marker.setLatLng([lat, lon]);
+                            updateLatLng(lat, lon);
+                            document.getElementById('formAddress').value = result.display_name;
+                        } else {
+                            alert('Address not found / ठेगाना भेटिएन');
+                        }
+                    });
+            }
+        });
+
+        // Use my location
+        document.getElementById('locateBtn').addEventListener('click', function() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    var lat = position.coords.latitude;
+                    var lon = position.coords.longitude;
+                    map.setView([lat, lon], 16);
+                    marker.setLatLng([lat, lon]);
+                    updateLatLng(lat, lon);
+                    reverseGeocode(lat, lon);
+                }, function(error) {
+                    alert('Unable to get location: ' + error.message);
+                });
+            } else {
+                alert('Geolocation not supported');
+            }
+        });
+
+        // ========== ACCOUNT NUMBER AUTO-MOVE ==========
+        const accInputs = document.querySelectorAll('.acc-input');
+        accInputs.forEach((input, index) => {
+            input.addEventListener('input', function() {
+                if (this.value.length === 1 && index < accInputs.length - 1) {
+                    accInputs[index + 1].focus();
+                }
+                updateFullAccount();
+            });
+            
+            input.addEventListener('keydown', function(e) {
+                if (e.key === 'Backspace' && !this.value && index > 0) {
+                    accInputs[index - 1].focus();
+                }
+            });
+        });
+
+        function updateFullAccount() {
+            const values = Array.from(accInputs).map(i => i.value || '').join('');
+            document.getElementById('fullAccount').value = values;
+        }
+
+        // ========== DATE INPUTS AUTO-MOVE ==========
+        const dateInputs = document.querySelectorAll('.date-box');
+        dateInputs.forEach((input, index) => {
+            input.addEventListener('input', function() {
+                if (this.value.length === this.maxLength && index < dateInputs.length - 1) {
+                    dateInputs[index + 1].focus();
+                }
+                updateFullDate();
+            });
+        });
+
+        function updateFullDate() {
+            const dd = document.getElementById('dateDD').value;
+            const mm = document.getElementById('dateMM').value;
+            const yyyy = document.getElementById('dateYYYY').value;
+            if (dd && mm && yyyy) {
+                document.getElementById('fullDate').value = `${yyyy}-${mm}-${dd}`;
+            }
+        }
+
+        // ========== IMAGE PREVIEWS ==========
+        document.getElementById('photoInput').addEventListener('change', function(e) {
+            if (this.files[0]) {
+                // Validate file size
+                if (this.files[0].size > 10 * 1024 * 1024) {
+                    alert("❌ Photo must be less than 10MB");
+                    this.value = "";
+                    return;
+                }
+                
+                // Validate file type
+                if (!this.files[0].type.match('image.*')) {
+                    alert("❌ Please upload an image file");
+                    this.value = "";
+                    return;
+                }
+                
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const preview = document.getElementById('photoPreview');
+                    preview.src = e.target.result;
+                    preview.style.display = 'block';
+                    preview.style.maxHeight = '200px';
+                    preview.style.marginTop = '10px';
+                    preview.style.border = '3px solid var(--nic-red)';
+                    preview.style.borderRadius = '8px';
+                }
+                reader.readAsDataURL(this.files[0]);
+            }
+        });
+
+        document.getElementById('signatureInput').addEventListener('change', function(e) {
+            if (this.files[0]) {
+                // Validate file size
+                if (this.files[0].size > 5 * 1024 * 1024) {
+                    alert("❌ Signature must be less than 5MB");
+                    this.value = "";
+                    return;
+                }
+                
+                // Validate file type
+                if (!this.files[0].type.match('image.*')) {
+                    alert("❌ Please upload an image file");
+                    this.value = "";
+                    return;
+                }
+                
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const preview = document.getElementById('signaturePreview');
+                    preview.src = e.target.result;
+                    preview.style.display = 'block';
+                    preview.style.maxHeight = '150px';
+                    preview.style.marginTop = '10px';
+                    preview.style.border = '2px solid var(--nic-red)';
+                    preview.style.borderRadius = '8px';
+                }
+                reader.readAsDataURL(this.files[0]);
+            }
+        });
+
+        // ========== MOBILE NUMBER VALIDATION ==========
+        document.getElementById('mobile').addEventListener('input', function(e) {
+            this.value = this.value.replace(/\D/g, '').slice(0, 10);
+        });
+
+        // ========== HIGHLIGHT OCR FIELDS ==========
+        document.querySelectorAll('.ocr-badge').forEach(badge => {
+            const parent = badge.parentElement;
+            const input = parent.querySelector('input, select');
+            if (input) {
+                input.classList.add('field-highlight');
+                
+                // Remove highlight after user edits
+                input.addEventListener('input', function() {
+                    this.classList.remove('field-highlight');
+                    badge.style.opacity = '0.5';
+                }, { once: true });
+            }
+        });
+
+        // ========== FORM VALIDATION ==========
+        document.getElementById('kycForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const required = this.querySelectorAll('[required]');
+            let valid = true;
+            let firstError = null;
+            
+            // Clear previous highlights
+            required.forEach(field => {
+                field.style.border = '2px solid #e0e0e0';
+            });
+            
+            // Check required fields
+            required.forEach(field => {
+                if (!field.value) {
+                    field.style.border = '2px solid var(--nic-red)';
+                    valid = false;
+                    if (!firstError) {
+                        firstError = field;
+                    }
+                }
+            });
+
+            // Check if photos are uploaded
+            const photo = document.getElementById('photoInput').files[0];
+            const signature = document.getElementById('signatureInput').files[0];
+            
+            if (!photo) {
+                document.querySelector('.photo-placeholder').style.border = '2px dashed var(--nic-red)';
+                valid = false;
+                alert('Please upload your passport photo');
+            }
+            
+            if (!signature) {
+                document.querySelector('.signature-preview').style.border = '2px dashed var(--nic-red)';
+                valid = false;
+                alert('Please upload your signature');
+            }
+
+            // Validate email format
+            const email = document.querySelector('input[name="email"]');
+            if (email.value && !email.value.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+                email.style.border = '2px solid var(--nic-red)';
+                valid = false;
+                alert('Please enter a valid email address');
+            }
+
+            // Validate mobile number
+            const mobile = document.getElementById('mobile');
+            if (mobile.value && !mobile.value.match(/^[9][0-9]{9}$/)) {
+                mobile.style.border = '2px solid var(--nic-red)';
+                valid = false;
+                alert('Please enter a valid 10-digit mobile number starting with 9');
+            }
+
+            if (!valid) {
+                if (firstError) {
+                    firstError.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+                return;
+            }
+
+            // Show loading state
+            const submitBtn = document.getElementById('submitBtn');
+            submitBtn.innerHTML = '<span class="spinner"></span> Submitting...';
+            submitBtn.disabled = true;
+            document.body.classList.add('loading');
+
+            // Submit the form
+            this.submit();
+        });
+
+        // ========== INITIALIZE ON PAGE LOAD ==========
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set default date to today if not set
+            if (!document.getElementById('dateDD').value) {
+                const today = new Date();
+                document.getElementById('dateDD').value = String(today.getDate()).padStart(2, '0');
+                document.getElementById('dateMM').value = String(today.getMonth() + 1).padStart(2, '0');
+                document.getElementById('dateYYYY').value = today.getFullYear();
+                updateFullDate();
+            }
+            
+            // Display success message if redirected from submit
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('success') === 'true') {
+                document.getElementById('successMessage').innerHTML = '✅ KYC form submitted successfully!';
+                document.getElementById('successMessage').style.display = 'block';
+                setTimeout(() => {
+                    document.getElementById('successMessage').style.display = 'none';
+                }, 5000);
+            }
+        });
+
+        // Prevent double submission
+        window.onbeforeunload = function() {
+            if (document.body.classList.contains('loading')) {
+                return "Form is being submitted. Please wait...";
+            }
+        };
+    </script>
+</body>
+</html> 

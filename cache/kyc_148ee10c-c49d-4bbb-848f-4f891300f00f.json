@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-04-01T19:21:38.734641",
+  "unique_id": "148ee10c-c49d-4bbb-848f-4f891300f00f",
+  "front_image": "वत ल की खिता राज तामार्ड",
+  "back_image": "net dae KHILA RAJ TAMANG",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 3,
+        "confidence": 0.8423827290534973,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.8133333325386047,
+        "text": "वत ल की खिता राज तामाङ"
+      },
+      {
+        "box_id": 2,
+        "class_id": 0,
+        "confidence": 0.7907165884971619,
+        "text": ""
+      },
+      {
+        "box_id": 3,
+        "class_id": 2,
+        "confidence": 0.7300874590873718,
+        "text": "भिमबहादुर"
+      },
+      {
+        "box_id": 4,
+        "class_id": 2,
+        "confidence": 0.6085742115974426,
+        "text": "र पकन जाग्न भिमबहादुर तामाङ"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9575885534286499,
+        "text": "2003"
+      },
+      {
+        "box_id": 1,
+        "class_id": 13,
+        "confidence": 0.9306092858314514,
+        "text": "२०७८-०१-१३"
+      },
+      {
+        "box_id": 2,
+        "class_id": 11,
+        "confidence": 0.919613242149353,
+        "text": "Khijidemwa"
+      },
+      {
+        "box_id": 3,
+        "class_id": 10,
+        "confidence": 0.9004427790641785,
+        "text": "Okhaldhunga"
+      },
+      {
+        "box_id": 4,
+        "class_id": 8,
+        "confidence": 0.8747395277023315,
+        "text": "08"
+      },
+      {
+        "box_id": 5,
+        "class_id": 12,
+        "confidence": 0.8696734309196472,
+        "text": "2"
+      },
+      {
+        "box_id": 6,
+        "class_id": 9,
+        "confidence": 0.8483866453170776,
+        "text": "10"
+      },
+      {
+        "box_id": 7,
+        "class_id": 5,
+        "confidence": 0.819970428943634,
+        "text": "NET DAE KHILA RAJ TAMANG"
+      },
+      {
+        "box_id": 8,
+        "class_id": 6,
+        "confidence": 0.8102990388870239,
+        "text": "Male"
+      },
+      {
+        "box_id": 9,
+        "class_id": 4,
+        "confidence": 0.7971002459526062,
+        "text": "13-02-78-000"
+      }
+    ]
+  },
+  "form_data": null
+}

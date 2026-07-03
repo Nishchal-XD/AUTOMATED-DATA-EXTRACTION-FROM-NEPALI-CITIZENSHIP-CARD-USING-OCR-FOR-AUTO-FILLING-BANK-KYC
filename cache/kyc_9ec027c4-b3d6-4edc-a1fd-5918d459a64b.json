@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-04-01T16:13:53.037333",
+  "unique_id": "9ec027c4-b3d6-4edc-a1fd-5918d459a64b",
+  "front_image": "अशोक पाण्डेय",
+  "back_image": "ASHOK PANDEY",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 2,
+        "confidence": 0.9526494145393372,
+        "text": "शंकर दत्त फण्डेय"
+      },
+      {
+        "box_id": 1,
+        "class_id": 0,
+        "confidence": 0.9135753512382507,
+        "text": "बैतड"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.903110921382904,
+        "text": "शान्ती दैवी फण्डेय"
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.8634219765663147,
+        "text": "अशोक पाण्डेय"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9651823043823242,
+        "text": "2001"
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.9487645626068115,
+        "text": "25"
+      },
+      {
+        "box_id": 2,
+        "class_id": 13,
+        "confidence": 0.9077907204627991,
+        "text": ""
+      },
+      {
+        "box_id": 3,
+        "class_id": 8,
+        "confidence": 0.9031263589859009,
+        "text": "04"
+      },
+      {
+        "box_id": 4,
+        "class_id": 4,
+        "confidence": 0.8559958934783936,
+        "text": "73-01-76-00614"
+      },
+      {
+        "box_id": 5,
+        "class_id": 13,
+        "confidence": 0.8452444076538086,
+        "text": "जति९७"
+      },
+      {
+        "box_id": 6,
+        "class_id": 10,
+        "confidence": 0.8347168564796448,
+        "text": "Baitadi"
+      },
+      {
+        "box_id": 7,
+        "class_id": 5,
+        "confidence": 0.8170970678329468,
+        "text": "ASHOK PANDEY"
+      },
+      {
+        "box_id": 8,
+        "class_id": 11,
+        "confidence": 0.8126800656318665,
+        "text": "Patan"
+      },
+      {
+        "box_id": 9,
+        "class_id": 6,
+        "confidence": 0.8115320801734924,
+        "text": "Male"
+      },
+      {
+        "box_id": 10,
+        "class_id": 12,
+        "confidence": 0.7826751470565796,
+        "text": "7"
+      }
+    ]
+  },
+  "form_data": null
+}

@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T20:27:24.732559",
+  "unique_id": "461793ae-f5a5-4c1d-87cd-050f502467d6",
+  "front_image": "आशिष श्रेष्ठ",
+  "back_image": "AASISA SHRESTHA",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 2,
+        "confidence": 0.9073019623756409,
+        "text": "वीर कृष्ण श्रेष्ठ"
+      },
+      {
+        "box_id": 1,
+        "class_id": 0,
+        "confidence": 0.8702222108840942,
+        "text": "कार्यालय काठमाड"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.8603156805038452,
+        "text": "सुनीता श्रेष्ठ"
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.8155515193939209,
+        "text": "आशिष श्रेष्ठ"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.981745719909668,
+        "text": "1997"
+      },
+      {
+        "box_id": 1,
+        "class_id": 11,
+        "confidence": 0.9469096064567566,
+        "text": "Kathmandu"
+      },
+      {
+        "box_id": 2,
+        "class_id": 13,
+        "confidence": 0.9405213594436646,
+        "text": "२०७६-०७-१४"
+      },
+      {
+        "box_id": 3,
+        "class_id": 6,
+        "confidence": 0.9318008422851562,
+        "text": "Male"
+      },
+      {
+        "box_id": 4,
+        "class_id": 8,
+        "confidence": 0.9250243306159973,
+        "text": "07"
+      },
+      {
+        "box_id": 5,
+        "class_id": 12,
+        "confidence": 0.9219512939453125,
+        "text": "1"
+      },
+      {
+        "box_id": 6,
+        "class_id": 5,
+        "confidence": 0.9148575663566589,
+        "text": "AASISH SHRESTHA"
+      },
+      {
+        "box_id": 7,
+        "class_id": 9,
+        "confidence": 0.8997888565063477,
+        "text": "03"
+      },
+      {
+        "box_id": 8,
+        "class_id": 4,
+        "confidence": 0.8805965781211853,
+        "text": "27-0-71-04696"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.8380461931228638,
+        "text": "Kathmandu"
+      }
+    ]
+  },
+  "form_data": null
+}

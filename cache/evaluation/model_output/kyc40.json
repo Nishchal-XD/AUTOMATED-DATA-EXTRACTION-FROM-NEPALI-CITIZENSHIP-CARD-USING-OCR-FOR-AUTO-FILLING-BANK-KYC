@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-09T00:16:57.780356",
+  "unique_id": "782fc1b3-5a30-4115-b735-bc546ddd4bf5",
+  "front_image": "front40.jpg",
+  "back_image": "back40.jpg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.8941723108291626,
+        "text": "देलेख"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.8619447946548462,
+        "text": "नर बहादुर काम"
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.8196097016334534,
+        "text": "मिना विक"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.7009547352790833,
+        "text": "देढीकाम"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.9833620190620422,
+        "text": "२०७८-०८-२८"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.9316176772117615,
+        "text": "1992"
+      },
+      {
+        "box_id": 2,
+        "class_id": 11,
+        "confidence": 0.9207975268363953,
+        "text": "Naumule"
+      },
+      {
+        "box_id": 3,
+        "class_id": 9,
+        "confidence": 0.9184756278991699,
+        "text": "30"
+      },
+      {
+        "box_id": 4,
+        "class_id": 6,
+        "confidence": 0.9182762503623962,
+        "text": "Female"
+      },
+      {
+        "box_id": 5,
+        "class_id": 8,
+        "confidence": 0.9065881967544556,
+        "text": "12"
+      },
+      {
+        "box_id": 6,
+        "class_id": 10,
+        "confidence": 0.8329354524612427,
+        "text": "Dailekh"
+      },
+      {
+        "box_id": 7,
+        "class_id": 12,
+        "confidence": 0.8256431818008423,
+        "text": "7"
+      },
+      {
+        "box_id": 8,
+        "class_id": 4,
+        "confidence": 0.7853538393974304,
+        "text": "63-1-78-02908"
+      },
+      {
+        "box_id": 9,
+        "class_id": 5,
+        "confidence": 0.6866324543952942,
+        "text": "ΜΙΝΑ ΒΚ"
+      }
+    ]
+  },
+  "form_data": null
+}

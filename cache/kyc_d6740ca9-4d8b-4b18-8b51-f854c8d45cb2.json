@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T16:35:19.763057",
+  "unique_id": "d6740ca9-4d8b-4b18-8b51-f854c8d45cb2",
+  "front_image": "समिक्षा ओल",
+  "back_image": "rullsal SAMIKSHYA OL",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9590653777122498,
+        "text": "ललितपुर"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.9110206365585327,
+        "text": "राम चन्द्र ओल"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.8376429677009583,
+        "text": "आ्यार्को नामुज्ञरर नर माया खरेल"
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.7289342880249023,
+        "text": "समिक्षा ओल"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.9663060307502747,
+        "text": "२०७८-०३-१४"
+      },
+      {
+        "box_id": 1,
+        "class_id": 12,
+        "confidence": 0.9539084434509277,
+        "text": "13"
+      },
+      {
+        "box_id": 2,
+        "class_id": 7,
+        "confidence": 0.9486127495765686,
+        "text": "2003"
+      },
+      {
+        "box_id": 3,
+        "class_id": 9,
+        "confidence": 0.9050253033638,
+        "text": "27"
+      },
+      {
+        "box_id": 4,
+        "class_id": 8,
+        "confidence": 0.8958757519721985,
+        "text": "06"
+      },
+      {
+        "box_id": 5,
+        "class_id": 6,
+        "confidence": 0.838590681552887,
+        "text": "Female"
+      },
+      {
+        "box_id": 6,
+        "class_id": 11,
+        "confidence": 0.8313133120536804,
+        "text": "Lalitpur"
+      },
+      {
+        "box_id": 7,
+        "class_id": 5,
+        "confidence": 0.8061951994895935,
+        "text": "RULLSAL SAMIKSHYA OL"
+      },
+      {
+        "box_id": 8,
+        "class_id": 4,
+        "confidence": 0.7128549814224243,
+        "text": "28-01-78-00169"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.6776588559150696,
+        "text": "Lalitpur"
+      }
+    ]
+  },
+  "form_data": null
+}

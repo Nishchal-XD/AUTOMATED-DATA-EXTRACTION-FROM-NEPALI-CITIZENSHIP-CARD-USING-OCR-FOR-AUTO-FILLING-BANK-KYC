@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T16:13:19.743864",
+  "unique_id": "4a0bfa17-f2d6-42d9-834d-f04d27d44bab",
+  "front_image": "काडा घर अविनाश साइ",
+  "back_image": "ABINASH SAH",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9229455590248108,
+        "text": "रौतहट"
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.8989295363426208,
+        "text": "काडा घर अविनाश साइ"
+      },
+      {
+        "box_id": 2,
+        "class_id": 2,
+        "confidence": 0.8427411317825317,
+        "text": "बाङको नर्घनीसाह"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.7329680323600769,
+        "text": "जर्गकी धर रिनाटेद"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9524045586585999,
+        "text": "2005"
+      },
+      {
+        "box_id": 1,
+        "class_id": 8,
+        "confidence": 0.9435700178146362,
+        "text": "06"
+      },
+      {
+        "box_id": 2,
+        "class_id": 12,
+        "confidence": 0.9425123929977417,
+        "text": "3"
+      },
+      {
+        "box_id": 3,
+        "class_id": 9,
+        "confidence": 0.9407323002815247,
+        "text": "16"
+      },
+      {
+        "box_id": 4,
+        "class_id": 5,
+        "confidence": 0.9377654194831848,
+        "text": "ABINASH SAH"
+      },
+      {
+        "box_id": 5,
+        "class_id": 11,
+        "confidence": 0.9234207272529602,
+        "text": "Brindaban"
+      },
+      {
+        "box_id": 6,
+        "class_id": 6,
+        "confidence": 0.9224038124084473,
+        "text": "Male"
+      },
+      {
+        "box_id": 7,
+        "class_id": 4,
+        "confidence": 0.8915457129478455,
+        "text": "32-02-80-03053"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.7406008243560791,
+        "text": "Rautahat"
+      },
+      {
+        "box_id": 9,
+        "class_id": 13,
+        "confidence": 0.6113594174385071,
+        "text": "२०८०-०४.२"
+      }
+    ]
+  },
+  "form_data": null
+}

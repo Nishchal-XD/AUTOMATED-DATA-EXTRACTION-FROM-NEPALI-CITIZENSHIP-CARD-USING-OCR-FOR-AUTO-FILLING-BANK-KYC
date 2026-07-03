@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T21:06:39.128903",
+  "unique_id": "9be18445-c304-4340-884b-b8f16d34d2b7",
+  "front_image": "निरुता रावत",
+  "back_image": "oun NIRUTA RAWAT",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 2,
+        "confidence": 0.873703122138977,
+        "text": "गेगुलाल रावत"
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.8571138381958008,
+        "text": "निरुता रावत"
+      },
+      {
+        "box_id": 2,
+        "class_id": 0,
+        "confidence": 0.8558883666992188,
+        "text": "रोल्प"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.8174399733543396,
+        "text": ""
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9589909911155701,
+        "text": "1999"
+      },
+      {
+        "box_id": 1,
+        "class_id": 13,
+        "confidence": 0.947539210319519,
+        "text": "२०७६-०१-०८"
+      },
+      {
+        "box_id": 2,
+        "class_id": 11,
+        "confidence": 0.9308988451957703,
+        "text": "Rolpa"
+      },
+      {
+        "box_id": 3,
+        "class_id": 12,
+        "confidence": 0.8945940732955933,
+        "text": "5"
+      },
+      {
+        "box_id": 4,
+        "class_id": 9,
+        "confidence": 0.89344722032547,
+        "text": "13"
+      },
+      {
+        "box_id": 5,
+        "class_id": 6,
+        "confidence": 0.8783177137374878,
+        "text": "Female"
+      },
+      {
+        "box_id": 6,
+        "class_id": 4,
+        "confidence": 0.8591170907020569,
+        "text": "54-01-76-00084"
+      },
+      {
+        "box_id": 7,
+        "class_id": 8,
+        "confidence": 0.8467397093772888,
+        "text": "09"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.7939903140068054,
+        "text": "Rolpa"
+      },
+      {
+        "box_id": 9,
+        "class_id": 5,
+        "confidence": 0.784754753112793,
+        "text": "NIRUTA RAWAT"
+      }
+    ]
+  },
+  "form_data": null
+}

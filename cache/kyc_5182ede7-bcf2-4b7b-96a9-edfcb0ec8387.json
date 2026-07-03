@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T19:05:24.831172",
+  "unique_id": "5182ede7-bcf2-4b7b-96a9-edfcb0ec8387",
+  "front_image": "ग्यालसाङ तमाङ",
+  "back_image": "Nee GYALSANG TAMANG",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 2,
+        "confidence": 0.9569164514541626,
+        "text": "थर बारक्याख्र तमाङ"
+      },
+      {
+        "box_id": 1,
+        "class_id": 0,
+        "confidence": 0.8897638320922852,
+        "text": "कार्यालय, रसुव"
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.8646618127822876,
+        "text": "ग्यालसाङ तामाङ"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.8536374568939209,
+        "text": ""
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 11,
+        "confidence": 0.9718119502067566,
+        "text": "Gosaikunda"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.9418401718139648,
+        "text": "1970"
+      },
+      {
+        "box_id": 2,
+        "class_id": 5,
+        "confidence": 0.9238230586051941,
+        "text": "NEE GYALSANG TAMANG"
+      },
+      {
+        "box_id": 3,
+        "class_id": 12,
+        "confidence": 0.9186201095581055,
+        "text": "5"
+      },
+      {
+        "box_id": 4,
+        "class_id": 6,
+        "confidence": 0.9082997441291809,
+        "text": "Male"
+      },
+      {
+        "box_id": 5,
+        "class_id": 9,
+        "confidence": 0.8801195621490479,
+        "text": "19"
+      },
+      {
+        "box_id": 6,
+        "class_id": 4,
+        "confidence": 0.8400778770446777,
+        "text": "11-88-10-08"
+      },
+      {
+        "box_id": 7,
+        "class_id": 10,
+        "confidence": 0.7793298363685608,
+        "text": "Rasuwa"
+      },
+      {
+        "box_id": 8,
+        "class_id": 13,
+        "confidence": 0.7697433829307556,
+        "text": "२०४४-०२-०४"
+      },
+      {
+        "box_id": 9,
+        "class_id": 8,
+        "confidence": 0.7584628462791443,
+        "text": "06"
+      }
+    ]
+  },
+  "form_data": null
+}

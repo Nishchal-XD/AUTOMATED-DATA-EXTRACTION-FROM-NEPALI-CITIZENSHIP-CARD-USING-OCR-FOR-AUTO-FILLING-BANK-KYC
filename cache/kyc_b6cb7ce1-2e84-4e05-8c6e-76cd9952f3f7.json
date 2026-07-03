@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T19:27:00.284387",
+  "unique_id": "b6cb7ce1-2e84-4e05-8c6e-76cd9952f3f7",
+  "front_image": "भुवन सुर्खाल",
+  "back_image": "BHUWAN SURKHALI",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9410409927368164,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.9186132550239563,
+        "text": "पुर्ण बहादुर सुर्खाल"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.9096505045890808,
+        "text": ""
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.8513100147247314,
+        "text": "भुवन सुर्खाल"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.9920117259025574,
+        "text": "२०७१-०७-२८"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.9759542942047119,
+        "text": "1996"
+      },
+      {
+        "box_id": 2,
+        "class_id": 11,
+        "confidence": 0.9437429308891296,
+        "text": "Barbhanjyang"
+      },
+      {
+        "box_id": 3,
+        "class_id": 6,
+        "confidence": 0.9225848317146301,
+        "text": "Male"
+      },
+      {
+        "box_id": 4,
+        "class_id": 8,
+        "confidence": 0.9215801954269409,
+        "text": "10"
+      },
+      {
+        "box_id": 5,
+        "class_id": 5,
+        "confidence": 0.9054564833641052,
+        "text": "BHUWAN SURKHALI"
+      },
+      {
+        "box_id": 6,
+        "class_id": 9,
+        "confidence": 0.8808684349060059,
+        "text": "23"
+      },
+      {
+        "box_id": 7,
+        "class_id": 4,
+        "confidence": 0.8350368142127991,
+        "text": "43-01-71-04258"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.8231155872344971,
+        "text": "Tanahun"
+      },
+      {
+        "box_id": 9,
+        "class_id": 12,
+        "confidence": 0.7825837731361389,
+        "text": "8"
+      }
+    ]
+  },
+  "form_data": null
+}

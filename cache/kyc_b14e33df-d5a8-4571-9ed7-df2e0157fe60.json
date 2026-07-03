@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T16:19:02.855644",
+  "unique_id": "b14e33df-d5a8-4571-9ed7-df2e0157fe60",
+  "front_image": "तेज बहादुर दियाल",
+  "back_image": "BAHADUR DIYALI",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.8838820457458496,
+        "text": "कार्यालय सिन्धुल"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.8639464974403381,
+        "text": "रेक र बहादुर दियाली काम"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.589473307132721,
+        "text": ""
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.5605512857437134,
+        "text": "तेज बहादुर दियाल"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 12,
+        "confidence": 0.9719958305358887,
+        "text": "1"
+      },
+      {
+        "box_id": 1,
+        "class_id": 13,
+        "confidence": 0.962826132774353,
+        "text": "२०७५-०९-१३"
+      },
+      {
+        "box_id": 2,
+        "class_id": 6,
+        "confidence": 0.930769145488739,
+        "text": "Male"
+      },
+      {
+        "box_id": 3,
+        "class_id": 7,
+        "confidence": 0.9206160306930542,
+        "text": "200"
+      },
+      {
+        "box_id": 4,
+        "class_id": 8,
+        "confidence": 0.9052380323410034,
+        "text": "06"
+      },
+      {
+        "box_id": 5,
+        "class_id": 5,
+        "confidence": 0.900429368019104,
+        "text": "BAHADUR DIYALI"
+      },
+      {
+        "box_id": 6,
+        "class_id": 4,
+        "confidence": 0.8884069919586182,
+        "text": "1-20-01-75-06046"
+      },
+      {
+        "box_id": 7,
+        "class_id": 11,
+        "confidence": 0.870039701461792,
+        "text": "Dudhauli"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.7088444232940674,
+        "text": "Sindhuli"
+      },
+      {
+        "box_id": 9,
+        "class_id": 9,
+        "confidence": 0.5721877813339233,
+        "text": "30"
+      }
+    ]
+  },
+  "form_data": null
+}

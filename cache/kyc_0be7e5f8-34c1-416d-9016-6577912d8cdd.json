@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T19:19:47.530947",
+  "unique_id": "0be7e5f8-34c1-416d-9016-6577912d8cdd",
+  "front_image": "जान शर जलल करदुर र",
+  "back_image": "",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 3,
+        "confidence": 0.8874316215515137,
+        "text": "पेदकहहे कक बेर म्याक पाई"
+      },
+      {
+        "box_id": 1,
+        "class_id": 1,
+        "confidence": 0.8483520150184631,
+        "text": ""
+      },
+      {
+        "box_id": 2,
+        "class_id": 0,
+        "confidence": 0.7801401019096375,
+        "text": "प्रन्त्रालय सञ्चुवासम"
+      },
+      {
+        "box_id": 3,
+        "class_id": 2,
+        "confidence": 0.7724968194961548,
+        "text": "तरै साल हर रक काण्हुर गई"
+      },
+      {
+        "box_id": 4,
+        "class_id": 1,
+        "confidence": 0.5509369373321533,
+        "text": "जान शर जलल करदुर र"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9787171483039856,
+        "text": "1995"
+      },
+      {
+        "box_id": 1,
+        "class_id": 12,
+        "confidence": 0.9387977719306946,
+        "text": "6"
+      },
+      {
+        "box_id": 2,
+        "class_id": 9,
+        "confidence": 0.9334635734558105,
+        "text": ""
+      },
+      {
+        "box_id": 3,
+        "class_id": 4,
+        "confidence": 0.8639704585075378,
+        "text": "10-01-76-00332"
+      },
+      {
+        "box_id": 4,
+        "class_id": 13,
+        "confidence": 0.8607292771339417,
+        "text": "२०७१०२१०"
+      },
+      {
+        "box_id": 5,
+        "class_id": 6,
+        "confidence": 0.8404111862182617,
+        "text": "Male"
+      },
+      {
+        "box_id": 6,
+        "class_id": 10,
+        "confidence": 0.7246565818786621,
+        "text": "Sankhw"
+      },
+      {
+        "box_id": 7,
+        "class_id": 11,
+        "confidence": 0.6429427862167358,
+        "text": ""
+      },
+      {
+        "box_id": 8,
+        "class_id": 8,
+        "confidence": 0.6005226969718933,
+        "text": "11"
+      }
+    ]
+  },
+  "form_data": null
+}

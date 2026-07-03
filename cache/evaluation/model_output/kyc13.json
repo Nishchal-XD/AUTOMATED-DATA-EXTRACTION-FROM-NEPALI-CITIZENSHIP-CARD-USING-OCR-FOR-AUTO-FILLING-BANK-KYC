@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-03-08T23:13:25.496820",
+  "unique_id": "04ec930d-a155-40ce-b3ab-ffeb88f8a4e8",
+  "front_image": "front13.jpeg",
+  "back_image": "back13.jpeg",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 0,
+        "confidence": 0.9338262677192688,
+        "text": ""
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.9262431263923645,
+        "text": "कृष्ण बहादुर श्रेष्ठ"
+      },
+      {
+        "box_id": 2,
+        "class_id": 3,
+        "confidence": 0.9001984596252441,
+        "text": "दाल कमरी श्रेष्ठ"
+      },
+      {
+        "box_id": 3,
+        "class_id": 1,
+        "confidence": 0.8579018712043762,
+        "text": "अमिषा श्रेष्ठ"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 7,
+        "confidence": 0.9635799527168274,
+        "text": "2000"
+      },
+      {
+        "box_id": 1,
+        "class_id": 12,
+        "confidence": 0.9347317218780518,
+        "text": "11"
+      },
+      {
+        "box_id": 2,
+        "class_id": 9,
+        "confidence": 0.9144682288169861,
+        "text": "17"
+      },
+      {
+        "box_id": 3,
+        "class_id": 13,
+        "confidence": 0.9106895327568054,
+        "text": "२०७६-०५-०२"
+      },
+      {
+        "box_id": 4,
+        "class_id": 6,
+        "confidence": 0.9013559818267822,
+        "text": "Female"
+      },
+      {
+        "box_id": 5,
+        "class_id": 8,
+        "confidence": 0.8796278834342957,
+        "text": "12"
+      },
+      {
+        "box_id": 6,
+        "class_id": 11,
+        "confidence": 0.8725185394287109,
+        "text": "Ratnanagar"
+      },
+      {
+        "box_id": 7,
+        "class_id": 4,
+        "confidence": 0.8623692393302917,
+        "text": "35-01-76-05873"
+      },
+      {
+        "box_id": 8,
+        "class_id": 5,
+        "confidence": 0.7474841475486755,
+        "text": "AMISHA SHRESTHA"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.6449002623558044,
+        "text": "Chitwan"
+      }
+    ]
+  },
+  "form_data": null
+}

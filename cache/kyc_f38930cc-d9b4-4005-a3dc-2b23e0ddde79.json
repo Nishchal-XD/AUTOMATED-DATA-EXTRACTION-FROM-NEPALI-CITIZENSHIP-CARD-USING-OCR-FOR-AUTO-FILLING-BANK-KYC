@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T16:50:30.981368",
+  "unique_id": "f38930cc-d9b4-4005-a3dc-2b23e0ddde79",
+  "front_image": "संजय चौधरी",
+  "back_image": "on lle EF SANJAY CHAUDHARY",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 2,
+        "confidence": 0.8883180022239685,
+        "text": "आशाराम चौधरी"
+      },
+      {
+        "box_id": 1,
+        "class_id": 3,
+        "confidence": 0.837033748626709,
+        "text": "बबिता देदी चौधरी"
+      },
+      {
+        "box_id": 2,
+        "class_id": 1,
+        "confidence": 0.8296993374824524,
+        "text": "संजय चौधरी"
+      },
+      {
+        "box_id": 3,
+        "class_id": 0,
+        "confidence": 0.8066754341125488,
+        "text": "6 1 0 उनी 4 योल्दकैलाल"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.9732754826545715,
+        "text": "२०७७.०३.१७"
+      },
+      {
+        "box_id": 1,
+        "class_id": 7,
+        "confidence": 0.9601287245750427,
+        "text": "2002"
+      },
+      {
+        "box_id": 2,
+        "class_id": 9,
+        "confidence": 0.9439475536346436,
+        "text": "09"
+      },
+      {
+        "box_id": 3,
+        "class_id": 12,
+        "confidence": 0.9212092757225037,
+        "text": ""
+      },
+      {
+        "box_id": 4,
+        "class_id": 6,
+        "confidence": 0.888054609298706,
+        "text": "Male"
+      },
+      {
+        "box_id": 5,
+        "class_id": 11,
+        "confidence": 0.8674941658973694,
+        "text": "Tikapur"
+      },
+      {
+        "box_id": 6,
+        "class_id": 5,
+        "confidence": 0.8663976192474365,
+        "text": "ON LLE EF SANJAY CHAUDHARY"
+      },
+      {
+        "box_id": 7,
+        "class_id": 8,
+        "confidence": 0.8354895710945129,
+        "text": "03"
+      },
+      {
+        "box_id": 8,
+        "class_id": 10,
+        "confidence": 0.7623392939567566,
+        "text": "Kailali"
+      },
+      {
+        "box_id": 9,
+        "class_id": 4,
+        "confidence": 0.721457839012146,
+        "text": "67-02-77-00093"
+      }
+    ]
+  },
+  "form_data": null
+}

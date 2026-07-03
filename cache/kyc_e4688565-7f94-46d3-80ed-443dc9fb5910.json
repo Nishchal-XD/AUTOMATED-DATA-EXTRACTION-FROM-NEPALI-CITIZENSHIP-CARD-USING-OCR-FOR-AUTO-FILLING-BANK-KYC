@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-01T20:43:15.816283",
+  "unique_id": "e4688565-7f94-46d3-80ed-443dc9fb5910",
+  "front_image": "आयुष फसिकव",
+  "back_image": "AAYUS PHASIKAWA",
+  "extracted_data": {
+    "front": [
+      {
+        "box_id": 0,
+        "class_id": 1,
+        "confidence": 0.9018913507461548,
+        "text": "आयुष फसिकव"
+      },
+      {
+        "box_id": 1,
+        "class_id": 2,
+        "confidence": 0.8356574773788452,
+        "text": "मदनकृष्ण फसिकव"
+      },
+      {
+        "box_id": 2,
+        "class_id": 0,
+        "confidence": 0.8049241304397583,
+        "text": "भक्तपुर"
+      },
+      {
+        "box_id": 3,
+        "class_id": 3,
+        "confidence": 0.7890625,
+        "text": "अन्जना महर्जन"
+      }
+    ],
+    "back": [
+      {
+        "box_id": 0,
+        "class_id": 13,
+        "confidence": 0.9761958122253418,
+        "text": "२०८१-०५-२७"
+      },
+      {
+        "box_id": 1,
+        "class_id": 9,
+        "confidence": 0.9748522043228149,
+        "text": "28"
+      },
+      {
+        "box_id": 2,
+        "class_id": 12,
+        "confidence": 0.9654560089111328,
+        "text": "5"
+      },
+      {
+        "box_id": 3,
+        "class_id": 7,
+        "confidence": 0.9363896250724792,
+        "text": "2008"
+      },
+      {
+        "box_id": 4,
+        "class_id": 5,
+        "confidence": 0.9268394708633423,
+        "text": "AAYUS PHASIKAWA"
+      },
+      {
+        "box_id": 5,
+        "class_id": 11,
+        "confidence": 0.920525312423706,
+        "text": "Bhaktapur"
+      },
+      {
+        "box_id": 6,
+        "class_id": 6,
+        "confidence": 0.9042221307754517,
+        "text": "Male"
+      },
+      {
+        "box_id": 7,
+        "class_id": 8,
+        "confidence": 0.8931529521942139,
+        "text": "08"
+      },
+      {
+        "box_id": 8,
+        "class_id": 4,
+        "confidence": 0.8856371641159058,
+        "text": "29-01-81-02407"
+      },
+      {
+        "box_id": 9,
+        "class_id": 10,
+        "confidence": 0.7658534049987793,
+        "text": "Bhaktapur"
+      }
+    ]
+  },
+  "form_data": null
+}
